@@ -170,8 +170,8 @@
 **- Hue Guidance Network for Single Image Reflection Removal, (IEEE TNNLS 2024)**  
 [IEEE Xplore](https://ieeexplore.ieee.org/document/10474389)
 
-**- Single Image Reflection Separation via Enhanced Feature Learning, (NeurIPS 2024)**  
-[OpenReview](https://openreview.net/forum?id=vYzNHCVS0h)
+**- Single Image Reflection Separation via Dual-Stream Interactive Transformers, (NeurIPS 2024)**  
+[OpenReview](https://openreview.net/forum?id=Shwtw8uV8l) | [GitHub](https://github.com/mingcv/DSIT)
 
 **- Polarized Reflection Removal with Dual-Stream Attention Guidance, (Pattern Recognition 2024)**  
 [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0031320324001511)
