@@ -2,11 +2,11 @@
 
 ## 2013
 **- Specular Reflection Separation Using Dark Channel Prior, (CVPR 2013)**  
-[PDF](https://openaccess.thecvf.com/content_cvpr_2013/papers/Kim_Specular_Reflection_Separation_2013_CVPR_paper.pdf) | [GitHub](https://github.com/jianweiguo/SpecularityNet-PSD)
+[PDF](https://openaccess.thecvf.com/content_cvpr_2013/papers/Kim_Specular_Reflection_Separation_2013_CVPR_paper.pdf) 
 
 ## 2014
 **- Single Image Layer Separation using Relative Smoothness, (CVPR 2014)**  
-[PDF](http://yu-li.github.io/paper/li_cvpr14_layer.pdf) | [GitHub](https://github.com/alexch1/ImageProcessing)
+[PDF](http://yu-li.github.io/paper/li_cvpr14_layer.pdf) | 
 
 ## 2017
 - **A Generic Deep Architecture for Single Image Reflection Removal and Image Smoothing**, (ICCV 2017)
