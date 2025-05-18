@@ -1,4 +1,4 @@
-# Single Image Methods
+# Single-Image-Reflection-Removal
 
 - **Specular Reflection Separation Using Dark Channel Prior**, (CVPR 2013)
 
