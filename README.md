@@ -144,7 +144,7 @@
 [arXiv](https://arxiv.org/abs/2402.11874) | [GitHub](https://github.com/ShawnChenn/FlexibleReflectionRemoval)
 
 **- Utilizing Multi-Step Loss for Single Image Reflection Removal, (arXiv 2024)**  
-[arXiv](https://arxiv.org/abs/2402.12760)
+[arXiv](https://arxiv.org/abs/2402.12760) | [GitHub](https://github.com/SIRR_MSloss_RefGAN_RDM)
 
 **- Language-guided Image Reflection Separation, (CVPR 2024)**  
 [PDF](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhong_Language-guided_Image_Reflection_Separation_CVPR_2024_paper.pdf) | [arXiv](https://arxiv.org/abs/2402.11874)
