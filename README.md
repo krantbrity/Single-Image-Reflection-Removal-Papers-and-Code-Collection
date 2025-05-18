@@ -178,13 +178,13 @@
 
 ## 2025
 **- Dereflection: Any Image with Diffusion Priors and Diversified Data, (arXiv 2025)**  
-[arXiv](https://arxiv.org/abs/2503.17347)
+[arXiv](https://arxiv.org/abs/2503.17347) | [GitHub](https://github.com/Abuuu122/Dereflection-Any-Image)
 
 **- Survey on Single-Image Reflection Removal Using Deep Learning, (arXiv 2025)**  
 [arXiv](https://arxiv.org/abs/2502.08836)
 
 **- Reversible Decoupling Network for Single Image Reflection Removal, (CVPR 2025)**  
-[arXiv](https://arxiv.org/abs/2410.08063)
+[arXiv](https://arxiv.org/abs/2410.08063) | [GitHub](https://github.com/lime-j/RDNet)
 
 **- A Lightweight Deep Exclusion Unfolding Network for Single Image Reflection Removal, (PAMI 2025)**  
 [arXiv](https://arxiv.org/abs/2503.01938)
