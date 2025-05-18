@@ -1,4 +1,4 @@
-# Single-Image Reflection Removal
+# Single Image Reflection Removal Papers
 
 ## 2013
 - **Specular Reflection Separation Using Dark Channel Prior**, (CVPR 2013)
@@ -22,7 +22,7 @@
 - **Single Image Reflection Removal With Physically-Based Training Images**, (CVPR 2020)
 - **Single Image Reflection Removal through Cascaded Refinement**, (CVPR 2020)
 - **Joint Reflection Removal and Depth Estimation**, (IEEE Transactions on Cybernetics 2020)
-- **CoRRN: Cooperative Reflection Removal Network**, (PAMI 2020)
+- **CoRRN: Cooperative Reflection Removal Network**, (IEEE Transactions on Pattern Analysis and Machine Intelligence 2020)
 
 ## 2021
 - **Single Image Reflection Removal with Absorption Effect**, (CVPR 2021)
