@@ -6,7 +6,7 @@
 
 ## 2014
 **- Single Image Layer Separation using Relative Smoothness, (CVPR 2014)**  
-[PDF](http://yu-li.github.io/paper/li_cvpr14_layer.pdf) | 
+[PDF](http://yu-li.github.io/paper/li_cvpr14_layer.pdf) 
 
 ## 2017
 - **A Generic Deep Architecture for Single Image Reflection Removal and Image Smoothing**, (ICCV 2017)
