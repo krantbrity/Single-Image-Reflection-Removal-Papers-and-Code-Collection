@@ -187,9 +187,12 @@
 [arXiv](https://arxiv.org/abs/2410.08063) | [GitHub](https://github.com/lime-j/RDNet)
 
 **- A Lightweight Deep Exclusion Unfolding Network for Single Image Reflection Removal, (PAMI 2025)**  
-[arXiv](https://arxiv.org/abs/2503.01938)
+[arXiv](https://arxiv.org/abs/2503.01938) | [GitHub](待发布)
 
 **- Rethinking Depth-Guided Reflection Removal, (TMM 2025)**  
 [IEEE Xplore](https://ieeexplore.ieee.org/document/7532311/)
+
+**- Towards Flexible Interactive Reflection Removal with Human Guidance, (AAAI 2025)**  
+[arXiv](https://arxiv.org/abs/2406.01555)
 
 
