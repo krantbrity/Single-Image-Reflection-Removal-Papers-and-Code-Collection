@@ -174,6 +174,9 @@
 **- Single Image Reflection Separation via Dual-Stream Interactive Transformers, (NeurIPS 2024)**   
 [OpenReview](https://openreview.net/forum?id=Shwtw8uV8l) | [GitHub](https://github.com/mingcv/DSIT)
 
+**- L-DiffER: Single Image Reflection Removal with Language-Based Diffusion Model, (ECCV 2024)**   
+[Springer](https://link.springer.com/chapter/10.1007/978-3-031-72661-3_4)
+
 **- Polarized Reflection Removal with Dual-Stream Attention Guidance, (Pattern Recognition 2024)**   
 [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0031320324001511)
 
