@@ -65,14 +65,11 @@
 **- Benchmarking Ultra-High-Definition Single-Image Reflection Removal, (arXiv 2024)**   
 [arXiv](https://arxiv.org/abs/2308.00265) | [GitHub](https://github.com/Liar-zzy/Benchmarking-Ultra-High-Definition-Single-Image-Reflection-Removal)
 
-**- FlexibleReflectionRemoval: Towards Flexible Interactive Reflection Removal, (arXiv 2024)**   
-[arXiv](https://arxiv.org/abs/2402.11874) | [GitHub](https://github.com/ShawnChenn/FlexibleReflectionRemoval)
+**- Towards Flexible Interactive Reflection Removal with Human Guidance, (arXiv 2024)**   
+[arXiv](https://arxiv.org/abs/2406.01555) | [GitHub](https://github.com/ShawnChenn/FlexibleReflectionRemoval)
 
 **- Utilizing Multi-Step Loss for Single Image Reflection Removal, (arXiv 2024)**   
 [IEEE Xplore](https://ieeexplore.ieee.org/document/10912635) | [arXiv](https://arxiv.org/abs/2412.08582) | [GitHub](https://github.com/SIRR_MSloss_RefGAN_RDM)
-
-**- Towards Flexible Interactive Reflection Removal with Human Guidance, (arXiv 2024)**   
-[arXiv](https://arxiv.org/abs/2406.01555) | [GitHub](https://github.com/ShawnChenn/FlexibleReflectionRemoval)
 
 ## 2023
 **- Single Image Reflection Separation via Component Synergy, (ICCV 2023)**  
