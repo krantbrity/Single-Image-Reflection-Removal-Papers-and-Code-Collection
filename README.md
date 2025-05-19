@@ -145,16 +145,16 @@
 [arXiv](https://arxiv.org/abs/2402.11874) | [GitHub](https://github.com/ShawnChenn/FlexibleReflectionRemoval)
 
 **- Utilizing Multi-Step Loss for Single Image Reflection Removal, (arXiv 2024)**   
-[arXiv](https://arxiv.org/abs/2412.08582) | [GitHub](https://github.com/SIRR_MSloss_RefGAN_RDM)
+[IEEE Xplore](https://ieeexplore.ieee.org/document/10912635) | [arXiv](https://arxiv.org/abs/2412.08582) | [GitHub](https://github.com/SIRR_MSloss_RefGAN_RDM)
 
 **- Language-guided Image Reflection Separation, (CVPR 2024)**   
-[PDF](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhong_Language-guided_Image_Reflection_Separation_CVPR_2024_paper.pdf)
+[PDF](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhong_Language-guided_Image_Reflection_Separation_CVPR_2024_paper.pdf) | [arXiv](https://arxiv.org/abs/2402.11874)
 
 **- Revisiting Single Image Reflection Removal In the Wild, (CVPR 2024)**   
 [PDF](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhu_Revisiting_Single_Image_Reflection_Removal_In_the_Wild_CVPR_2024_paper.pdf) | [arXiv](https://arxiv.org/abs/2311.17320) | [GitHub](https://github.com/zhuyr97/Reflection_RemoVal_CVPR2024)
 
 **- DURRNET: Deep Unfolded Single Image Reflection Removal Network with Joint Prior, (ICASSP 2024)**   
-[arXiv](https://arxiv.org/abs/2203.06306) | [GitHub](https://github.com/jjhuangcs/DURRNet)
+[IEEE Xplore](https://ieeexplore.ieee.org/document/10446674) | [arXiv](https://arxiv.org/abs/2203.06306) | [GitHub](https://github.com/jjhuangcs/DURRNet)
 
 **- Spatio-Temporal Multi-Image Reflection Removal, (IEEE SPL 2024)**   
 [IEEE Xplore](https://ieeexplore.ieee.org/document/10669076)
