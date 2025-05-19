@@ -184,15 +184,12 @@
 [arXiv](https://arxiv.org/abs/2502.08836)
 
 **- Reversible Decoupling Network for Single Image Reflection Removal, (CVPR 2025)**  
-[arXiv](https://arxiv.org/abs/2410.08063) | [GitHub](https://github.com/lime-j/RDNet)  
+[arXiv](https://arxiv.org/abs/2410.08063) | [GitHub](https://github.com/lime-j/RDNet)
 
 **- A Lightweight Deep Exclusion Unfolding Network for Single Image Reflection Removal, (PAMI 2025)**  
-[IEEE]([https://arxiv.org/abs/2503.01938](https://ieeexplore.ieee.org/document/10915715)) | [GitHub](待发布)  
+[arXiv](https://arxiv.org/abs/2503.01938) | [IEEE](https://ieeexplore.ieee.org/document/10915715) | [GitHub](待发布)
 
 **- Rethinking Depth Guided Reflection Removal, (TMM 2025)**  
-[IEEE]([https://www.researchgate.net/publication/388976258_Rethinking_Depth_Guided_Reflection_Removal](https://ieeexplore.ieee.org/document/10891560))
-
-**- Towards Flexible Interactive Reflection Removal with Human Guidance, (arXiv 2024)**  
-[arXiv](https://arxiv.org/abs/2406.01555)
+[IEEE](https://ieeexplore.ieee.org/document/10891560)
 
 
