@@ -176,6 +176,9 @@
 **- Polarized Reflection Removal with Dual-Stream Attention Guidance, (Pattern Recognition 2024)**  
 [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0031320324001511)
 
+**- Towards Flexible Interactive Reflection Removal with Human Guidance, (arXiv 2024)**  
+[arXiv](https://arxiv.org/abs/2406.01555)
+
 ## 2025
 **- Dereflection: Any Image with Diffusion Priors and Diversified Data, (arXiv 2025)**  
 [arXiv](https://arxiv.org/abs/2503.17347) | [GitHub](https://github.com/Abuuu122/Dereflection-Any-Image)
