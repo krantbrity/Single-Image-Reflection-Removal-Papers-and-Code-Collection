@@ -192,13 +192,4 @@
 **- Rethinking Depth-Guided Reflection Removal, (TMM 2025)**  
 [IEEE Xplore](https://ieeexplore.ieee.org/document/7532311/)
 
----
 
-## Comprehensive GitHub Repository Collection
-
-For a complete collection of reflection removal methods and codes, check out:
-- [Awesome Reflection Removal](https://github.com/ChenyangLEI/awesome-reflection-removal) - A curated list of reflection removal papers with code links
-
----
-
-*Note: All PDF links and GitHub repositories have been verified and updated. For IEEE papers behind paywalls, IEEE Xplore links are provided which give access to abstracts and IEEE subscribers can access full papers. arXiv links provide free access to preprints when available. GitHub links provide access to official implementations when available.*
