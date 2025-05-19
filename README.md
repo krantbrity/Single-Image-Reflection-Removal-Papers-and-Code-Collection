@@ -39,7 +39,7 @@
 [IEEE Xplore](https://ieeexplore.ieee.org/document/10130817)
 
 **- Polarized Reflection Removal with Dual-Stream Attention Guidance, (Pattern Recognition 2024)**   
-[ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0031320324001511)
+[ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S0031320324006964)
 
 **- Improving Single Image Reflection Removal using Advanced Training Strategies, (ACM MM 2024)**   
 [ACM DL](https://dl.acm.org/doi/10.1145/3664647.3681072)
@@ -56,8 +56,11 @@
 **- Fast Single Image Reflection Removal Using Multi-Stage Scale Space Network, (IEEE Access 2024)**   
 [IEEE Xplore](https://ieeexplore.ieee.org/document/10705159)
 
-**- Single Image Reflection Removal via Diffusion Models, (arXiv 2024)**   
-[arXiv](https://arxiv.org/abs/2402.18078)
+**- PromptRR: Diffusion Models as Prompt Generators for Single Image Reflection Removal, (arXiv 2024)**   
+[arXiv](https://arxiv.org/abs/2402.02374) | [GitHub](https://github.com/TaoWangzj/PromptRR)
+
+**- Single-image reflection removal via self-supervised diffusion models, (arXiv 2024)**   
+[arXiv](https://arxiv.org/abs/2412.20466)
 
 **- Benchmarking Ultra-High-Definition Single-Image Reflection Removal, (arXiv 2024)**   
 [arXiv](https://arxiv.org/abs/2308.00265) | [GitHub](https://github.com/Liar-zzy/Benchmarking-Ultra-High-Definition-Single-Image-Reflection-Removal)
