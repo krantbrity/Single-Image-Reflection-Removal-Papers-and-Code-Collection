@@ -184,19 +184,19 @@
 [arXiv](https://arxiv.org/abs/2406.01555) | [GitHub](https://github.com/ShawnChenn/FlexibleReflectionRemoval)
 
 ## 2025
+**- A Lightweight Deep Exclusion Unfolding Network for Single Image Reflection Removal, (PAMI 2025)**  
+[arXiv](https://arxiv.org/abs/2503.01938) | [IEEE](https://ieeexplore.ieee.org/document/10915715) | [GitHub](待发布)
+
+**- Reversible Decoupling Network for Single Image Reflection Removal, (CVPR 2025)**  
+[arXiv](https://arxiv.org/abs/2410.08063) | [GitHub](https://github.com/lime-j/RDNet)
+
+**- Rethinking Depth Guided Reflection Removal, (TMM 2025)**  
+[IEEE](https://ieeexplore.ieee.org/document/10891560)
+
 **- Dereflection: Any Image with Diffusion Priors and Diversified Data, (arXiv 2025)**  
 [arXiv](https://arxiv.org/abs/2503.17347) | [GitHub](https://github.com/Abuuu122/Dereflection-Any-Image)
 
 **- Survey on Single-Image Reflection Removal using Deep Learning Techniques, (arXiv 2025)**  
 [arXiv](https://arxiv.org/abs/2502.08836)
-
-**- Reversible Decoupling Network for Single Image Reflection Removal, (CVPR 2025)**  
-[arXiv](https://arxiv.org/abs/2410.08063) | [GitHub](https://github.com/lime-j/RDNet)
-
-**- A Lightweight Deep Exclusion Unfolding Network for Single Image Reflection Removal, (PAMI 2025)**  
-[arXiv](https://arxiv.org/abs/2503.01938) | [IEEE](https://ieeexplore.ieee.org/document/10915715) | [GitHub](待发布)
-
-**- Rethinking Depth Guided Reflection Removal, (TMM 2025)**  
-[IEEE](https://ieeexplore.ieee.org/document/10891560)
 
 
