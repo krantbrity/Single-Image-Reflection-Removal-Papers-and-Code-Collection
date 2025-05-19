@@ -130,7 +130,7 @@
 ## 2024
 
 **- Fast Single Image Reflection Removal Using Multi-Stage Scale Space Network, (IEEE Access 2024)**   
-[IEEE Xplore](https://ieeexplore.ieee.org/document/10423890)
+[IEEE Xplore](https://ieeexplore.ieee.org/document/10705159)
 
 **- Improving Single Image Reflection Removal using Advanced Training Strategies, (ACM MM 2024)**   
 [ACM DL](https://dl.acm.org/doi/10.1145/3664647.3681072)
@@ -157,19 +157,19 @@
 [arXiv](https://arxiv.org/abs/2203.06306) | [GitHub](https://github.com/jjhuangcs/DURRNet)
 
 **- Spatio-Temporal Multi-Image Reflection Removal, (IEEE SPL 2024)**   
-[IEEE Xplore](https://ieeexplore.ieee.org/document/10543762)
+[IEEE Xplore](https://ieeexplore.ieee.org/document/10669076)
 
 **- Deep Variational Inference Network for Single Image Reflection Removal, (IEEE TETCI 2024)**   
-[IEEE Xplore](https://ieeexplore.ieee.org/document/10543196)
+[IEEE Xplore](https://ieeexplore.ieee.org/document/10432786)
 
 **- A Closer Look at the Reflection Formulation in Single Image Reflection Removal, (IEEE TIP 2024)**   
-[IEEE Xplore](https://ieeexplore.ieee.org/document/10418692)
+[IEEE Xplore](https://ieeexplore.ieee.org/document/10381629)
 
 **- Reflection Intensity Guided Single Image Reflection Removal and Transmission Recovery, (IEEE TMM 2024)**   
 [IEEE Xplore](https://ieeexplore.ieee.org/document/10314287)
 
 **- Hue Guidance Network for Single Image Reflection Removal, (IEEE TNNLS 2024)**   
-[IEEE Xplore](https://ieeexplore.ieee.org/document/10474389)
+[IEEE Xplore](https://ieeexplore.ieee.org/document/10130817)
 
 **- Single Image Reflection Separation via Dual-Stream Interactive Transformers, (NeurIPS 2024)**   
 [OpenReview](https://openreview.net/forum?id=Shwtw8uV8l) | [GitHub](https://github.com/mingcv/DSIT)
