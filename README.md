@@ -39,7 +39,7 @@
 [PDF](https://ieeexplore.ieee.org/document/10314287) | [arXiv] | [GitHub]
 
 **- Hue Guidance Network for Single Image Reflection Removal, (IEEE TNNLS 2024)**   
-[PDF](https://ieeexplore.ieee.org/document/10130817) | [arXiv] | [GitHub]
+[PDF](https://ieeexplore.ieee.org/document/10130817) | [arXiv] | [GitHub](https://github.com/zhuyr97/HGRR)
 
 **- Polarized Reflection Removal with Dual-Stream Attention Guidance, (Pattern Recognition 2024)**   
 [PDF](https://www.sciencedirect.com/science/article/abs/pii/S0031320324006964) | [arXiv] | [GitHub]
