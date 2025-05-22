@@ -18,6 +18,8 @@
 **- Survey on Single-Image Reflection Removal using Deep Learning Techniques, (arXiv 2025)**  
 [PDF] | [arXiv](https://arxiv.org/abs/2502.08836) | [GitHub]
 
+**- Single Image Reflection Removal via inter-layer Complementarity, (arXiv 2025)**  
+[PDF] | [arXiv](https://arxiv.org/html/2505.12641v1) | [GitHub]
 ## 2024
 **- A Closer Look at the Reflection Formulation in Single Image Reflection Removal, (IEEE TIP 2024)**  
 [PDF](https://ieeexplore.ieee.org/document/10381629) | [arXiv] | [GitHub]
