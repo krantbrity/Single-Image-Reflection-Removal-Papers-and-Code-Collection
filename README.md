@@ -11,7 +11,7 @@
 [PDF](https://ieeexplore.ieee.org/document/10891560) | [arXiv](https://arxiv.org/abs/2410.08063) | [GitHub]
 
 **- High-resolution image reflection removal by Laplacian-based component-aware transformer, (Scientific Reports 2025)**  
-[PDF](https://www.nature.com/articles/s41598-025-94464-6)
+[PDF](https://www.nature.com/articles/s41598-025-94464-6) | [arXiv] | [GitHub]
 
 **- Dereflection: Any Image with Diffusion Priors and Diversified Data, (arXiv 2025)**  
 [PDF](https://ieeexplore.ieee.org/document/10915715) [arXiv](https://arxiv.org/abs/2503.17347) | [GitHub](https://github.com/Abuuu122/Dereflection-Any-Image)
