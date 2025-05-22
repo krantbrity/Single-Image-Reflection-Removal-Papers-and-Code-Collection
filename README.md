@@ -83,54 +83,24 @@
 **- Missing Recovery: Single Image Reflection Removal Based on Auxiliary Prior Learning, (IEEE TIP 2023)**  
 [PDF](https://ieeexplore.ieee.org/document/10002393) | [arXiv] | [GitHub]
 
-**- U²-Former: Nested U-shaped Transformer for Image Restoration via Multi-View Contrastive Learning, (IEEE TCSVT 2023)**  
-[PDF](https://ieeexplore.ieee.org/document/10155416) | [arXiv](https://arxiv.org/abs/2112.02279) | [GitHub]
-
 **- Single Image Reflection Removal From Glass Surfaces Via Multi-Scale Reflection Detection, (IEEE TCE 2023)**  
 [PDF](https://ieeexplore.ieee.org/document/10214078) | [arXiv] | [GitHub]
 
 **- Personalized Single Image Reflection Removal Network through Adaptive Cascade Refinement, (ACM MM 2023)**  
-[PDF](https://dl.acm.org/doi/10.1145/3581783.3612032) | [arXiv] | [GitHub]
+[PDF](https://dl.acm.org/doi/10.1145/3581783.3612271) | [arXiv] | [GitHub]
 
 **- Two-stage single image reflection removal with reflection-aware guidance, (Applied Intelligence 2023)**  
 [PDF](https://link.springer.com/article/10.1007/s10489-022-04391-6) | [arXiv](https://arxiv.org/abs/2012.00945) | [GitHub]
 
-**- Single Image Reflection Removal with Reflection Intensity Prior Knowledge, (arXiv 2023)**  
+**- Single Image Reflection Removal with Reflection Intensity Prior Knowledge, (arXiv 2023)** *(Preprint)*  
 [PDF] | [arXiv](https://arxiv.org/abs/2312.03798) | [GitHub]
 
 **- Robust Single Image Reflection Removal Against Adversarial Attacks, (CVPR 2023)**  
 [PDF](https://openaccess.thecvf.com/content/CVPR2023/html/Song_Robust_Single_Image_Reflection_Removal_Against_Adversarial_Attacks_CVPR_2023_paper.html) | [arXiv] | [GitHub](https://github.com/ZhenboSong/RobustSIRR)
 
-## 2022
-
-**- Single Image Reflection Removal Based on Bi-Channel Attention, (ICIP 2022)**  
-[PDF](https://ieeexplore.ieee.org/document/9898067) | [arXiv] | [GitHub]
-
-**- Image Reflection Removal Via Component Synergy, (IEEE TCSVT 2022)**  
-[PDF](https://ieeexplore.ieee.org/document/9381898/) | [arXiv] | [GitHub]
-
-**- Multistage Curvature-Guided Network for Single Image Reflection Removal, (IEEE TCSVT 2022)**  
-[PDF](https://ieeexplore.ieee.org/abstract/document/9454363) | [arXiv] | [GitHub]
-
-**- Image Inpainting With Local and Global Refinement, (IEEE TIP 2022)**  
-[PDF](https://ieeexplore.ieee.org/document/9706246) | [arXiv] | [GitHub]
-
-**- Single-Image Reflection Removal Using Deep Learning: A Systematic Review, (IEEE Access 2022)**  
-[PDF](https://ieeexplore.ieee.org/document/9711234) | [arXiv] | [GitHub]
-
-**- FIPHN: Feature-Integrated Patch-Hierarchical Network for Single Image Reflection Removal, (ICPR 2022)**  
-[PDF](https://ieeexplore.ieee.org/document/9956721) | [arXiv] | [GitHub]
-
-**- Single Image Reflection Removal Based on Knowledge-Distilling Content Disentanglement, (IEEE Signal Processing Letters 2022)**  
-[PDF](https://ieeexplore.ieee.org/document/9705543) | [arXiv] | [GitHub](https://github.com/ytpeng-aimlab/Image-Reflection-Removal-based-on-Knowledge-distilling-Content-Disentanglement)
-
-**- Benchmarking Single-Image Reflection Removal Algorithms, (TPAMI 2022)**  
-[PDF](https://wanrenjie.github.io/renjie_files/tpami.pdf) | [arXiv] | [GitHub]
-
 ## 2021
-
-**- Flash Reflection Removal with Reflection-free Flash-only Cues, (CVPR 2021)**  
-[PDF] | [arXiv] | [GitHub](https://github.com/ChenyangLEI/flash-reflection-removal)
+**- Robust Reflection Removal With Reflection-Free Flash-Only Cues, (CVPR 2021)**  
+[PDF](https://openaccess.thecvf.com/content/CVPR2021/html/Lei_Robust_Reflection_Removal_With_Reflection-Free_Flash-Only_Cues_CVPR_2021_paper.html) | [arXiv](https://arxiv.org/abs/2103.04273) | [GitHub](https://github.com/ChenyangLEI/flash-reflection-removal)
 
 **- Single Image Reflection Removal with Absorption Effect, (CVPR 2021)**  
 [PDF](https://openaccess.thecvf.com/content/CVPR2021/papers/Zheng_Single_Image_Reflection_Removal_With_Absorption_Effect_CVPR_2021_paper.pdf) | [arXiv] | [GitHub](https://github.com/q-zh/absorption)
