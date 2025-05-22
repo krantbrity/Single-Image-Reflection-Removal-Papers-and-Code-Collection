@@ -132,7 +132,7 @@
 [PDF](https://ieeexplore.ieee.org/document/8957259/) | [arXiv] | [GitHub]
 
 **- CoRRN: Cooperative Reflection Removal Network, (IEEE Transactions on Pattern Analysis and Machine Intelligence 2020)**  
-[PDF](https://www.ntu.edu.sg/docs/librariesprovider106/publications/image-processing/corrn-cooperative-reflection-removal-network.pdf?sfvrsn=8d56558b_2) | [arXiv] | [GitHub]
+[PDF](https://www.ntu.edu.sg/docs/librariesprovider106/publications/image-processing/corrn-cooperative-reflection-removal-network.pdf?sfvrsn=8d56558b_2) | [arXiv] | [GitHub](https://github.com/wanrenjie/CoRRN)
 
 ## 2019
 
