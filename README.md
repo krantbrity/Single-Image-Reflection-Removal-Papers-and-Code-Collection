@@ -128,7 +128,7 @@
 **- Single Image Reflection Removal through Cascaded Refinement, (CVPR 2020)**  
 [PDF](https://openaccess.thecvf.com/content_CVPR_2020/papers/Li_Single_Image_Reflection_Removal_Through_Cascaded_Refinement_CVPR_2020_paper.pdf) | [arXiv](https://arxiv.org/abs/1911.06634) | [GitHub](https://github.com/JHL-HUST/IBCLN)
 
-**- Joint Reflection Removal and Depth Estimation, (IEEE Transactions on Cybernetics 2020)**  
+**- Joint Reflection Removal and Depth Estimation From a Single Image, (IEEE Transactions on Cybernetics 2020)**  
 [PDF](https://ieeexplore.ieee.org/document/8957259/) | [arXiv] | [GitHub]
 
 **- CoRRN: Cooperative Reflection Removal Network, (IEEE Transactions on Pattern Analysis and Machine Intelligence 2020)**  
@@ -145,13 +145,13 @@
 **- Single Image Reflection Removal Beyond Linearity, (CVPR 2019)**  
 [PDF](https://openaccess.thecvf.com/content_CVPR_2019/papers/Wen_Single_Image_Reflection_Removal_Beyond_Linearity_CVPR_2019_paper.pdf) | [arXiv] | [GitHub](https://github.com/csqiangwen/Single-Image-Reflection-Removal-Beyond-Linearity)
 
+## 2018
+
 **- ReflectNet: Separating Reflection and Transmission Images in the Wild, (ECCV 2018)**  
 [PDF](https://openaccess.thecvf.com/content_ECCV_2018/papers/Patrick_Wieschollek_Separating_Reflection_and_ECCV_2018_paper.pdf) | [arXiv](https://arxiv.org/abs/1712.02099) | [GitHub](https://github.com/NVlabs/ReflectNet)
 
 **- CRRN: Multi-Scale Guided Concurrent Reflection Removal Network, (CVPR 2018)**  
 [PDF](https://openaccess.thecvf.com/content_cvpr_2018/papers/Wan_CRRN_Multi-Scale_Guided_CVPR_2018_paper.pdf) | [arXiv](https://arxiv.org/abs/1805.11802) | [GitHub]
-
-## 2018
 
 **- Single Image Reflection Separation with Perceptual Losses, (CVPR 2018)**  
 [PDF](https://openaccess.thecvf.com/content_cvpr_2018/papers/Zhang_Single_Image_Reflection_CVPR_2018_paper.pdf) | [arXiv](https://arxiv.org/abs/1806.05376) | [GitHub](https://github.com/ceciliavision/perceptual-reflection-removal)
