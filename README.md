@@ -90,7 +90,7 @@
 [PDF](https://dl.acm.org/doi/10.1145/3581783.3612271) | [arXiv] | [GitHub]
 
 **- Two-stage single image reflection removal with reflection-aware guidance, (Applied Intelligence 2023)**  
-[PDF](https://link.springer.com/article/10.1007/s10489-022-04391-6) | [arXiv](https://arxiv.org/abs/2012.00945) | [GitHub]
+[PDF](https://link.springer.com/article/10.1007/s10489-022-04391-6) | [arXiv](https://arxiv.org/abs/2012.00945) | [GitHub](https://github.com/liyucs/RAGNet)
 
 **- Single Image Reflection Removal with Reflection Intensity Prior Knowledge, (arXiv 2023)** *(Preprint)*  
 [PDF] | [arXiv](https://arxiv.org/abs/2312.03798) | [GitHub]
