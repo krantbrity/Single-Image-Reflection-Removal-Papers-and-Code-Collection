@@ -98,6 +98,19 @@
 **- Robust Single Image Reflection Removal Against Adversarial Attacks, (CVPR 2023)**  
 [PDF](https://openaccess.thecvf.com/content/CVPR2023/html/Song_Robust_Single_Image_Reflection_Removal_Against_Adversarial_Attacks_CVPR_2023_paper.html) | [arXiv] | [GitHub](https://github.com/ZhenboSong/RobustSIRR)
 
+## 2022
+**- Single Image Reflection Removal Based on Bi-Channels Prior, (ICIP 2022)**  
+[PDF](https://ieeexplore.ieee.org/document/9898067) | [arXiv] | [GitHub]
+
+**- Single Image Reflection Removal Based on Knowledge-Distilling Content Disentanglement, (IEEE Signal Processing Letters 2022)**  
+[PDF](https://ieeexplore.ieee.org/document/9705543) | [arXiv] | [GitHub](https://github.com/ytpeng-aimlab/Image-Reflection-Removal-based-on-Knowledge-distilling-Content-Disentanglement)
+
+**- FIPHN: Feature-Integrated Patch-Hierarchical Network for Single Image Reflection Removal, (ICPR 2022)**  
+[PDF](https://ieeexplore.ieee.org/document/9956721) | [arXiv] | [GitHub]
+
+**- Single-Image Reflection Removal Using Deep Learning: A Systematic Review, (IEEE Access 2022)** *(Survey Paper)*  
+[PDF](https://ieeexplore.ieee.org/document/9711234) | [arXiv] | [GitHub]
+
 ## 2021
 **- Robust Reflection Removal With Reflection-Free Flash-Only Cues, (CVPR 2021)**  
 [PDF](https://openaccess.thecvf.com/content/CVPR2021/html/Lei_Robust_Reflection_Removal_With_Reflection-Free_Flash-Only_Cues_CVPR_2021_paper.html) | [arXiv](https://arxiv.org/abs/2103.04273) | [GitHub](https://github.com/ChenyangLEI/flash-reflection-removal)
