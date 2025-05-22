@@ -19,95 +19,87 @@
 [PDF] | [arXiv](https://arxiv.org/abs/2502.08836) | [GitHub]
 
 ## 2024
-
-**- A Closer Look at the Reflection Formulation in Single Image Reflection Removal, (IEEE TIP 2024)**   
+**- A Closer Look at the Reflection Formulation in Single Image Reflection Removal, (IEEE TIP 2024)**  
 [PDF](https://ieeexplore.ieee.org/document/10381629) | [arXiv] | [GitHub]
 
-**- Language-guided Image Reflection Separation, (CVPR 2024)**   
+**- Language-guided Image Reflection Separation, (CVPR 2024)**  
 [PDF](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhong_Language-guided_Image_Reflection_Separation_CVPR_2024_paper.pdf) | [arXiv](https://arxiv.org/abs/2402.11874) | [GitHub]
 
-**- Revisiting Single Image Reflection Removal In the Wild, (CVPR 2024)**   
+**- Revisiting Single Image Reflection Removal In the Wild, (CVPR 2024)**  
 [PDF](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhu_Revisiting_Single_Image_Reflection_Removal_In_the_Wild_CVPR_2024_paper.pdf) | [arXiv](https://arxiv.org/abs/2311.17320) | [GitHub](https://github.com/zhuyr97/Reflection_RemoVal_CVPR2024)
 
-**- Single Image Reflection Separation via Dual-Stream Interactive Transformers, (NeurIPS 2024)**   
+**- Single Image Reflection Separation via Dual-Stream Interactive Transformers, (NeurIPS 2024)**  
 [PDF](https://openreview.net/forum?id=Shwtw8uV8l) | [arXiv] | [GitHub](https://github.com/mingcv/DSIT)
 
-**- L-DiffER: Single Image Reflection Removal with Language-Based Diffusion Model, (ECCV 2024)**   
+**- L-DiffER: Single Image Reflection Removal with Language-Based Diffusion Model, (ECCV 2024)**  
 [PDF](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/02988.pdf) | [arXiv] | [GitHub]
 
-**- Reflection Intensity Guided Single Image Reflection Removal and Transmission Recovery, (IEEE TMM 2024)**   
+**- Reflection Intensity Guided Single Image Reflection Removal and Transmission Recovery, (IEEE TMM 2024)**  
 [PDF](https://ieeexplore.ieee.org/document/10314287) | [arXiv] | [GitHub]
 
-**- Hue Guidance Network for Single Image Reflection Removal, (IEEE TNNLS 2024)**   
+**- Hue Guidance Network for Single Image Reflection Removal, (IEEE TNNLS 2024)**  
 [PDF](https://ieeexplore.ieee.org/document/10130817) | [arXiv] | [GitHub](https://github.com/zhuyr97/HGRR)
 
-**- Polarized Reflection Removal with Dual-Stream Attention Guidance, (Pattern Recognition 2024)**   
+**- Polarized Reflection Removal with Dual-Stream Attention Guidance, (Pattern Recognition 2024)**  
 [PDF](https://www.sciencedirect.com/science/article/abs/pii/S0031320324006964) | [arXiv] | [GitHub]
 
-**- Improving Single Image Reflection Removal using Advanced Training Strategies, (ACM MM 2024)**   
+**- Improving Single Image Reflection Removal using Advanced Training Strategies, (ACM MM 2024)**  
 [PDF](https://dl.acm.org/doi/10.1145/3664647.3681072) | [arXiv] | [GitHub]
 
-**- DURRNET: Deep Unfolded Single Image Reflection Removal Network with Joint Prior, (ICASSP 2024)**   
+**- DURRNET: Deep Unfolded Single Image Reflection Removal Network with Joint Prior, (ICASSP 2024)**  
 [PDF](https://ieeexplore.ieee.org/document/10446674) | [arXiv](https://arxiv.org/abs/2203.06306) | [GitHub](https://github.com/jjhuangcs/DURRNet)
 
-**- Deep Variational Inference Network for Single Image Reflection Removal, (IEEE TETCI 2024)**   
+**- Deep Variational Inference Network for Single Image Reflection Removal, (IEEE TETCI 2024)**  
 [PDF](https://ieeexplore.ieee.org/document/10432786) | [arXiv] | [GitHub]
 
-**- Spatio-Temporal Multi-Image Reflection Removal, (IEEE SPL 2024)**   
+**- Spatio-Temporal Multi-Image Reflection Removal, (IEEE SPL 2024)**  
 [PDF](https://ieeexplore.ieee.org/document/10669076) | [arXiv] | [GitHub]
 
-**- Fast Single Image Reflection Removal Using Multi-Stage Scale Space Network, (IEEE Access 2024)**   
+**- Fast Single Image Reflection Removal Using Multi-Stage Scale Space Network, (IEEE Access 2024)**  
 [PDF](https://ieeexplore.ieee.org/document/10705159) | [arXiv] | [GitHub]
-
-**- PromptRR: Diffusion Models as Prompt Generators for Single Image Reflection Removal, (arXiv 2024)**   
-[PDF] | [arXiv](https://arxiv.org/abs/2402.02374) | [GitHub](https://github.com/TaoWangzj/PromptRR)
-
-**- Single-image reflection removal via self-supervised diffusion models, (arXiv 2024)**   
-[PDF] | [arXiv](https://arxiv.org/abs/2412.20466) | [GitHub]
-
-**- Benchmarking Ultra-High-Definition Single-Image Reflection Removal, (arXiv 2024)**   
-[PDF] | [arXiv](https://arxiv.org/abs/2308.00265) | [GitHub](https://github.com/Liar-zzy/Benchmarking-Ultra-High-Definition-Single-Image-Reflection-Removal)
-
-**- Towards Flexible Interactive Reflection Removal with Human Guidance, (arXiv 2024)**   
-[PDF] | [arXiv](https://arxiv.org/abs/2406.01555) | [GitHub](https://github.com/ShawnChenn/FlexibleReflectionRemoval)
-
-**- Utilizing Multi-Step Loss for Single Image Reflection Removal, (arXiv 2024)**   
-[PDF](https://ieeexplore.ieee.org/document/10912635) | [arXiv](https://arxiv.org/abs/2412.08582) | [GitHub](https://github.com/AbdelrhmanElnenaey/SIRR_MSloss_RefGAN_RDM)
-
-## 2023
-
-**- Single Image Reflection Separation via Component Synergy, (ICCV 2023)**  
-[PDF](https://openaccess.thecvf.com/content/ICCV2023/papers/Hu_Single_Image_Reflection_Separation_via_Component_Synergy_ICCV_2023_paper.pdf) | [arXiv](https://arxiv.org/abs/2308.10027) | [GitHub](https://github.com/mingcv/DSRNet)
-
-**- Single Image Reflection Removal Using Transformer with Missing Recovery, (IEEE TCSVT 2023)**  
-[PDF](https://ieeexplore.ieee.org/document/9998132) | [arXiv] | [GitHub]
-
-**- Missing Recovery Single Image Reflection Removal Based on Attention Mechanisms, (IEEE TIP 2023)**  
-[PDF](https://ieeexplore.ieee.org/document/9606436) | [arXiv] | [GitHub]
-
-**- U2-Former: Nested U-shaped Transformer for Image Reflection Removal, (IEEE TCSVT 2023)**  
-[PDF](https://ieeexplore.ieee.org/document/10004518) | [arXiv] | [GitHub]
-
-**- Single Image Reflection Removal From Glass Surfaces, (IEEE TCE 2023)**  
-[PDF](https://ieeexplore.ieee.org/document/10106772) | [arXiv] | [GitHub]
-
-**- Personalized Single Image Reflection Removal Network through Adaptive Cascade Refinement, (ACM MM 2023)**  
-[PDF](https://dl.acm.org/doi/10.1145/3581783.3612032) | [arXiv] | [GitHub]
-
-**- Two-stage Single Image Reflection Removal, (Applied Intelligence 2023)**  
-[PDF](https://link.springer.com/article/10.1007/s10489-022-04384-5) | [arXiv] | [GitHub]
-
-**- Single Image Reflection Removal with Reflection, (arXiv 2023)**  
-[PDF] | [arXiv](https://arxiv.org/abs/2308.00148) | [GitHub]
 
 **- Single image reflection removal via self-attention and local discrimination, (The Visual Computer 2024)**  
 [PDF](https://link.springer.com/article/10.1007/s00371-024-03333-2) | [arXiv] | [GitHub](https://github.com/HighColdMan/SIRR_SALD)
 
-**- Robust Single Image Reflection Removal Against Adversarial Attacks, (CVPR 2023)**  
-[PDF] | [arXiv] | [GitHub](https://github.com/ZhenboSong/RobustSIRR)
+**- PromptRR: Diffusion Models as Prompt Generators for Single Image Reflection Removal, (arXiv 2024)**  
+[PDF] | [arXiv](https://arxiv.org/abs/2402.02374) | [GitHub](https://github.com/TaoWangzj/PromptRR)
+
+**- Single-image reflection removal via self-supervised diffusion models, (arXiv 2024)**  
+[PDF] | [arXiv](https://arxiv.org/abs/2412.20466) | [GitHub]
+
+**- Benchmarking Ultra-High-Definition Single-Image Reflection Removal, (arXiv 2024)**  
+[PDF] | [arXiv](https://arxiv.org/abs/2308.00265) | [GitHub](https://github.com/Liar-zzy/Benchmarking-Ultra-High-Definition-Single-Image-Reflection-Removal)
+
+**- Towards Flexible Interactive Reflection Removal with Human Guidance, (arXiv 2024)**  
+[PDF] | [arXiv](https://arxiv.org/abs/2406.01555) | [GitHub](https://github.com/ShawnChenn/FlexibleReflectionRemoval)
 
 **- Utilizing Multi-Step Loss for Single Image Reflection Removal, (arXiv 2024)**  
-[PDF] | [arXiv](https://arxiv.org/abs/2412.08582) | [GitHub](https://github.com/SIRR_MSloss_RefGAN_RDM)
+[PDF](https://ieeexplore.ieee.org/document/10912635) | [arXiv](https://arxiv.org/abs/2412.08582) | [GitHub](https://github.com/AbdelrhmanElnenaey/SIRR_MSloss_RefGAN_RDM)
+
+## 2023
+**- Single Image Reflection Separation via Component Synergy, (ICCV 2023)**  
+[PDF](https://openaccess.thecvf.com/content/ICCV2023/papers/Hu_Single_Image_Reflection_Separation_via_Component_Synergy_ICCV_2023_paper.pdf) | [arXiv](https://arxiv.org/abs/2308.10027) | [GitHub](https://github.com/mingcv/DSRNet)
+
+**- Missing Recovery: Single Image Reflection Removal Based on Auxiliary Prior Learning, (IEEE TIP 2023)**  
+[PDF](https://ieeexplore.ieee.org/document/10002393) | [arXiv] | [GitHub]
+
+**- U²-Former: Nested U-shaped Transformer for Image Restoration via Multi-View Contrastive Learning, (IEEE TCSVT 2023)**  
+[PDF](https://ieeexplore.ieee.org/document/10155416) | [arXiv](https://arxiv.org/abs/2112.02279) | [GitHub]
+
+**- Single Image Reflection Removal From Glass Surfaces Via Multi-Scale Reflection Detection, (IEEE TCE 2023)**  
+[PDF](https://ieeexplore.ieee.org/document/10214078) | [arXiv] | [GitHub]
+
+**- Personalized Single Image Reflection Removal Network through Adaptive Cascade Refinement, (ACM MM 2023)**  
+[PDF](https://dl.acm.org/doi/10.1145/3581783.3612032) | [arXiv] | [GitHub]
+
+**- Two-stage single image reflection removal with reflection-aware guidance, (Applied Intelligence 2023)**  
+[PDF](https://link.springer.com/article/10.1007/s10489-022-04391-6) | [arXiv](https://arxiv.org/abs/2012.00945) | [GitHub]
+
+**- Single Image Reflection Removal with Reflection Intensity Prior Knowledge, (arXiv 2023)**  
+[PDF] | [arXiv](https://arxiv.org/abs/2312.03798) | [GitHub]
+
+**- Robust Single Image Reflection Removal Against Adversarial Attacks, (CVPR 2023)**  
+[PDF](https://openaccess.thecvf.com/content/CVPR2023/html/Song_Robust_Single_Image_Reflection_Removal_Against_Adversarial_Attacks_CVPR_2023_paper.html) | [arXiv] | [GitHub](https://github.com/ZhenboSong/RobustSIRR)
 
 ## 2022
 
