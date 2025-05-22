@@ -167,7 +167,7 @@
 ## 2014
 
 **- Single Image Layer Separation using Relative Smoothness, (CVPR 2014)**  
-[PDF](http://yu-li.github.io/paper/li_cvpr14_layer.pdf) | [arXiv] | [GitHub]
+[PDF](http://yu-li.github.io/paper/li_cvpr14_layer.pdf) | [arXiv] | [GitHub](https://github.com/alexch1/ImageProcessing)
 
 ## 2013
 
