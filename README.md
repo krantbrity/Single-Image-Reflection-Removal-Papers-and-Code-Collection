@@ -3,7 +3,7 @@
 ## 2025
 
 **- A Lightweight Deep Exclusion Unfolding Network for Single Image Reflection Removal, (PAMI 2025)**  
-[PDF] | [arXiv](https://arxiv.org/abs/2503.01938) | [GitHub]
+[PDF](https://ieeexplore.ieee.org/document/10915715) | [arXiv](https://arxiv.org/abs/2503.01938) | [GitHub](https://github.com/jjhuangcs/DExNet)
 
 **- Reversible Decoupling Network for Single Image Reflection Removal, (CVPR 2025)**  
 [PDF] | [arXiv](https://arxiv.org/abs/2410.08063) | [GitHub](https://github.com/lime-j/RDNet)
