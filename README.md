@@ -72,7 +72,7 @@
 [PDF] | [arXiv](https://arxiv.org/abs/2406.01555) | [GitHub](https://github.com/ShawnChenn/FlexibleReflectionRemoval)
 
 **- Utilizing Multi-Step Loss for Single Image Reflection Removal, (arXiv 2024)**   
-[PDF](https://ieeexplore.ieee.org/document/10912635) | [arXiv](https://arxiv.org/abs/2412.08582) | [GitHub](https://github.com/SIRR_MSloss_RefGAN_RDM)
+[PDF](https://ieeexplore.ieee.org/document/10912635) | [arXiv](https://arxiv.org/abs/2412.08582) | [GitHub](https://github.com/AbdelrhmanElnenaey/SIRR_MSloss_RefGAN_RDM)
 
 ## 2023
 
