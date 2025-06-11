@@ -78,8 +78,19 @@ The phenomenon of reflection is quite common in digital images, posing significa
 
 </details>
 
-**- Single Image Reflection Removal via inter-layer Complementarity, (arXiv 2025)**  
-[PDF] | [arXiv](https://arxiv.org/html/2505.12641v1) | [GitHub]
+---
+
+**- Single Image Reflection Removal via inter-layer Complementarity (arXiv 2025)**  
+[PDF] | [arXiv](https://arxiv.org/abs/2505.12641) | [GitHub]
+
+<details>
+<summary>📖 <strong>点击查看摘要</strong></summary>
+
+**Abstract**
+Although dual-stream architectures have achieved remarkable success in single image reflection removal, they fail to fully exploit inter-layer complementarity in their physical modeling and network design, which limits the quality of image separation. To address this fundamental limitation, we propose two targeted improvements to enhance dual-stream architectures: First, we introduce a novel inter-layer complementarity model where low-frequency components extracted from the residual layer interact with the transmission layer through dual-stream architecture to enhance inter-layer complementarity. Meanwhile, high-frequency components from the residual layer provide inverse modulation to both streams, improving the detail quality of the transmission layer. Second, we propose an efficient inter-layer complementarity attention mechanism which first cross-reorganizes dual streams at the channel level to obtain reorganized streams with inter-layer complementary structures, then performs attention computation on the reorganized streams to achieve better inter-layer separation, and finally restores the original stream structure for output. Experimental results demonstrate that our method achieves state-of-the-art separation quality on multiple public datasets while significantly reducing both computational cost and model complexity.
+
+</details>
+
 ## 2024
 **- A Closer Look at the Reflection Formulation in Single Image Reflection Removal, (IEEE TIP 2024)**  
 [PDF](https://ieeexplore.ieee.org/document/10381629) | [arXiv] | [GitHub]
