@@ -1,5 +1,5 @@
 <details>
-<summary><strong>📅 按年份统计 (总计58篇)</strong></summary>
+<summary><strong>📅 按年份统计(已收集58篇)</strong></summary>
 
 ## 2025年 (7篇)
 | 期刊/会议 | 论文数量 |
@@ -92,7 +92,7 @@
 </details>
 
 <details>
-<summary><strong>📊 期刊会议统计</strong></summary>
+<summary><strong>📊 按期刊会议统计(已收集58篇)</strong></summary>
 
 | 期刊/会议类别 | 期刊/会议名称 | 论文数量 |
 |--------------|-------------|---------|
