@@ -1,8 +1,9 @@
 # 单图像反射去除论文按年份统计
 
 <details>
-<summary><strong>2025年 (7篇)</strong></summary>
+<summary><strong>📅 按年份详细统计 (总计58篇)</strong></summary>
 
+## 2025年 (7篇)
 | 期刊/会议 | 论文数量 |
 |----------|---------|
 | PAMI | 1 |
@@ -11,11 +12,7 @@
 | CVPR | 1 |
 | arXiv | 3 |
 
-</details>
-
-<details>
-<summary><strong>2024年 (19篇)</strong></summary>
-
+## 2024年 (19篇)
 | 期刊/会议 | 论文数量 |
 |----------|---------|
 | IEEE TIP | 1 |
@@ -33,11 +30,7 @@
 | The Visual Computer | 1 |
 | arXiv | 6 |
 
-</details>
-
-<details>
-<summary><strong>2023年 (7篇)</strong></summary>
-
+## 2023年 (7篇)
 | 期刊/会议 | 论文数量 |
 |----------|---------|
 | ICCV | 1 |
@@ -48,11 +41,7 @@
 | CVPR | 1 |
 | arXiv | 1 |
 
-</details>
-
-<details>
-<summary><strong>2022年 (4篇)</strong></summary>
-
+## 2022年 (4篇)
 | 期刊/会议 | 论文数量 |
 |----------|---------|
 | ICIP | 1 |
@@ -60,11 +49,7 @@
 | ICPR | 1 |
 | IEEE Access | 1 |
 
-</details>
-
-<details>
-<summary><strong>2021年 (6篇)</strong></summary>
-
+## 2021年 (6篇)
 | 期刊/会议 | 论文数量 |
 |----------|---------|
 | CVPR | 2 |
@@ -73,59 +58,35 @@
 | NeurIPS | 1 |
 | IEEE TIP | 1 |
 
-</details>
-
-<details>
-<summary><strong>2020年 (5篇)</strong></summary>
-
+## 2020年 (5篇)
 | 期刊/会议 | 论文数量 |
 |----------|---------|
 | CVPR | 3 |
 | IEEE Transactions on Cybernetics | 1 |
 | IEEE PAMI | 1 |
 
-</details>
-
-<details>
-<summary><strong>2019年 (3篇)</strong></summary>
-
+## 2019年 (3篇)
 | 期刊/会议 | 论文数量 |
 |----------|---------|
 | CVPR | 3 |
 
-</details>
-
-<details>
-<summary><strong>2018年 (4篇)</strong></summary>
-
+## 2018年 (4篇)
 | 期刊/会议 | 论文数量 |
 |----------|---------|
 | ECCV | 2 |
 | CVPR | 2 |
 
-</details>
-
-<details>
-<summary><strong>2017年 (1篇)</strong></summary>
-
+## 2017年 (1篇)
 | 期刊/会议 | 论文数量 |
 |----------|---------|
 | ICCV | 1 |
 
-</details>
-
-<details>
-<summary><strong>2014年 (1篇)</strong></summary>
-
+## 2014年 (1篇)
 | 期刊/会议 | 论文数量 |
 |----------|---------|
 | CVPR | 1 |
 
-</details>
-
-<details>
-<summary><strong>2013年 (1篇)</strong></summary>
-
+## 2013年 (1篇)
 | 期刊/会议 | 论文数量 |
 |----------|---------|
 | CVPR | 1 |
@@ -135,7 +96,7 @@
 ---
 
 <details>
-<summary><strong>期刊会议汇总统计 (总计58篇)</strong></summary>
+<summary><strong>📊 期刊会议汇总统计</strong></summary>
 
 | 期刊/会议类别 | 期刊/会议名称 | 论文数量 |
 |--------------|-------------|---------|
