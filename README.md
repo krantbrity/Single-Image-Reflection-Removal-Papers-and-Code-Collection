@@ -71,8 +71,36 @@
 **- Revisiting Single Image Reflection Removal In the Wild, (CVPR 2024)**  
 [PDF](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhu_Revisiting_Single_Image_Reflection_Removal_In_the_Wild_CVPR_2024_paper.pdf) | [arXiv](https://arxiv.org/abs/2311.17320) | [GitHub](https://github.com/zhuyr97/Reflection_RemoVal_CVPR2024)
 
+<details>
+<summary>性能表现</summary>
+
+| Dataset | PSNR | SSIM |
+|---------|------|------|
+| Real | 21.9253 | 0.7881 |
+| Postcard | 24.2854 | 0.8869 |
+| Solidobject | 26.8903 | 0.9253 |
+| Wild | 26.8204 | 0.9101 |
+| Nature | 26.1442 | 0.8455 |
+| **Overall** | **25.6020** | **0.8993** |
+
+</details>
+
 **- Single Image Reflection Separation via Dual-Stream Interactive Transformers, (NeurIPS 2024)**  
 [PDF](https://openreview.net/forum?id=Shwtw8uV8l) | [arXiv] | [GitHub](https://github.com/mingcv/DSIT)
+
+<details>
+<summary>Epoch 000 性能表现</summary>
+
+| Dataset | PSNR | SSIM |
+|---------|------|------|
+| Real | 25.1854 | 0.8339 |
+| Postcard | 26.3838 | 0.9254 |
+| Solidobject | 26.8733 | 0.9252 |
+| Wild | 27.9013 | 0.9230 |
+| Nature | 26.6751 | 0.8470 |
+| **Overall** | **26.7142** | **0.9182** |
+
+</details>
 
 **- L-DiffER: Single Image Reflection Removal with Language-Based Diffusion Model, (ECCV 2024)**  
 [PDF](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/02988.pdf) | [arXiv] | [GitHub]
