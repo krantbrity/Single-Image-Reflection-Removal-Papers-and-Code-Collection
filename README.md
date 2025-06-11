@@ -11,7 +11,7 @@
 [PDF] | [arXiv](https://arxiv.org/abs/2410.08063) | [GitHub](https://github.com/lime-j/RDNet) | [中文](https://github.com/krantbrity/Single-Image-Reflection-Removal-Papers-and-Code-Collection/blob/main/Markdown/REVERSIBLE%20DECOUPLING%20NETWORK%20FOR%20SINGLE%20IMAGE%20REFLECTION%20REMOVAL.md)
 
 <details>
-<summary>RTX 4090 性能表现</summary>
+<summary>RTX 4090</summary>
 
 | Dataset | PSNR | SSIM |
 |---------|------|------|
@@ -72,7 +72,7 @@
 [PDF](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhu_Revisiting_Single_Image_Reflection_Removal_In_the_Wild_CVPR_2024_paper.pdf) | [arXiv](https://arxiv.org/abs/2311.17320) | [GitHub](https://github.com/zhuyr97/Reflection_RemoVal_CVPR2024)
 
 <details>
-<summary>性能表现</summary>
+<summary>RTX 4090</summary>
 
 | Dataset | PSNR | SSIM |
 |---------|------|------|
@@ -89,7 +89,7 @@
 [PDF](https://openreview.net/forum?id=Shwtw8uV8l) | [arXiv] | [GitHub](https://github.com/mingcv/DSIT)
 
 <details>
-<summary>Epoch 000 性能表现</summary>
+<summary>RTX 4090</summary>
 
 | Dataset | PSNR | SSIM |
 |---------|------|------|
@@ -110,6 +110,20 @@
 
 **- Hue Guidance Network for Single Image Reflection Removal, (IEEE TNNLS 2024)**  
 [PDF](https://ieeexplore.ieee.org/document/10130817) | [arXiv] | [GitHub](https://github.com/zhuyr97/HGRR)
+
+<details>
+<summary>RTX 4090</summary>
+
+| Dataset | PSNR | SSIM |
+|---------|------|------|
+| Real | 23.7821 | 0.8178 |
+| Postcard | 23.8513 | 0.9004 |
+| Solidobject | 25.1090 | 0.9020 |
+| Wild | 27.0477 | 0.8999 |
+| Nature | 25.5137 | 0.8270 |
+| **Overall** | **24.7809** | **0.8947** |
+
+</details>
 
 **- Polarized Reflection Removal with Dual-Stream Attention Guidance, (Pattern Recognition 2024)**  
 [PDF](https://www.sciencedirect.com/science/article/abs/pii/S0031320324006964) | [arXiv] | [GitHub]
@@ -150,6 +164,20 @@
 ## 2023
 **- Single Image Reflection Separation via Component Synergy, (ICCV 2023)**  
 [PDF](https://openaccess.thecvf.com/content/ICCV2023/papers/Hu_Single_Image_Reflection_Separation_via_Component_Synergy_ICCV_2023_paper.pdf) | [arXiv](https://arxiv.org/abs/2308.10027) | [GitHub](https://github.com/mingcv/DSRNet)
+
+<details>
+<summary>RTX 4090</summary>
+
+| Dataset | PSNR | SSIM |
+|---------|------|------|
+| Real | 23.8455 | 0.8091 |
+| Postcard | 24.7225 | 0.9147 |
+| Solidobject | 26.8810 | 0.9226 |
+| Wild | 27.0383 | 0.9145 |
+| Nature | 25.2681 | 0.8356 |
+| **Overall** | **25.8408** | **0.9104** |
+
+</details>
 
 **- Missing Recovery: Single Image Reflection Removal Based on Auxiliary Prior Learning, (IEEE TIP 2023)**  
 [PDF](https://ieeexplore.ieee.org/document/10002393) | [arXiv] | [GitHub]
@@ -192,6 +220,20 @@
 **- Location-aware Single Image Reflection Removal, (ICCV 2021)**  
 [PDF](https://openaccess.thecvf.com/content/ICCV2021/papers/Dong_Location-Aware_Single_Image_Reflection_Removal_ICCV_2021_paper.pdf) | [arXiv](https://arxiv.org/abs/2012.07131) | [GitHub](https://github.com/zdlarr/Location-aware-SIRR)
 
+<details>
+<summary>RTX 4090</summary>
+
+| Dataset | PSNR | SSIM |
+|---------|------|------|
+| Real | 23.0750 | 0.8255 |
+| Postcard | 24.2698 | 0.9071 |
+| Solidobject | 24.1561 | 0.8993 |
+| Wild | 26.0274 | 0.8997 |
+| Nature | 23.6571 | 0.8194 |
+| **Overall** | **24.3463** | **0.8963** |
+
+</details>
+
 **- Distilling Reflection Dynamics for Single-Image Reflection Removal, (ICCVW 2021)**  
 [PDF](https://openaccess.thecvf.com/content/ICCV2021W/AIM/papers/Zheng_Distilling_Reflection_Dynamics_for_Single-Image_Reflection_Removal_ICCVW_2021_paper.pdf) | [arXiv] | [GitHub]
 
@@ -211,6 +253,20 @@
 
 **- Single Image Reflection Removal through Cascaded Refinement, (CVPR 2020)**  
 [PDF](https://openaccess.thecvf.com/content_CVPR_2020/papers/Li_Single_Image_Reflection_Removal_Through_Cascaded_Refinement_CVPR_2020_paper.pdf) | [arXiv](https://arxiv.org/abs/1911.06634) | [GitHub](https://github.com/JHL-HUST/IBCLN)
+
+<details>
+<summary>RTX 4090</summary>
+
+| Dataset | PSNR | SSIM |
+|---------|------|------|
+| Real | 21.8540 | 0.7770 |
+| Postcard | 23.4470 | 0.8790 |
+| Solidobject | 24.9473 | 0.8991 |
+| Wild | 24.3465 | 0.8862 |
+| Nature | 24.0265 | 0.7980 |
+| **Overall** | **24.1135** | **0.8805** |
+
+</details>
 
 **- Joint Reflection Removal and Depth Estimation From a Single Image, (IEEE Transactions on Cybernetics 2020)**  
 [PDF](https://ieeexplore.ieee.org/document/8957259/) | [arXiv] | [GitHub]
