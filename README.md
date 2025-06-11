@@ -1,119 +1,36 @@
+## 2025
 **- A Lightweight Deep Exclusion Unfolding Network for Single Image Reflection Removal (PAMI 2025)**  
 [PDF] | [arXiv](https://arxiv.org/abs/2503.01938) | [GitHub](https://github.com/jjhuangcs/DExNet) | [中文](https://github.com/krantbrity/Single-Image-Reflection-Removal-Papers-and-Code-Collection/blob/main/TXT/A%20Lightweight%20Deep%20Exclusion%20Unfolding%20Network%20for%20Single%20Image%20Reflection%20Removal.md)
-
-<details>
-<summary>📖 <strong>点击查看摘要</strong></summary>
-
-**Abstract**
-Single Image Reflection Removal (SIRR) is a canonical blind source separation problem and refers to the issue of separating a reflection-contaminated image into a transmission and a reflection image. The core challenge lies in minimizing the commonalities among different sources. Existing deep learning approaches either neglect the significance of feature interactions or rely on heuristically designed architectures. In this paper, we propose a novel Deep Exclusion unfolding Network (DExNet), a lightweight, interpretable, and effective network architecture for SIRR. DExNet is principally constructed by unfolding and parameterizing a simple iterative Sparse and Auxiliary Feature Update (i-SAFU) algorithm, which is specifically designed to solve a new model-based SIRR optimization formulation incorporating a general exclusion prior. This general exclusion prior enables the unfolded SAFU module to inherently identify and penalize commonalities between the transmission and reflection features, ensuring more accurate separation. The principled design of DExNet not only enhances its interpretability but also significantly improves its performance. Comprehensive experiments on four benchmark datasets demonstrate that DExNet achieves state-of-the-art visual and quantitative results while utilizing only approximately 8% of the parameters required by leading methods.
-
-</details>
 
 ---
 
 **- Reversible Decoupling Network for Single Image Reflection Removal (CVPR 2025)**  
 [PDF] | [arXiv](https://arxiv.org/abs/2410.08063) | [GitHub](https://github.com/lime-j/RDNet)
 
-<details>
-<summary>📖 <strong>点击查看摘要</strong></summary>
-
-**Abstract**
-Recent deep-learning-based approaches to single-image reflection removal have shown promising advances, primarily for two reasons: 1) the utilization of recognition-pretrained features as inputs, and 2) the design of dual-stream interaction networks. However, according to the Information Bottleneck principle, high-level semantic clues tend to be compressed or discarded during layer-by-layer propagation. Additionally, interactions in dual-stream networks follow a fixed pattern across different layers, limiting overall performance. 
-
-To address these limitations, we propose a novel architecture called **Reversible Decoupling Network (RDNet)**, which employs a reversible encoder to secure valuable information while flexibly decoupling transmission- and reflection-relevant features during the forward pass. Furthermore, we customize a transmission-rate-aware prompt generator to dynamically calibrate features, further boosting performance. 
-
-Extensive experiments demonstrate the superiority of RDNet over existing SOTA methods on five widely-adopted benchmark datasets. RDNet achieves the best performance in the **NTIRE 2025 Single Image Reflection Removal in the Wild Challenge** in both fidelity and perceptual comparison.
-
-</details>
-
-<details>
-<summary>🚀 <strong>点击查看RTX4090上的预训练权重的测试结果</strong></summary>
-
-**Test Results on RTX4090 with Pretrained Weights**
-
-| Dataset | PSNR | SSIM |
-|---------|------|------|
-| **Real** | 25.7138 | 0.8501 |
-| **Postcard** | 26.3343 | 0.9221 |
-| **Solidobject** | 26.9457 | 0.9262 |
-| **Wild** | 27.8440 | 0.9173 |
-| **Nature** | 26.3053 | 0.8463 |
-| **Overall** | **26.7236** | **0.9173** |
-
-**Key Highlights**
-- 🏆 Best performance in NTIRE 2025 Challenge
-- 📊 Consistent high performance across all benchmark datasets
-- 💪 Superior SOTA results on five widely-adopted benchmarks
-- 🔬 Novel reversible encoder architecture for information preservation
-
-</details>
-
 ---
 
 **- Rethinking Depth Guided Reflection Removal (TMM 2025)**  
 [PDF](https://ieeexplore.ieee.org/document/10891560) | [arXiv] | [GitHub]
-
-<details>
-<summary>📖 <strong>点击查看摘要</strong></summary>
-
-**Abstract**
-> **注：** 完整摘要未能从搜索结果中获取
-
-When photographing through glass, reflections are often observed, which negatively impact the quality of the captured images or videos. In this paper, we summarize and rethink depth guided reflection removal methods and, inspired by the human binocular vision system, investigate how to utilize depth for effective binocular video reflection removal. We propose an end-to-end learning-based reflection removal method that learns the transmission depth and designs a unified structure to achieve depth guided, cross-view, and cross-frame feature enhancement in a cascaded manner. The method appears to focus on utilizing depth information from binocular vision systems for more effective reflection removal in video sequences.
-
-</details>
 
 ---
 
 **- High-resolution image reflection removal by Laplacian-based component-aware transformer (Scientific Reports 2025)**  
 [PDF](https://www.nature.com/articles/s41598-025-94464-6) | [arXiv] | [GitHub]
 
-<details>
-<summary>📖 <strong>点击查看摘要</strong></summary>
-
-**Abstract**
-Recent data-driven deep learning methods for image reflection removal have made impressive progress, promoting the quality of photo capturing and scene understanding. Due to the massive consumption of computational complexity and memory usage, the performance of these methods degrades significantly while dealing with high-resolution images. Besides, most existing methods for reflection removal can only remove reflection patterns by downsampling the input image into a much lower resolution, resulting in the loss of plentiful information. In this paper, we propose a novel transformer-based framework for high-resolution image reflection removal, termed as the Laplacian pyramid-based component-aware transformer (LapCAT). LapCAT leverages a Laplacian pyramid network to remove high-frequency reflection patterns and reconstruct the high-resolution background image guided by the clean low-frequency background components. The method addresses the computational challenges of processing high-resolution images while maintaining quality through a specialized transformer architecture.
-
-</details>
-
 ---
 
 **- Dereflection: Any Image with Diffusion Priors and Diversified Data (arXiv 2025)**  
 [PDF] | [arXiv](https://arxiv.org/abs/2503.17347) | [GitHub](https://github.com/Abuuu122/Dereflection-Any-Image)
-
-<details>
-<summary>📖 <strong>点击查看摘要</strong></summary>
-
-**Abstract**
-Reflection removal of a single image remains a highly challenging task due to the complex entanglement between target scenes and unwanted reflections. Despite significant progress, existing methods are hindered by the scarcity of high-quality, diverse data and insufficient restoration priors, resulting in limited generalization across various real-world scenarios. In this paper, we propose Dereflection Any Image, a comprehensive solution with an efficient data preparation pipeline and a generalizable model for robust reflection removal. First, we introduce a dataset named Diverse Reflection Removal (DRR) created by randomly rotating reflective mediums in target scenes, enabling variation of reflection angles and intensities, and setting a new benchmark in scale, quality, and diversity. Second, we propose a diffusion-based framework with one-step diffusion for deterministic outputs and fast inference. The approach combines advanced diffusion models with a carefully designed dataset to address the generalization challenges in reflection removal.
-
-</details>
 
 ---
 
 **- Survey on Single-Image Reflection Removal using Deep Learning Techniques (arXiv 2025)**  
 [PDF] | [arXiv](https://arxiv.org/abs/2502.08836) | [GitHub]
 
-<details>
-<summary>📖 <strong>点击查看摘要</strong></summary>
-
-**Abstract**
-The phenomenon of reflection is quite common in digital images, posing significant challenges for various applications such as computer vision, photography, and image processing. Traditional methods for reflection removal often struggle to achieve clean results while maintaining high fidelity and robustness, particularly in real-world scenarios. Over the past few decades, numerous deep learning-based approaches for reflection removal have emerged, yielding impressive results. In this survey, we conduct a comprehensive review of the current literature by focusing on key venues such as ICCV, ECCV, CVPR, NeurIPS, etc., as these conferences and journals have been central to advances in the field. The contribution of this survey is three-fold: first, we provide a comprehensive summary of the most recent work on single-image reflection removal; second, we outline task hypotheses, current deep learning techniques, publicly available datasets, and relevant evaluation metrics; and third, we identify key challenges and opportunities in deep learning-based reflection removal, highlighting the potential of this rapidly evolving research area.
-
-</details>
-
 ---
 
 **- Single Image Reflection Removal via inter-layer Complementarity (arXiv 2025)**  
 [PDF] | [arXiv](https://arxiv.org/abs/2505.12641) | [GitHub]
-
-<details>
-<summary>📖 <strong>点击查看摘要</strong></summary>
-
-**Abstract**
-Although dual-stream architectures have achieved remarkable success in single image reflection removal, they fail to fully exploit inter-layer complementarity in their physical modeling and network design, which limits the quality of image separation. To address this fundamental limitation, we propose two targeted improvements to enhance dual-stream architectures: First, we introduce a novel inter-layer complementarity model where low-frequency components extracted from the residual layer interact with the transmission layer through dual-stream architecture to enhance inter-layer complementarity. Meanwhile, high-frequency components from the residual layer provide inverse modulation to both streams, improving the detail quality of the transmission layer. Second, we propose an efficient inter-layer complementarity attention mechanism which first cross-reorganizes dual streams at the channel level to obtain reorganized streams with inter-layer complementary structures, then performs attention computation on the reorganized streams to achieve better inter-layer separation, and finally restores the original stream structure for output. Experimental results demonstrate that our method achieves state-of-the-art separation quality on multiple public datasets while significantly reducing both computational cost and model complexity.
-
-</details>
 
 ## 2024
 **- A Closer Look at the Reflection Formulation in Single Image Reflection Removal, (IEEE TIP 2024)**  
