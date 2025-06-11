@@ -10,6 +10,20 @@
 **- Reversible Decoupling Network for Single Image Reflection Removal (CVPR 2025)**  
 [PDF] | [arXiv](https://arxiv.org/abs/2410.08063) | [GitHub](https://github.com/lime-j/RDNet) | [中文](https://github.com/krantbrity/Single-Image-Reflection-Removal-Papers-and-Code-Collection/blob/main/Markdown/REVERSIBLE%20DECOUPLING%20NETWORK%20FOR%20SINGLE%20IMAGE%20REFLECTION%20REMOVAL.md)
 
+<details>
+<summary>RTX 4090 性能表现</summary>
+
+| Dataset | PSNR | SSIM |
+|---------|------|------|
+| Real | 25.7138 | 0.8501 |
+| Postcard | 26.3343 | 0.9221 |
+| Solidobject | 26.9457 | 0.9262 |
+| Wild | 27.8440 | 0.9173 |
+| Nature | 26.3053 | 0.8463 |
+| **Overall** | **26.7236** | **0.9173** |
+
+</details>
+
 **简介**: RDNet采用可逆编码器来保护有价值的信息，同时在前向传播过程中灵活地解耦传输层和反射层相关特征。该方法还定制了传输率感知的提示生成器来动态校准特征，在五个广泛采用的基准数据集上超越了现有的最先进方法，并在NTIRE 2025野外单图像反射去除挑战赛中获得最佳性能。
 
 ---
