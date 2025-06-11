@@ -1,5 +1,3 @@
-# 单图像反射去除论文按年份统计
-
 <details>
 <summary><strong>📅 按年份详细统计 (总计58篇)</strong></summary>
 
