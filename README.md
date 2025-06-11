@@ -13,12 +13,12 @@ Single Image Reflection Removal (SIRR) is a canonical blind source separation pr
 
 ---
 
-# Reversible Decoupling Network for Single Image Reflection Removal (CVPR 2025)
+**Reversible Decoupling Network for Single Image Reflection Removal (CVPR 2025)**
 
-## 📚 Resources
+**📚 Resources**
 - **[PDF]** - [arXiv](https://arxiv.org/abs/2410.08063) - [GitHub](https://github.com/lime-j/RDNet)
 
-## 📖 Abstract
+**📖 Abstract**
 
 <details>
 <summary><strong>Click to view abstract</strong></summary>
@@ -31,12 +31,12 @@ Extensive experiments demonstrate the superiority of RDNet over existing SOTA me
 
 </details>
 
-## 🚀 Performance Results
+**🚀 Performance Results**
 
 <details>
 <summary><strong>Click to view RTX4090 pretrained weights test results</strong></summary>
 
-### Test Results on RTX4090 with Pretrained Weights
+**Test Results on RTX4090 with Pretrained Weights**
 
 | Dataset | PSNR | SSIM |
 |---------|------|------|
@@ -47,13 +47,14 @@ Extensive experiments demonstrate the superiority of RDNet over existing SOTA me
 | **Nature** | 26.3053 | 0.8463 |
 | **Overall** | **26.7236** | **0.9173** |
 
-### Key Highlights
+**Key Highlights**
 - 🏆 Best performance in NTIRE 2025 Challenge
 - 📊 Consistent high performance across all benchmark datasets
 - 💪 Superior SOTA results on five widely-adopted benchmarks
 - 🔬 Novel reversible encoder architecture for information preservation
 
 </details>
+
 
 ---
 
