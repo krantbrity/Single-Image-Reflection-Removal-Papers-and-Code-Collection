@@ -1,5 +1,5 @@
 **- A Lightweight Deep Exclusion Unfolding Network for Single Image Reflection Removal (PAMI 2025)**  
-[PDF] | [arXiv](https://arxiv.org/abs/2503.01938) | [GitHub](https://github.com/jjhuangcs/DExNet)
+[PDF] | [arXiv](https://arxiv.org/abs/2503.01938) | [GitHub](https://github.com/jjhuangcs/DExNet) | [中文](https://github.com/krantbrity/Single-Image-Reflection-Removal-Papers-and-Code-Collection/blob/main/TXT/A%20Lightweight%20Deep%20Exclusion%20Unfolding%20Network%20for%20Single%20Image%20Reflection%20Removal.md)
 
 <details>
 <summary>📖 <strong>点击查看摘要</strong></summary>
