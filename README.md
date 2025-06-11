@@ -13,14 +13,45 @@ Single Image Reflection Removal (SIRR) is a canonical blind source separation pr
 
 ---
 
-**- Reversible Decoupling Network for Single Image Reflection Removal (CVPR 2025)**  
-[PDF] | [arXiv](https://arxiv.org/abs/2410.08063) | [GitHub](https://github.com/lime-j/RDNet)
+# Reversible Decoupling Network for Single Image Reflection Removal (CVPR 2025)
+
+## 📚 Resources
+- **[PDF]** - [arXiv](https://arxiv.org/abs/2410.08063) - [GitHub](https://github.com/lime-j/RDNet)
+
+## 📖 Abstract
 
 <details>
-<summary>📖 <strong>点击查看摘要</strong></summary>
+<summary><strong>Click to view abstract</strong></summary>
 
-**Abstract**
-Recent deep-learning-based approaches to single-image reflection removal have shown promising advances, primarily for two reasons: 1) the utilization of recognition-pretrained features as inputs, and 2) the design of dual-stream interaction networks. However, according to the Information Bottleneck principle, high-level semantic clues tend to be compressed or discarded during layer-by-layer propagation. Additionally, interactions in dual-stream networks follow a fixed pattern across different layers, limiting overall performance. To address these limitations, we propose a novel architecture called Reversible Decoupling Network (RDNet), which employs a reversible encoder to secure valuable information while flexibly decoupling transmission- and reflection-relevant features during the forward pass. Furthermore, we customize a transmission-rate-aware prompt generator to dynamically calibrate features, further boosting performance. Extensive experiments demonstrate the superiority of RDNet over existing SOTA methods on five widely-adopted benchmark datasets. RDNet achieves the best performance in the NTIRE 2025 Single Image Reflection Removal in the Wild Challenge in both fidelity and perceptual comparison.
+Recent deep-learning-based approaches to single-image reflection removal have shown promising advances, primarily for two reasons: 1) the utilization of recognition-pretrained features as inputs, and 2) the design of dual-stream interaction networks. However, according to the Information Bottleneck principle, high-level semantic clues tend to be compressed or discarded during layer-by-layer propagation. Additionally, interactions in dual-stream networks follow a fixed pattern across different layers, limiting overall performance. 
+
+To address these limitations, we propose a novel architecture called **Reversible Decoupling Network (RDNet)**, which employs a reversible encoder to secure valuable information while flexibly decoupling transmission- and reflection-relevant features during the forward pass. Furthermore, we customize a transmission-rate-aware prompt generator to dynamically calibrate features, further boosting performance. 
+
+Extensive experiments demonstrate the superiority of RDNet over existing SOTA methods on five widely-adopted benchmark datasets. RDNet achieves the best performance in the **NTIRE 2025 Single Image Reflection Removal in the Wild Challenge** in both fidelity and perceptual comparison.
+
+</details>
+
+## 🚀 Performance Results
+
+<details>
+<summary><strong>Click to view RTX4090 pretrained weights test results</strong></summary>
+
+### Test Results on RTX4090 with Pretrained Weights
+
+| Dataset | PSNR | SSIM |
+|---------|------|------|
+| **Real** | 25.7138 | 0.8501 |
+| **Postcard** | 26.3343 | 0.9221 |
+| **Solidobject** | 26.9457 | 0.9262 |
+| **Wild** | 27.8440 | 0.9173 |
+| **Nature** | 26.3053 | 0.8463 |
+| **Overall** | **26.7236** | **0.9173** |
+
+### Key Highlights
+- 🏆 Best performance in NTIRE 2025 Challenge
+- 📊 Consistent high performance across all benchmark datasets
+- 💪 Superior SOTA results on five widely-adopted benchmarks
+- 🔬 Novel reversible encoder architecture for information preservation
 
 </details>
 
