@@ -1,5 +1,5 @@
 <details>
-<summary><strong>📅 按年份详细统计 (总计58篇)</strong></summary>
+<summary><strong>📅 按年份统计 (总计58篇)</strong></summary>
 
 ## 2025年 (7篇)
 | 期刊/会议 | 论文数量 |
@@ -94,7 +94,7 @@
 ---
 
 <details>
-<summary><strong>📊 期刊会议汇总统计</strong></summary>
+<summary><strong>📊 期刊会议统计</strong></summary>
 
 | 期刊/会议类别 | 期刊/会议名称 | 论文数量 |
 |--------------|-------------|---------|
@@ -123,6 +123,7 @@
 | **预印本** | arXiv | 10 |
 
 </details>
+
 ## 2025
 
 **- A Lightweight Deep Exclusion Unfolding Network for Single Image Reflection Removal (PAMI 2025)**  
