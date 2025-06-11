@@ -1,3 +1,169 @@
+# 单图像反射去除论文按年份统计
+
+<details>
+<summary><strong>2025年 (7篇)</strong></summary>
+
+| 期刊/会议 | 论文数量 |
+|----------|---------|
+| PAMI | 1 |
+| TMM | 1 |
+| Scientific Reports | 1 |
+| CVPR | 1 |
+| arXiv | 3 |
+
+</details>
+
+<details>
+<summary><strong>2024年 (19篇)</strong></summary>
+
+| 期刊/会议 | 论文数量 |
+|----------|---------|
+| IEEE TIP | 1 |
+| CVPR | 2 |
+| NeurIPS | 1 |
+| ECCV | 1 |
+| IEEE TMM | 1 |
+| IEEE TNNLS | 1 |
+| Pattern Recognition | 1 |
+| ACM MM | 1 |
+| ICASSP | 1 |
+| IEEE TETCI | 1 |
+| IEEE SPL | 1 |
+| IEEE Access | 1 |
+| The Visual Computer | 1 |
+| arXiv | 6 |
+
+</details>
+
+<details>
+<summary><strong>2023年 (7篇)</strong></summary>
+
+| 期刊/会议 | 论文数量 |
+|----------|---------|
+| ICCV | 1 |
+| IEEE TIP | 1 |
+| IEEE TCE | 1 |
+| ACM MM | 1 |
+| Applied Intelligence | 1 |
+| CVPR | 1 |
+| arXiv | 1 |
+
+</details>
+
+<details>
+<summary><strong>2022年 (4篇)</strong></summary>
+
+| 期刊/会议 | 论文数量 |
+|----------|---------|
+| ICIP | 1 |
+| IEEE SPL | 1 |
+| ICPR | 1 |
+| IEEE Access | 1 |
+
+</details>
+
+<details>
+<summary><strong>2021年 (6篇)</strong></summary>
+
+| 期刊/会议 | 论文数量 |
+|----------|---------|
+| CVPR | 2 |
+| ICCV | 1 |
+| ICCVW | 1 |
+| NeurIPS | 1 |
+| IEEE TIP | 1 |
+
+</details>
+
+<details>
+<summary><strong>2020年 (5篇)</strong></summary>
+
+| 期刊/会议 | 论文数量 |
+|----------|---------|
+| CVPR | 3 |
+| IEEE Transactions on Cybernetics | 1 |
+| IEEE PAMI | 1 |
+
+</details>
+
+<details>
+<summary><strong>2019年 (3篇)</strong></summary>
+
+| 期刊/会议 | 论文数量 |
+|----------|---------|
+| CVPR | 3 |
+
+</details>
+
+<details>
+<summary><strong>2018年 (4篇)</strong></summary>
+
+| 期刊/会议 | 论文数量 |
+|----------|---------|
+| ECCV | 2 |
+| CVPR | 2 |
+
+</details>
+
+<details>
+<summary><strong>2017年 (1篇)</strong></summary>
+
+| 期刊/会议 | 论文数量 |
+|----------|---------|
+| ICCV | 1 |
+
+</details>
+
+<details>
+<summary><strong>2014年 (1篇)</strong></summary>
+
+| 期刊/会议 | 论文数量 |
+|----------|---------|
+| CVPR | 1 |
+
+</details>
+
+<details>
+<summary><strong>2013年 (1篇)</strong></summary>
+
+| 期刊/会议 | 论文数量 |
+|----------|---------|
+| CVPR | 1 |
+
+</details>
+
+---
+
+<details>
+<summary><strong>期刊会议汇总统计 (总计58篇)</strong></summary>
+
+| 期刊/会议类别 | 期刊/会议名称 | 论文数量 |
+|--------------|-------------|---------|
+| **顶级CV会议** | CVPR | 16 |
+| | ICCV | 3 |
+| | ECCV | 3 |
+| **顶级ML会议** | NeurIPS | 2 |
+| **IEEE顶级期刊** | PAMI | 2 |
+| | TIP | 3 |
+| **IEEE其他期刊** | TMM | 2 |
+| | TNNLS | 1 |
+| | TCE | 1 |
+| | TETCI | 1 |
+| | SPL | 2 |
+| | Access | 2 |
+| | Transactions on Cybernetics | 1 |
+| **其他期刊** | Pattern Recognition | 1 |
+| | Applied Intelligence | 1 |
+| | Scientific Reports | 1 |
+| | The Visual Computer | 1 |
+| **其他会议** | ACM MM | 2 |
+| | ICASSP | 1 |
+| | ICIP | 1 |
+| | ICPR | 1 |
+| | ICCVW | 1 |
+| **预印本** | arXiv | 10 |
+
+</details>
 ## 2025
 
 **- A Lightweight Deep Exclusion Unfolding Network for Single Image Reflection Removal (PAMI 2025)**  
