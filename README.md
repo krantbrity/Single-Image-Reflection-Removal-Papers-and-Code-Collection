@@ -1,5 +1,3 @@
-## 2025
-
 **- A Lightweight Deep Exclusion Unfolding Network for Single Image Reflection Removal (PAMI 2025)**  
 [PDF] | [arXiv](https://arxiv.org/abs/2503.01938) | [GitHub](https://github.com/jjhuangcs/DExNet)
 
@@ -13,16 +11,13 @@ Single Image Reflection Removal (SIRR) is a canonical blind source separation pr
 
 ---
 
-**Reversible Decoupling Network for Single Image Reflection Removal (CVPR 2025)**
-
-**📚 Resources**
-- **[PDF]** - [arXiv](https://arxiv.org/abs/2410.08063) - [GitHub](https://github.com/lime-j/RDNet)
-
-**📖 Abstract**
+**- Reversible Decoupling Network for Single Image Reflection Removal (CVPR 2025)**  
+[PDF] | [arXiv](https://arxiv.org/abs/2410.08063) | [GitHub](https://github.com/lime-j/RDNet)
 
 <details>
-<summary><strong>Click to view abstract</strong></summary>
+<summary>📖 <strong>点击查看摘要</strong></summary>
 
+**Abstract**
 Recent deep-learning-based approaches to single-image reflection removal have shown promising advances, primarily for two reasons: 1) the utilization of recognition-pretrained features as inputs, and 2) the design of dual-stream interaction networks. However, according to the Information Bottleneck principle, high-level semantic clues tend to be compressed or discarded during layer-by-layer propagation. Additionally, interactions in dual-stream networks follow a fixed pattern across different layers, limiting overall performance. 
 
 To address these limitations, we propose a novel architecture called **Reversible Decoupling Network (RDNet)**, which employs a reversible encoder to secure valuable information while flexibly decoupling transmission- and reflection-relevant features during the forward pass. Furthermore, we customize a transmission-rate-aware prompt generator to dynamically calibrate features, further boosting performance. 
@@ -31,10 +26,8 @@ Extensive experiments demonstrate the superiority of RDNet over existing SOTA me
 
 </details>
 
-**🚀 Performance Results**
-
 <details>
-<summary><strong>Click to view RTX4090 pretrained weights test results</strong></summary>
+<summary>🚀 <strong>点击查看RTX4090上的预训练权重的测试结果</strong></summary>
 
 **Test Results on RTX4090 with Pretrained Weights**
 
@@ -54,7 +47,6 @@ Extensive experiments demonstrate the superiority of RDNet over existing SOTA me
 - 🔬 Novel reversible encoder architecture for information preservation
 
 </details>
-
 
 ---
 
