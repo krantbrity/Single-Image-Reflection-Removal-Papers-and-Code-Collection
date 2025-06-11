@@ -61,6 +61,20 @@
 
 **简介**: 该论文针对双流架构在物理建模和网络设计中未能充分利用层间互补性的问题，提出了两个针对性改进：首先引入新颖的层间互补性模型，其中从残差层提取的低频组件通过双流架构与传输层交互以增强层间互补性；其次提出了高效的层间互补性注意机制，首先在通道级别交叉重组双流以获得具有层间互补结构的重组流，然后对重组流执行注意力计算以实现更好的层间分离。
 
+<details>
+<summary>RTX 4090</summary>
+
+| Dataset | PSNR | SSIM |
+|---------|------|------|
+| Real | 25.1180 | 0.8276 |
+| Postcard | 26.4330 | 0.9307 |
+| Solidobject | 27.0718 | 0.9295 |
+| Wild | 27.9621 | 0.9216 |
+| Nature | 27.0336 | 0.8527 |
+| **Overall** | **26.8329** | **0.9219** |
+
+</details>
+
 ## 2024
 **- A Closer Look at the Reflection Formulation in Single Image Reflection Removal, (IEEE TIP 2024)**  
 [PDF](https://ieeexplore.ieee.org/document/10381629) | [arXiv] | [GitHub]
