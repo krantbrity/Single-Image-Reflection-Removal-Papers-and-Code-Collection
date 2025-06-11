@@ -203,11 +203,17 @@
 **- A Closer Look at the Reflection Formulation in Single Image Reflection Removal, (IEEE TIP 2024)**  
 [PDF](https://ieeexplore.ieee.org/document/10381629) | [arXiv] | [GitHub]
 
+**简介：** 这篇论文深入分析了单图像反射移除中的反射建模公式，重新审视了传统的线性叠加模型在实际场景中的局限性。作者提出了更精确的反射形成机制，并基于新的理论分析设计了改进的去反射算法，在理论和实践上都有重要贡献。
+
 **- Language-guided Image Reflection Separation, (CVPR 2024)**  
 [PDF](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhong_Language-guided_Image_Reflection_Separation_CVPR_2024_paper.pdf) | [arXiv](https://arxiv.org/abs/2402.11874) | [GitHub]
 
+**简介：** 这篇论文提出了语言引导的反射分离方法，通过引入语言描述来提供图层内容信息，解决反射分离问题的ill-posed性质。该方法采用跨注意力机制和对比学习策略来构建语言描述与图像层之间的对应关系，使用门控网络设计和随机训练策略来处理可识别层的歧义性。这是首个将自然语言作为先验知识引入反射移除任务的工作。
+
 **- Revisiting Single Image Reflection Removal In the Wild, (CVPR 2024)**  
 [PDF](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhu_Revisiting_Single_Image_Reflection_Removal_In_the_Wild_CVPR_2024_paper.pdf) | [arXiv](https://arxiv.org/abs/2311.17320) | [GitHub](https://github.com/zhuyr97/Reflection_RemoVal_CVPR2024)
+
+**简介：** 这项研究从两个角度重新审视了真实世界条件下的单图像反射移除问题：真实反射对的收集流程和真实反射位置的感知。作者设计了一个先进的反射收集流程，能够适应各种真实世界的反射场景并降低收集大规模对齐反射对的成本。构建了名为"野外反射移除"(RRW)的大规模高质量反射数据集，包含超过14,950对高分辨率真实世界反射图像，比前期数据集大45倍。
 
 <details>
 <summary>RTX 4090</summary>
@@ -226,6 +232,8 @@
 **- Single Image Reflection Separation via Dual-Stream Interactive Transformers, (NeurIPS 2024)**  
 [PDF](https://openreview.net/forum?id=Shwtw8uV8l) | [arXiv] | [GitHub](https://github.com/mingcv/DSIT)
 
+**简介：** 这篇论文针对现有双流方法在处理复杂案例时性能显著下降的问题，提出了双流交互变换器(DSIT)设计。具体设计了双注意力交互结构，包含双流自注意力和层感知双流交叉注意力机制，同时捕获层内和层间特征相关性。通过跨架构交互将单流预训练变换器嵌入与双流卷积特征进行调制，提供更丰富的语义先验。
+
 <details>
 <summary>RTX 4090</summary>
 
@@ -243,11 +251,17 @@
 **- L-DiffER: Single Image Reflection Removal with Language-Based Diffusion Model, (ECCV 2024)**  
 [PDF](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/02988.pdf) | [arXiv] | [GitHub]
 
+**简介：** 这篇论文引入了L-DiffER，一个专为ill-posed单图像反射移除任务设计的基于语言的扩散模型。为了克服现有基于语言的扩散模型在图像恢复中精确控制和保真度方面的局限性，提出了迭代条件细化策略来解决不准确控制条件的问题。采用多条件约束机制确保图像颜色和结构的恢复保真度，同时保持处理低透射反射的生成能力。
+
 **- Reflection Intensity Guided Single Image Reflection Removal and Transmission Recovery, (IEEE TMM 2024)**  
 [PDF](https://ieeexplore.ieee.org/document/10314287) | [arXiv] | [GitHub]
 
+**简介：** 这篇论文提出了一种基于反射强度引导的单图像反射移除和透射恢复方法。通过分析反射强度的空间分布特性，设计了强度感知的网络架构，能够根据不同区域的反射强度自适应地调整去反射策略，在保持透射层细节的同时有效移除各种强度的反射。
+
 **- Hue Guidance Network for Single Image Reflection Removal, (IEEE TNNLS 2024)**  
 [PDF](https://ieeexplore.ieee.org/document/10130817) | [arXiv] | [GitHub](https://github.com/zhuyr97/HGRR)
+
+**简介：** 该论文提出了色调引导网络(HGN)用于单图像反射移除。基于颜色理论中色调信息相对稳定的特性，设计了色调引导模块来辅助网络更好地区分反射层和透射层。实验表明该方法在处理具有相似亮度但不同色调的反射透射混合场景时表现出色。
 
 <details>
 <summary>RTX 4090</summary>
@@ -266,38 +280,62 @@
 **- Polarized Reflection Removal with Dual-Stream Attention Guidance, (Pattern Recognition 2024)**  
 [PDF](https://www.sciencedirect.com/science/article/abs/pii/S0031320324006964) | [arXiv] | [GitHub]
 
+**简介：** 这项工作利用偏振成像技术进行反射移除，提出了双流注意力引导的偏振反射移除方法。通过分析不同偏振角度下反射和透射的偏振特性差异，设计了专门的双流网络架构，并引入注意力机制来自适应地融合不同偏振信息，显著提升了复杂场景下的反射移除效果。
+
 **- Improving Single Image Reflection Removal using Advanced Training Strategies, (ACM MM 2024)**  
 [PDF](https://dl.acm.org/doi/10.1145/3664647.3681072) | [arXiv] | [GitHub]
+
+**简介：** 这篇论文专注于改进单图像反射移除的训练策略。提出了包括数据增强、损失函数设计、训练调度等在内的一系列先进训练技术，通过系统性的训练策略优化，在不改变网络架构的情况下显著提升现有方法的性能。
 
 **- DURRNET: Deep Unfolded Single Image Reflection Removal Network with Joint Prior, (ICASSP 2024)**  
 [PDF](https://ieeexplore.ieee.org/document/10446674) | [arXiv](https://arxiv.org/abs/2203.06306) | [GitHub](https://github.com/jjhuangcs/DURRNet)
 
+**简介：** 该论文提出了深度展开的反射移除网络DURRNet，将传统优化算法的迭代过程展开为深度网络架构。通过引入联合先验知识，包括稀疏性先验和平滑性先验，设计了端到端可训练的深度展开网络，在理论可解释性和实际性能之间取得了很好的平衡。
+
 **- Deep Variational Inference Network for Single Image Reflection Removal, (IEEE TETCI 2024)**  
 [PDF](https://ieeexplore.ieee.org/document/10432786) | [arXiv] | [GitHub]
+
+**简介：** 这项工作将变分推理引入单图像反射移除任务，提出了深度变分推理网络。通过建模反射移除过程的不确定性，使用变分自编码器框架来学习反射和透射的概率分布，能够输出多种可能的去反射结果并提供不确定性估计。
 
 **- Spatio-Temporal Multi-Image Reflection Removal, (IEEE SPL 2024)**  
 [PDF](https://ieeexplore.ieee.org/document/10669076) | [arXiv] | [GitHub]
 
+**简介：** 该论文扩展了传统的单图像反射移除，提出了时空多图像反射移除方法。通过利用视频序列或多张图像之间的时间和空间相关性，设计了时空一致性约束，能够在移除反射的同时保持时间连贯性，特别适用于视频去反射任务。
+
 **- Fast Single Image Reflection Removal Using Multi-Stage Scale Space Network, (IEEE Access 2024)**  
 [PDF](https://ieeexplore.ieee.org/document/10705159) | [arXiv] | [GitHub]
+
+**简介：** 这篇论文关注计算效率，提出了基于多阶段尺度空间网络的快速反射移除方法。通过在不同尺度空间中逐步细化去反射结果，实现了速度和效果的良好平衡，特别适合实时应用场景。
 
 **- Single image reflection removal via self-attention and local discrimination, (The Visual Computer 2024)**  
 [PDF](https://link.springer.com/article/10.1007/s00371-024-03333-2) | [arXiv] | [GitHub](https://github.com/HighColdMan/SIRR_SALD)
 
+**简介：** 该工作结合自注意力机制和局部判别学习，提出了新的反射移除框架。自注意力模块帮助网络关注全局结构信息，而局部判别模块则专注于学习局部区域的反射特征，两者结合提升了复杂场景下的去反射性能。
+
 **- PromptRR: Diffusion Models as Prompt Generators for Single Image Reflection Removal, (arXiv 2024)**  
 [PDF] | [arXiv](https://arxiv.org/abs/2402.02374) | [GitHub](https://github.com/TaoWangzj/PromptRR)
+
+**简介：** 这篇论文提出了新颖的提示引导反射移除(PromptRR)框架，使用频率信息作为新的视觉提示来提升反射移除性能。该框架将反射移除过程解耦为提示生成和后续的提示引导恢复。在提示生成阶段，提出了提示预训练策略来训练频率提示编码器，将真实图像编码为低频和高频提示，然后采用扩散模型作为提示生成器。
 
 **- Single-image reflection removal via self-supervised diffusion models, (arXiv 2024)**  
 [PDF] | [arXiv](https://arxiv.org/abs/2412.20466) | [GitHub]
 
+**简介：** 这项工作探索了自监督扩散模型在反射移除中的应用。通过设计自监督训练策略，使扩散模型能够在没有配对训练数据的情况下学习反射移除任务，为解决训练数据稀缺问题提供了新的思路。
+
 **- Benchmarking Ultra-High-Definition Single-Image Reflection Removal, (arXiv 2024)**  
 [PDF] | [arXiv](https://arxiv.org/abs/2308.00265) | [GitHub](https://github.com/Liar-zzy/Benchmarking-Ultra-High-Definition-Single-Image-Reflection-Removal)
+
+**简介：** 该论文专注于超高清图像的反射移除基准测试。构建了首个大规模超高清反射移除数据集，并对现有方法在超高清图像上的性能进行了全面评估，指出了当前方法在处理高分辨率图像时面临的挑战和机遇。
 
 **- Towards Flexible Interactive Reflection Removal with Human Guidance, (arXiv 2024)**  
 [PDF] | [arXiv](https://arxiv.org/abs/2406.01555) | [GitHub](https://github.com/ShawnChenn/FlexibleReflectionRemoval)
 
+**简介：** 这项工作提出了灵活的交互式反射移除方法，利用人类指导来解决反射移除的固有歧义性。通过整合点击、边界框等多种形式的稀疏人类指导作为高级先验，设计了交互式的反射移除框架，能够根据用户意图生成个性化的去反射结果。
+
 **- Utilizing Multi-Step Loss for Single Image Reflection Removal, (arXiv 2024)**  
 [PDF](https://ieeexplore.ieee.org/document/10912635) | [arXiv](https://arxiv.org/abs/2412.08582) | [GitHub](https://github.com/AbdelrhmanElnenaey/SIRR_MSloss_RefGAN_RDM)
+
+**简介：** 该论文提出了多步损失函数用于单图像反射移除。通过在训练过程中的不同阶段使用不同的损失函数组合，能够更好地指导网络学习从粗糙到精细的反射移除过程，提升了最终的去反射质量。
 
 ## 2023
 **- Single Image Reflection Separation via Component Synergy, (ICCV 2023)**  
