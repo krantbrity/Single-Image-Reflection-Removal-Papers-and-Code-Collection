@@ -222,7 +222,7 @@
 
 ## 2024
 **- A Closer Look at the Reflection Formulation in Single Image Reflection Removal, (IEEE TIP 2024)**  
-[PDF](https://ieeexplore.ieee.org/document/10381629) | [arXiv] | [GitHub]
+[PDF](https://ieeexplore.ieee.org/document/10381629) | [arXiv] | [GitHub] | [中文](https://github.com/krantbrity/Single-Image-Reflection-Removal-Papers-and-Code-Collection/blob/main/Markdown/A%20Closer%20Look%20at%20the%20Reflection%20Formulation%20in%20Single%20Image%20Reflection%20Removal.md)
 
 **简介：** 这篇论文深入分析了单图像反射移除中的反射建模公式，重新审视了传统的线性叠加模型在实际场景中的局限性。作者提出了更精确的反射形成机制，并基于新的理论分析设计了改进的去反射算法，在理论和实践上都有重要贡献。
 
