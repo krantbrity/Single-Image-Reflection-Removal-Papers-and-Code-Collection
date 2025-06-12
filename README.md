@@ -123,20 +123,14 @@
 </details>
 
 ## 2025
-
 **- A Lightweight Deep Exclusion Unfolding Network for Single Image Reflection Removal (PAMI 2025)**  
 [PDF] | [arXiv](https://arxiv.org/abs/2503.01938) | [GitHub](https://github.com/jjhuangcs/DExNet) | [中文](https://github.com/krantbrity/Single-Image-Reflection-Removal-Papers-and-Code-Collection/blob/main/TXT/A%20Lightweight%20Deep%20Exclusion%20Unfolding%20Network%20for%20Single%20Image%20Reflection%20Removal.md)
-
 **简介**: DExNet提出了一个轻量级、可解释且有效的网络架构，通过展开和参数化迭代稀疏和辅助特征更新算法，引入通用排斥先验来识别和惩罚传输层和反射层特征之间的共性。该方法在四个基准数据集上达到了最先进的性能，同时仅使用领先方法约8%的参数量。
-
 ---
-
 **- Reversible Decoupling Network for Single Image Reflection Removal (CVPR 2025)**  
 [PDF] | [arXiv](https://arxiv.org/abs/2410.08063) | [GitHub](https://github.com/lime-j/RDNet) | [中文](https://github.com/krantbrity/Single-Image-Reflection-Removal-Papers-and-Code-Collection/blob/main/Markdown/REVERSIBLE%20DECOUPLING%20NETWORK%20FOR%20SINGLE%20IMAGE%20REFLECTION%20REMOVAL.md)
-
 <details>
 <summary>RTX 4090</summary>
-
 | Dataset | PSNR | SSIM |
 |---------|------|------|
 | Real | 25.7138 | 0.8501 |
@@ -145,49 +139,30 @@
 | Wild | 27.8440 | 0.9173 |
 | Nature | 26.3053 | 0.8463 |
 | **Overall** | **26.7236** | **0.9173** |
-
 </details>
-
 **简介**: RDNet采用可逆编码器来保护有价值的信息，同时在前向传播过程中灵活地解耦传输层和反射层相关特征。该方法还定制了传输率感知的提示生成器来动态校准特征，在五个广泛采用的基准数据集上超越了现有的最先进方法，并在NTIRE 2025野外单图像反射去除挑战赛中获得最佳性能。
-
 ---
-
 **- Rethinking Depth Guided Reflection Removal (TMM 2025)**  
 [PDF](https://ieeexplore.ieee.org/document/10891560) | [arXiv] | [GitHub]
-
 **简介**: 该论文受人类双目视觉系统启发，重新思考深度引导的反射去除方法，提出了一种端到端的学习基础反射去除方法，学习传输深度并设计统一结构以级联方式实现深度引导、跨视图和跨帧特征增强。构建了包含合成和真实双目混合视频数据集用于网络训练和测试。
-
 ---
-
 **- High-resolution image reflection removal by Laplacian-based component-aware transformer (Scientific Reports 2025)**  
 [PDF](https://www.nature.com/articles/s41598-025-94464-6) | [arXiv] | [GitHub]
-
 **简介**: LapCAT提出了一种新颖的基于变换器的高分辨率图像反射去除框架，利用拉普拉斯金字塔网络去除高频反射模式，并在清洁低频背景组件的指导下重建高分辨率背景图像。该方法通过拉普拉斯金字塔分离高分辨率图像为不同尺度的高频信息和低频信息，设计专门的组件感知变换器框架利用自注意力机制建模背景和反射组件之间的差异。
-
 ---
-
 **- Dereflection: Any Image with Diffusion Priors and Diversified Data (arXiv 2025)**  
 [PDF] | [arXiv](https://arxiv.org/abs/2503.17347) | [GitHub](https://github.com/Abuuu122/Dereflection-Any-Image)
-
 **简介**: 该论文提出了"去反射任意图像"的综合解决方案，包含高效的数据准备管道和通用的鲁棒反射去除模型。首先引入了多样化反射去除（DRR）数据集，通过在目标场景中随机旋转反射介质来创建，能够变化反射角度和强度。其次提出了基于扩散的框架，采用一步扩散实现确定性输出和快速推理。
-
 ---
-
 **- Survey on Single-Image Reflection Removal using Deep Learning Techniques (arXiv 2025)**  
 [PDF] | [arXiv](https://arxiv.org/abs/2502.08836) | [GitHub]
-
 **简介**: 这是一篇关于使用深度学习技术进行单图像反射去除的综合综述论文，通过关注ICCV、ECCV、CVPR、NeurIPS等重要会议来回顾当前文献。论文遵循结构化的论文选择过程，批判性地评估了单阶段和两阶段深度学习反射去除方法，提供了最新工作的全面总结，并概述了任务假设、当前深度学习技术、公开可用数据集和相关评估指标。
-
 ---
-
 **- Single Image Reflection Removal via inter-layer Complementarity (arXiv 2025)**  
 [PDF] | [arXiv](https://arxiv.org/abs/2505.12641) | [GitHub]
-
 **简介**: 该论文针对双流架构在物理建模和网络设计中未能充分利用层间互补性的问题，提出了两个针对性改进：首先引入新颖的层间互补性模型，其中从残差层提取的低频组件通过双流架构与传输层交互以增强层间互补性；其次提出了高效的层间互补性注意机制，首先在通道级别交叉重组双流以获得具有层间互补结构的重组流，然后对重组流执行注意力计算以实现更好的层间分离。
-
 <details>
 <summary>RTX 4090</summary>
-
 | Dataset | PSNR | SSIM |
 |---------|------|------|
 | Real | 25.1180 | 0.8276 |
@@ -196,8 +171,19 @@
 | Wild | 27.9621 | 0.9216 |
 | Nature | 27.0336 | 0.8527 |
 | **Overall** | **26.8329** | **0.9219** |
-
 </details>
+---
+**- OpenRR-5k: A Large-Scale Benchmark for Reflection Removal in the Wild (arXiv 2025)**  
+[PDF] | [arXiv](https://arxiv.org/abs/2506.05482) | [GitHub]
+**简介**: 提出了一个新的大规模单图像反射去除基准数据集，包含5,300个高质量、像素对齐的图像对，每对包括反射图像和对应的干净版本。数据集分为两部分：5,000张用于训练，300张用于验证，另外还包含100张没有真值的真实世界测试图像。该数据集涵盖了广泛的真实世界场景，具有各种光照条件、物体类型和反射模式。
+---
+**- OpenRR-1k: A Scalable Dataset for Real-World Reflection Removal (arXiv 2025)**  
+[PDF] | [arXiv](https://arxiv.org/abs/2506.08299) | [GitHub]
+**简介**: 提出了一种从全新视角收集反射数据集的新颖范式，该方法方便、成本效益高且可扩展，同时确保收集的数据对具有高质量、完美对齐，并代表自然和多样化的场景。构建了一个真实世界、多样化、像素对齐的数据集（命名为OpenRR-1k数据集）。
+---
+**- F2T2-HiT: A U-Shaped FFT Transformer and Hierarchical Transformer for Reflection Removal (arXiv 2025)**  
+[PDF] | [arXiv](https://arxiv.org/abs/2506.05489) | [GitHub]
+**简介**: 引入了一种U形快速傅立叶变换变换器和分层变换器（F2T2-HiT）架构，这是一种用于单图像反射去除的创新的基于变换器的设计。该方法独特地将快速傅立叶变换（FFT）变换器块和分层变换器块结合在UNet框架内，以解决真实世界场景中遇到的复杂和多样化反射问题。
 
 ## 2024
 **- A Closer Look at the Reflection Formulation in Single Image Reflection Removal, (IEEE TIP 2024)**  
