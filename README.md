@@ -153,7 +153,7 @@
 ---
 
 **- Rethinking Depth Guided Reflection Removal (TMM 2025)**  
-[PDF](https://ieeexplore.ieee.org/document/10891560) | [arXiv] | [GitHub]
+[PDF](https://ieeexplore.ieee.org/document/10891560) | [arXiv] | [GitHub] [中文](https://github.com/krantbrity/Single-Image-Reflection-Removal-Papers-and-Code-Collection/blob/main/Markdown/Rethinking%20Depth%20Guided%20Reflection%20Removal.md)
 
 **简介**: 该论文受人类双目视觉系统启发，重新思考深度引导的反射去除方法，提出了一种端到端的学习基础反射去除方法，学习传输深度并设计统一结构以级联方式实现深度引导、跨视图和跨帧特征增强。构建了包含合成和真实双目混合视频数据集用于网络训练和测试。
 
