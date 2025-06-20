@@ -135,8 +135,7 @@
 [PDF] | [arXiv](https://arxiv.org/abs/2410.08063) | [GitHub](https://github.com/lime-j/RDNet) | [中文](https://github.com/krantbrity/Single-Image-Reflection-Removal-Papers-and-Code-Collection/blob/main/Markdown/REVERSIBLE%20DECOUPLING%20NETWORK%20FOR%20SINGLE%20IMAGE%20REFLECTION%20REMOVAL.md)
 
 <details>
-<summary>RTX 4090</summary>
-
+<summary>完整RDNet结果</summary>
 | Dataset | PSNR | SSIM |
 |---------|------|------|
 | Real | 25.7138 | 0.8501 |
@@ -145,7 +144,30 @@
 | Wild | 27.8440 | 0.9173 |
 | Nature | 26.3053 | 0.8463 |
 | **Overall** | **26.7236** | **0.9173** |
+</details>
 
+<details>
+<summary>只使用线性矫正器</summary>
+| Dataset | PSNR | SSIM |
+|---------|------|------|
+| Real | 19.2294 | 0.7430 |
+| Postcard | 21.3269 | 0.8767 |
+| Solidobject | 23.8050 | 0.8831 |
+| Wild | 26.1748 | 0.8941 |
+| Nature | 20.6916 | 0.7847 |
+| **Overall** | **22.7592** | **0.8721** |
+</details>
+
+<details>
+<summary>无处理基线结果</summary>
+| Dataset | PSNR | SSIM |
+|---------|------|------|
+| Real | 19.2294 | 0.7430 |
+| Postcard | 21.3269 | 0.8767 |
+| Solidobject | 23.8050 | 0.8831 |
+| Wild | 26.1748 | 0.8941 |
+| Nature | 20.6916 | 0.7847 |
+| **Overall** | **22.7592** | **0.8721** |
 </details>
 
 **简介**: RDNet采用可逆编码器来保护有价值的信息，同时在前向传播过程中灵活地解耦传输层和反射层相关特征。该方法还定制了传输率感知的提示生成器来动态校准特征，在五个广泛采用的基准数据集上超越了现有的最先进方法，并在NTIRE 2025野外单图像反射去除挑战赛中获得最佳性能。
