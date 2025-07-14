@@ -124,6 +124,13 @@
 
 ## 2025
 
+**- DIRS: Single Image Reflection Separation via Deep Feature Interaction (2025)**  
+[PDF] | [arXiv] | [GitHub]([https://github.com/jjhuangcs/DExNet](https://github.com/mingcv/DIRS?tab=readme-ov-file#-dirs-single-image-reflection-separation-via-deep-feature-interaction)) | [中文]
+
+**简介**: DExNet提出了一个轻量级、可解释且有效的网络架构，通过展开和参数化迭代稀疏和辅助特征更新算法，引入通用排斥先验来识别和惩罚传输层和反射层特征之间的共性。该方法在四个基准数据集上达到了最先进的性能，同时仅使用领先方法约8%的参数量。
+
+---
+
 **- A Lightweight Deep Exclusion Unfolding Network for Single Image Reflection Removal (PAMI 2025)**  
 [PDF] | [arXiv](https://arxiv.org/abs/2503.01938) | [GitHub](https://github.com/jjhuangcs/DExNet) | [中文](https://github.com/krantbrity/Single-Image-Reflection-Removal-Papers-and-Code-Collection/blob/main/Markdown/A%20Lightweight%20Deep%20Exclusion%20Unfolding%20Network%20for%20Single%20Image%20Reflection%20Removal.md)
 
