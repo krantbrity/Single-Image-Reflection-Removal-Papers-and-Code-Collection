@@ -125,7 +125,7 @@
 ## 2025
 
 **- DIRS: Single Image Reflection Separation via Deep Feature Interaction (2025)**  
-[PDF] | [arXiv] | [GitHub]([https://github.com/jjhuangcs/DExNet](https://github.com/mingcv/DIRS?tab=readme-ov-file#-dirs-single-image-reflection-separation-via-deep-feature-interaction)) | [中文]
+[PDF] | [arXiv] | [GitHub]([https://github.com/jjhuangcs/DExNet](https://github.com/mingcv/DIRS?tab=readme-ov-file#-dirs-single-image-reflection-separation-via-deep-feature-interaction]) | [中文]
 
 **简介**: 
 
