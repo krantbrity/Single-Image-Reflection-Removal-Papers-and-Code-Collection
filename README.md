@@ -187,6 +187,20 @@
 
 ---
 
+**- NTIRE 2025 Challenge on Single Image Reflection Removal in the Wild: Datasets, Methods and Results (CVPR Workshops 2025)**  
+[PDF] | [arXiv] | [GitHub] | [中文]
+
+**简介**: 这是CVPR 2025 NTIRE workshop的官方挑战赛论文，专门组织了2025年野外单图像反射去除挑战赛，包含数据集、方法和结果的全面总结。该挑战赛吸引了众多参赛队伍，展示了当前反射去除领域的最新进展和技术趋势。
+
+---
+
+**- FIRM: Flexible Interactive Reflection ReMoval (AAAI 2025)**  
+[PDF] | [arXiv](https://arxiv.org/abs/2406.01555) | [GitHub](https://github.com/ShawnChenn/FlexibleReflectionRemoval) | [中文]
+
+**简介**: FIRM提出了一个灵活的交互式反射去除框架，支持多种形式的用户指导（点、框、描边或文本描述），仅需要之前交互方法约10%的指导时间。该方法通过segment-any-reflection模型生成准确的反射掩码，并设计了对比引导交互块来实现精确的图像层分离，在多个数据集上达到了最先进的性能。
+
+---
+
 **- Rethinking Depth Guided Reflection Removal (TMM 2025)**  
 [PDF](https://ieeexplore.ieee.org/document/10891560) | [arXiv] | [GitHub] [中文](https://github.com/krantbrity/Single-Image-Reflection-Removal-Papers-and-Code-Collection/blob/main/Markdown/Rethinking%20Depth%20Guided%20Reflection%20Removal.md)
 
@@ -201,10 +215,31 @@
 
 ---
 
+**- Benchmarking Ultra-High-Definition Image Reflection Removal (arXiv 2025)**  
+[PDF] | [arXiv](https://arxiv.org/abs/2308.00265) | [GitHub](https://github.com/Liar-zzy/Benchmarking-Ultra-High-Definition-Single-Image-Reflection-Removal) | [中文]
+
+**简介**: 该论文针对超高清（UHD）图像反射去除问题，首次构建了两个大规模UHD数据集UHDRR4K和UHDRR8K。UHDRR4K包含2,999个训练四元组和168个测试四元组，UHDRR8K包含1,014个训练四元组和105个测试四元组。同时提出了基于变换器的RRFormer架构，包含预处理嵌入模块、自注意力特征提取模块和多尺度空间特征提取模块，在UHD和非UHD数据集上都达到了最先进的性能。
+
+---
+
+**- PolarFree: Polarization-based Reflection-free Imaging (arXiv 2025)**  
+[PDF] | [arXiv](https://arxiv.org/abs/2503.18055) | [GitHub] | [中文]
+
+**简介**: PolarFree构建了大规模数据集PolaRGB，包含6,500个精确对齐的混合传输图像对，比现有偏振数据集大8倍，是首个同时包含RGB和偏振信息的数据集。该方法引入了利用扩散过程生成无反射线索的技术，充分利用偏振线索进行反射去除，在具有挑战性的反射场景中显著增强图像清晰度。
+
+---
+
 **- Dereflection: Any Image with Diffusion Priors and Diversified Data (arXiv 2025)**  
 [PDF] | [arXiv](https://arxiv.org/abs/2503.17347) | [GitHub](https://github.com/Abuuu122/Dereflection-Any-Image)
 
 **简介**: 该论文提出了"去反射任意图像"的综合解决方案，包含高效的数据准备管道和通用的鲁棒反射去除模型。首先引入了多样化反射去除（DRR）数据集，通过在目标场景中随机旋转反射介质来创建，能够变化反射角度和强度。其次提出了基于扩散的框架，采用一步扩散实现确定性输出和快速推理。
+
+---
+
+**- Reflections Unlock: Geometry-Aware Reflection Disentanglement in 3D Gaussian Splatting for Photorealistic Scenes Rendering (arXiv 2025)**  
+[PDF] | [arXiv](https://arxiv.org/abs/2507.06103) | [GitHub] | [中文]
+
+**简介**: Ref-Unlock提出了基于3D高斯分层的几何感知反射建模框架，明确分离传输和反射组件以更好地捕获复杂反射并增强真实世界场景的几何一致性。该方法采用双分支表示和高阶球面谐波来捕获高频反射细节，并结合反射去除模块、伪深度图和几何感知双边平滑约束来增强3D几何一致性。
 
 ---
 
