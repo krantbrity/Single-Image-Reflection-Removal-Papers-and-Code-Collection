@@ -195,7 +195,7 @@
 ---
 
 **- FIRM: Flexible Interactive Reflection ReMoval (AAAI 2025)**  
-[PDF] | [arXiv](https://arxiv.org/abs/2406.01555) | [GitHub](https://github.com/ShawnChenn/FlexibleReflectionRemoval) | [中文]
+[PDF](https://ojs.aaai.org/index.php/AAAI/article/view/32222) | [arXiv](https://arxiv.org/abs/2406.01555) | [GitHub](https://github.com/ShawnChenn/FlexibleReflectionRemoval) | [中文]
 
 **简介**: FIRM提出了一个灵活的交互式反射去除框架，支持多种形式的用户指导（点、框、描边或文本描述），仅需要之前交互方法约10%的指导时间。该方法通过segment-any-reflection模型生成准确的反射掩码，并设计了对比引导交互块来实现精确的图像层分离，在多个数据集上达到了最先进的性能。
 
@@ -289,6 +289,27 @@
 [PDF] | [arXiv](https://arxiv.org/abs/2506.05489) | [GitHub]
 
 **简介**: 引入了一种U形快速傅立叶变换变换器和分层变换器（F2T2-HiT）架构，这是一种用于单图像反射去除的创新的基于变换器的设计。该方法独特地将快速傅立叶变换（FFT）变换器块和分层变换器块结合在UNet框架内，以解决真实世界场景中遇到的复杂和多样化反射问题。
+
+---
+
+**- A Wavelet-Guided Deep Unfolding Network for Single Image Reflection Removal (IEEE 2025)**  
+[PDF](https://ieeexplore.ieee.org/document/11051128/) | [arXiv] | [GitHub]
+
+**简介**: 该论文提出了一种频率感知的单图像反射去除方法，利用离散小波变换（DWT）来区分和隔离频域中的反射伪影，同时保留传输信息。研究发现反射主要存在于图像的高频分量中，这些反射倾向于扭曲高频范围内的精细细节，而低频信息受影响相对较小。基于这一观察，该方法通过小波分解在频域中有效地分离反射和传输内容。
+
+---
+
+**- Several Points Are All It Takes: Saluting User-Assisted Single Image Reflection Removal (IEEE Signal Processing Letters 2025)**  
+[PDF] | [arXiv] | [GitHub]
+
+**简介**: 该论文提出了一种基于稀疏用户辅助的单图像反射去除方法。通过利用少量用户提供的点标注作为高层先验，该方法能够实现鲁棒的反射去除。与现有需要大量密集用户交互的方法相比，该方法显著降低了用户标注负担，同时保持了高质量的反射去除效果。方法通过将用户提供的稀疏指导转换为统一的对比掩码，为识别混合图像中的反射层和传输层提供明确的线索。
+
+---
+
+**- Real-World Image Reflection Removal: An Ultra-High-Definition Dataset and an Efficient Baseline (IEEE 2025)**  
+[PDF](https://ieeexplore.ieee.org/document/10804834) | [arXiv] | [GitHub]
+
+**简介**: 该论文针对高清图像反射去除这一关键问题，引入了新的数据集Real-world Reflection Removal in 4K (RR4K)。该数据集具有大容量和6000×4000像素的高分辨率，代表了该领域的重大进步，确保了现实且高质量的基准。RR4K数据集的训练数据不再严重依赖合成数据，而是包含更多真实世界场景。基于该数据集，论文提出了一种针对高清处理优化的高效单图像反射去除方法，可以显著提升医学成像、自动驾驶和安全监控等各种视觉系统的性能。
 
 ## 2024
 **- A Closer Look at the Reflection Formulation in Single Image Reflection Removal, (IEEE TIP 2024)**  
