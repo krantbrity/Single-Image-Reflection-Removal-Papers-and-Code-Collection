@@ -122,6 +122,50 @@
 
 </details>
 
+## 2026
+
+**- GenSIRR: Rectifying Latent Space for Generative Single-Image Reflection Removal (CVPR 2026)**  
+[PDF] | [arXiv](https://arxiv.org/abs/2512.06358) | [GitHub](https://gensirr.research.mingjia.li/)
+
+**简介**: GenSIRR重新构建了潜在扩散模型以正确感知和处理复合输入。该方法引入了反射等变VAE（re-VAE）将潜空间与反射层叠形成的线性物理对齐，设计了可学习的任务特定文本嵌入绕过模糊的语言引导，并提出了深度引导的早期分支采样策略利用结构线索选择最忠实的生成路径。这些组件共同实现了准确、高质量的反射去除，在多个基准和真实世界照片上达到了新的最先进性能。
+
+---
+
+**- NTIRE 2026 Challenge on Single Image Reflection Removal in the Wild: Datasets, Results, and Methods (CVPR Workshops 2026)**  
+[PDF] | [arXiv](https://arxiv.org/abs/2604.10321) | [GitHub](https://github.com/caijie0620/OpenRR-5k)
+
+**简介**: 这是CVPR 2026 NTIRE workshop的官方挑战赛论文，使用OpenRR-5k数据集组织了2026年野外单图像反射去除挑战赛。挑战赛吸引了超过100个注册团队，其中11支队伍参与了最终测试阶段。排名最高的方法推进了反射去除的最先进性能，并获得了该领域五位专家的一致认可。
+
+---
+
+**- SIRR-LMM: Single-image Reflection Removal via Large Multimodal Model (arXiv 2026)**  
+[PDF] | [arXiv](https://arxiv.org/abs/2601.07209) | [GitHub]
+
+**简介**: SIRR-LMM引入了一种通过路径追踪3D玻璃模型在真实背景图像上生成物理精确反射场景的合成数据集生成框架，支持多种玻璃属性、相机设置和后处理效果。为利用大型多模态模型（LMM）的能力，将图像层拼接为单一复合输入，应用联合字幕描述，并使用任务特定的LoRA而非全参数训练进行微调。该方法在反射去除和分离性能上优于现有最先进方法。
+
+---
+
+**- GFRRN: Explore the Gaps in Single Image Reflection Removal (arXiv 2026)**  
+[PDF] | [arXiv](https://arxiv.org/abs/2602.22695) | [GitHub]
+
+**简介**: GFRRN针对现有双流方法的两个关键问题：（1）预训练模型特征与反射去除模型特征之间的语义理解鸿沟；（2）合成与真实世界训练数据之间的反射标签不一致性。该方法首先采用参数高效微调（PEFT）策略，将可学习的Mona层集成到预训练模型中以对齐训练方向；然后设计标签生成器统一合成和真实数据的反射标签。此外提出了高斯自适应频率学习块（G-AFLB）自适应学习和融合频率先验，以及动态Agent注意力（DAA）作为窗口注意力的替代方案。
+
+---
+
+**- ALANet: Adaptive Language-Aware Image Reflection Removal Network (arXiv 2026)**  
+[PDF] | [arXiv](https://arxiv.org/abs/2603.06200) | [GitHub]
+
+**简介**: ALANet提出了自适应语言感知网络来解决现有语言引导反射去除方法面临的机器生成语言描述不准确的问题。该方法整合了过滤和优化两种策略：过滤策略通过语言感知竞争注意力模块（LCAM）减少不准确语言的负面影响同时保留其积极效果；优化策略通过自适应语言校准模块（ALCM）利用视觉特征微调语言特征使其与对应层内容对齐。此外设计了语言引导空间-通道交叉注意力（LSCA）有效利用语言特征分离图像中的特定信息。
+
+---
+
+**- FUMO: Prior-Modulated Diffusion for Single Image Reflection Removal (arXiv 2026)**  
+[PDF] | [arXiv](https://arxiv.org/abs/2603.19036) | [GitHub]
+
+**简介**: FUMO提出了带有先验调制的扩散模型框架，引入显式引导信号来改善空间可控性和结构保真性。从混合图像中直接提取两种先验：估计空间反射严重程度的强度先验，以及通过多尺度残差聚合捕获细节敏感响应的高频先验。采用由粗到精的训练范式：第一阶段将这些线索组合用于门控条件残差注入，聚焦于反射主导且结构敏感的区域；第二阶段通过精细化网络在图像空间中校正局部不对齐并锐化精细细节。
+
+---
+
 ## 2025
 
 **- DIRS: Single Image Reflection Separation via Deep Feature Interaction (2025)**  
@@ -187,6 +231,27 @@
 
 ---
 
+**- Removing Reflections from RAW Photos (CVPR 2025 Oral)**  
+[PDF](https://openaccess.thecvf.com/content/CVPR2025/papers/Kee_Removing_Reflections_from_RAW_Photos_CVPR_2025_paper.pdf) | [arXiv](https://arxiv.org/abs/2404.14414) | [GitHub](https://erickee.com/reflections/cvpr2025.html)
+
+**简介**: 该论文将反射去除重新构建在线性（RAW）图像上进行端到端处理，并接受一张可选的反向拍摄上下文照片来消除反射歧义。系统仅使用合成RAW图像混合进行训练，结合光度和几何精确的反射模拟，包含一个在256p运行的基础模型和一个将结果提升到全分辨率的上采样模型，在MacBook或iPhone 14 Pro上4.5-6.5秒内生成1K预览图。在野外拍摄的RAW照片上达到了最先进性能，且RAW模拟数据的训练效果优于现有方法的架构变化。
+
+---
+
+**- Flash-Split: 2D Reflection Removal with Flash Cues and Latent Diffusion Separation (CVPR 2025)**  
+[PDF](https://openaccess.thecvf.com/content/CVPR2025/papers/Wang_Flash-Split_2D_Reflection_Removal_with_Flash_Cues_and_Latent_Diffusion_CVPR_2025_paper.pdf) | [arXiv](https://arxiv.org/abs/2501.00637) | [GitHub]
+
+**简介**: Flash-Split提出了一个鲁棒的两阶段闪光灯反射分离框架，使用单对可能未对齐的闪光/无闪光图像。核心思想是在低维潜空间中利用闪光线索进行反射分离。第一阶段通过双分支扩散模型在编码的闪光/无闪光潜空间对上进行条件化，有效缓解闪光/无闪光未对齐问题；第二阶段通过以原始图像为条件的跨潜空间解码过程恢复高分辨率的精细细节。在具有挑战性的真实场景上显著超越了现有基准方法。
+
+---
+
+**- PolarFree: Polarization-based Reflection-Free Imaging (CVPR 2025)**  
+[PDF] | [arXiv](https://arxiv.org/abs/2503.18055) | [GitHub] | [中文]
+
+**简介**: PolarFree构建了大规模数据集PolaRGB，包含6,500个精确对齐的混合传输图像对，比现有偏振数据集大8倍，是首个同时包含RGB和偏振信息的数据集。该方法引入了利用扩散过程生成无反射线索的技术，充分利用偏振线索进行反射去除，在具有挑战性的反射场景中显著增强图像清晰度。
+
+---
+
 **- NTIRE 2025 Challenge on Single Image Reflection Removal in the Wild: Datasets, Methods and Results (CVPR Workshops 2025)**  
 [PDF] | [arXiv] | [GitHub] | [中文]
 
@@ -222,10 +287,10 @@
 
 ---
 
-**- PolarFree: Polarization-based Reflection-free Imaging (arXiv 2025)**  
-[PDF] | [arXiv](https://arxiv.org/abs/2503.18055) | [GitHub] | [中文]
+**- WindowSeat: Reflection Removal through Efficient Adaptation of Diffusion Transformers (arXiv 2025)**  
+[PDF] | [arXiv](https://arxiv.org/abs/2512.05000) | [GitHub](https://github.com/huawei-bayerlab/windowseat-reflection-removal)
 
-**简介**: PolarFree构建了大规模数据集PolaRGB，包含6,500个精确对齐的混合传输图像对，比现有偏振数据集大8倍，是首个同时包含RGB和偏振信息的数据集。该方法引入了利用扩散过程生成无反射线索的技术，充分利用偏振线索进行反射去除，在具有挑战性的反射场景中显著增强图像清晰度。
+**简介**: WindowSeat提出了一个扩散变换器（DiT）框架用于单图像反射去除，利用基础扩散模型的泛化优势而非依赖任务特定架构。该方法系统分析了现有反射去除数据源的多样性、可扩展性和光真实性，并在Blender中构建了基于物理的渲染（PBR）管线，使用Principled BSDF合成逼真的玻璃材料和反射效果。通过高效的LoRA适配预训练基础模型，结合所提出的合成数据，在域内和零样本基准上达到了最先进性能。
 
 ---
 
@@ -289,6 +354,34 @@
 [PDF] | [arXiv](https://arxiv.org/abs/2506.05489) | [GitHub]
 
 **简介**: 引入了一种U形快速傅立叶变换变换器和分层变换器（F2T2-HiT）架构，这是一种用于单图像反射去除的创新的基于变换器的设计。该方法独特地将快速傅立叶变换（FFT）变换器块和分层变换器块结合在UNet框架内，以解决真实世界场景中遇到的复杂和多样化反射问题。
+
+---
+
+**- PromptRR: Diffusion Models as Prompt Generators for Single Image Reflection Removal (arXiv 2025)**  
+[PDF] | [arXiv](https://arxiv.org/abs/2402.02374) | [GitHub](https://github.com/TaoWangzj/PromptRR)
+
+**简介**: PromptRR提出了一种新颖的提示引导反射去除框架，利用频率信息作为新的视觉提示来增强反射去除性能。该框架将反射去除过程解耦为提示生成和提示引导恢复两个阶段。在提示生成阶段，首先通过提示预训练策略训练频率提示编码器，然后采用扩散模型作为提示生成器产生高质量的低频和高频提示。在提示引导恢复阶段，将生成的频率提示集成到PromptFormer网络中，通过设计的基于Transformer的提示块有效引导模型实现更好的反射去除。
+
+---
+
+**- Single-image Reflection Removal via Self-supervised Diffusion Models (J Supercomputing 2025)**  
+[PDF](https://link.springer.com/article/10.1007/s11227-024-06837-9) | [arXiv](https://arxiv.org/abs/2412.20466) | [GitHub]
+
+**简介**: 该论文提出了一种结合cycle consistency和去噪扩散概率模型（DDPM）的混合方法，无需配对训练数据即可从单张图像中去除反射。方法引入了反射去除网络（RRN）利用DDPM建模分解过程恢复传输图像，以及反射合成网络（RSN）通过非线性注意力机制使用分离组件重新合成输入图像。同时引入了新的博物馆反射去除（MRR）数据集。在SIR²、FRR和MRR数据集上展示了优于最先进方法的性能。
+
+---
+
+**- Single Image-Based Reflection Removal via Dual-Stream Multi-Column Reversible Encoding (Applied Sciences 2025)**  
+[PDF](https://www.mdpi.com/2076-3417/15/20/11229) | [arXiv] | [GitHub]
+
+**简介**: 该论文引入可逆特征编码策略结合简化的双流解码结构来解决单图像反射去除问题。可逆NAFNet编码器能够在编码过程中保留所有特征信息同时避免内存开销。双流解码器利用共享编码器特征和跳跃连接实现传输和反射流之间的隐式双向信息流。尽管模型采用轻量级结构且省略了注意力模块，但在标准反射去除基准上取得了有竞争力的结果。
+
+---
+
+**- A Review on Learning Based Image Reflection Removal Algorithms (Intelligent Data Analysis 2025)**  
+[PDF](https://journals.sagepub.com/doi/10.3233/IDA-230904) | [arXiv] | [GitHub]
+
+**简介**: 这是一篇关于基于学习的图像反射去除算法的综合综述论文，系统回顾了从传统方法到深度学习方法的发展历程，涵盖了CNN、GAN、RNN和Transformer等不同架构的反射去除方法，并对公开数据集和评估指标进行了全面总结。
 
 ---
 
