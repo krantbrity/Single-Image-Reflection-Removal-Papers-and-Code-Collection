@@ -138,10 +138,31 @@
 
 ---
 
-**- SIRR-LMM: Single-image Reflection Removal via Large Multimodal Model (arXiv 2026)**  
-[PDF] | [arXiv](https://arxiv.org/abs/2601.07209) | [GitHub]
+**- ReLo-IRR: Reflection-Guided LoRA Framework for Image Reflection Removal (ICASSP 2026)**  
+[ICASSP](https://www.cmsworkshops.com/ICASSP2026/view_paper.php?PaperNum=8093&bare=1) | [Accepted List](https://cmsworkshops.com/ICASSP2026/papers/accepted_papers.php)
+
+**简介**: ReLo-IRR将LoRA引入图像反射去除任务，强调以反射引导的方式对预训练模型进行高效适配。该工作与“微调骨干网络、将任务知识注入表征”的思路高度相关，可作为参数高效微调方法在反射去除领域的代表性补充。
+
+---
+
+**- ReflexSplit: Single Image Reflection Separation via Layer Fusion-Separation (CVPR 2026)**  
+[Project](https://wuw2135.github.io/ReflexSplit-ProjectPage/) | [arXiv](https://arxiv.org/abs/2601.17468) | [GitHub](https://github.com/wuw2135/ReflexSplit)
+
+**简介**: ReflexSplit面向单图像反射分离任务，指出现有方法在深层解码阶段容易出现传输层与反射层混淆。该方法提出跨尺度门控融合、层融合-分离模块和课程式训练策略，在融合共享结构信息的同时强化层特异性解耦。它对分析“解码阶段如何读取与分离骨干特征”具有较强参考价值。
+
+---
+
+**- SIRR-LMM: Single-image Reflection Removal via Large Multimodal Model (WACV Workshops 2026)**  
+[CVF](https://openaccess.thecvf.com/content/WACV2026W/GAIP/html/Guo_SIRR-LMM_Single-image_reflection_removal_via_Large_Multimodal_Model_WACVW_2026_paper.html) | [PDF](https://openaccess.thecvf.com/content/WACV2026W/GAIP/papers/Guo_SIRR-LMM_Single-image_reflection_removal_via_Large_Multimodal_Model_WACVW_2026_paper.pdf) | [arXiv](https://arxiv.org/abs/2601.07209)
 
 **简介**: SIRR-LMM引入了一种通过路径追踪3D玻璃模型在真实背景图像上生成物理精确反射场景的合成数据集生成框架，支持多种玻璃属性、相机设置和后处理效果。为利用大型多模态模型（LMM）的能力，将图像层拼接为单一复合输入，应用联合字幕描述，并使用任务特定的LoRA而非全参数训练进行微调。该方法在反射去除和分离性能上优于现有最先进方法。
+
+---
+
+**- Dereflection: Any Image with Diffusion Priors and Diversified Data (AAAI 2026)**  
+[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/42489) | [PDF](https://ojs.aaai.org/index.php/AAAI/article/download/42489/46450) | [arXiv](https://arxiv.org/abs/2503.17347) | [GitHub](https://github.com/Abuuu122/Dereflection-Any-Image)
+
+**简介**: Dereflection Any Image提出面向任意图像的通用反射去除方案，包含多样化数据构建流程与基于扩散先验的鲁棒恢复模型。该方法通过随机旋转反射介质构建DRR数据集，以覆盖不同反射角度和强度，并利用一步扩散与条件控制提高真实场景下的泛化能力和推理效率。
 
 ---
 
@@ -152,17 +173,45 @@
 
 ---
 
-**- ALANet: Adaptive Language-Aware Image Reflection Removal Network (arXiv 2026)**  
-[PDF] | [arXiv](https://arxiv.org/abs/2603.06200) | [GitHub]
-
-**简介**: ALANet提出了自适应语言感知网络来解决现有语言引导反射去除方法面临的机器生成语言描述不准确的问题。该方法整合了过滤和优化两种策略：过滤策略通过语言感知竞争注意力模块（LCAM）减少不准确语言的负面影响同时保留其积极效果；优化策略通过自适应语言校准模块（ALCM）利用视觉特征微调语言特征使其与对应层内容对齐。此外设计了语言引导空间-通道交叉注意力（LSCA）有效利用语言特征分离图像中的特定信息。
-
----
-
 **- FUMO: Prior-Modulated Diffusion for Single Image Reflection Removal (arXiv 2026)**  
 [PDF] | [arXiv](https://arxiv.org/abs/2603.19036) | [GitHub]
 
 **简介**: FUMO提出了带有先验调制的扩散模型框架，引入显式引导信号来改善空间可控性和结构保真性。从混合图像中直接提取两种先验：估计空间反射严重程度的强度先验，以及通过多尺度残差聚合捕获细节敏感响应的高频先验。采用由粗到精的训练范式：第一阶段将这些线索组合用于门控条件残差注入，聚焦于反射主导且结构敏感的区域；第二阶段通过精细化网络在图像空间中校正局部不对齐并锐化精细细节。
+
+---
+
+**- Complementary Mixture-of-Experts and Complementary Cross-Attention for Single Image Reflection Separation in the Wild (TIP 2026)**  
+[DOI](https://doi.org/10.1109/TIP.2026.3659334)
+
+**简介**: 该方法提出互补混合专家（CoME）和互补交叉注意力（CoCA）机制，用于增强野外反射分离中的层间互补建模能力。它延续了双流/层间交互类方法的发展方向，可作为复杂解码与跨层交互结构的最新代表之一。
+
+---
+
+**- PA-NAFNet: An Improved Nonlinear Activation Free Network with Pyramid Attention for Single Image Reflection Removal (Digital Signal Processing 2026)**  
+[ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1051200425004968) | [DOI](https://doi.org/10.1016/j.dsp.2025.105474)
+
+**简介**: PA-NAFNet在NAFNet基础上引入金字塔注意力机制，面向单图像反射去除进行轻量化改进。该工作属于非扩散、非大模型的高效恢复网络路线，可用于补充传统CNN/NAFNet式恢复架构在近年反射去除中的发展。
+
+---
+
+**- Explicit Semantic Guidance for Single Image Reflection Removal via Perceptual Influence Modeling (Pattern Recognition 2026)**  
+[ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0031320325015444) | [DOI](https://doi.org/10.1016/j.patcog.2025.112881)
+
+**简介**: 该方法从显式语义引导角度出发，通过感知影响建模利用语义信息辅助反射区域理解和传输层恢复。它可作为语义先验方向的代表性补充，与语言引导、提示引导和多模态先验类方法形成呼应。
+
+---
+
+**- Depth-Synergized Mamba Meets Memory Experts for All-Day Image Reflection Separation (AAAI 2026)**  
+[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/37386) | [arXiv](https://arxiv.org/abs/2601.00322) | [GitHub](https://github.com/fashyon/DMDNet)
+
+**简介**: DMDNet面向全天候图像反射分离，结合深度协同的Mamba建模与记忆专家机制，以缓解日间和夜间场景中传输层与反射层对比度相近导致的混淆问题。该工作还构建NightIRS夜间反射分离数据集，可作为夜间/复杂真实场景反射分离方向的补充。
+
+---
+
+**- Unified Removal of Raindrops and Reflections: A New Benchmark and A Novel Pipeline (arXiv 2026)**  
+[arXiv](https://arxiv.org/abs/2603.16446)
+
+**简介**: 该工作提出统一去除雨滴与反射的UR³任务和相应数据集，强调真实玻璃场景中的退化往往具有复合性。虽然它不是纯单图像反射去除设定，但可以作为真实场景复杂退化趋势的补充参考。
 
 ---
 
@@ -171,7 +220,7 @@
 **- DIRS: Single Image Reflection Separation via Deep Feature Interaction (2025)**  
 [PDF] | [arXiv] | [GitHub](https://github.com/mingcv/DIRS?tab=readme-ov-file#-dirs-single-image-reflection-separation-via-deep-feature-interaction) | [中文]
 
-**简介**: 
+**简介**: （待补充）
 
 ---
 
@@ -252,6 +301,13 @@
 
 ---
 
+**- ALANet: Adaptive Language-Aware Image Reflection Removal Network (IJCAI 2025)**  
+[IJCAI](https://www.ijcai.org/proceedings/2025/109) | [PDF](https://www.ijcai.org/proceedings/2025/0109.pdf) | [arXiv](https://arxiv.org/abs/2603.06200) | [GitHub](https://github.com/fashyon/ALANet)
+
+**简介**: ALANet提出自适应语言感知网络，针对语言引导反射去除中机器生成描述不准确的问题，将过滤与优化两种策略结合：通过语言感知竞争注意力模块降低错误语言输入的负面影响，并利用自适应语言校准模块根据视觉特征校准语言特征。此外，方法设计语言引导的空间-通道交叉注意力以增强复杂反射场景下的层内容解耦能力。
+
+---
+
 **- NTIRE 2025 Challenge on Single Image Reflection Removal in the Wild: Datasets, Methods and Results (CVPR Workshops 2025)**  
 [PDF] | [arXiv] | [GitHub] | [中文]
 
@@ -294,13 +350,6 @@
 
 ---
 
-**- Dereflection: Any Image with Diffusion Priors and Diversified Data (arXiv 2025)**  
-[PDF] | [arXiv](https://arxiv.org/abs/2503.17347) | [GitHub](https://github.com/Abuuu122/Dereflection-Any-Image)
-
-**简介**: 该论文提出了"去反射任意图像"的综合解决方案，包含高效的数据准备管道和通用的鲁棒反射去除模型。首先引入了多样化反射去除（DRR）数据集，通过在目标场景中随机旋转反射介质来创建，能够变化反射角度和强度。其次提出了基于扩散的框架，采用一步扩散实现确定性输出和快速推理。
-
----
-
 **- Reflections Unlock: Geometry-Aware Reflection Disentanglement in 3D Gaussian Splatting for Photorealistic Scenes Rendering (arXiv 2025)**  
 [PDF] | [arXiv](https://arxiv.org/abs/2507.06103) | [GitHub] | [中文]
 
@@ -308,8 +357,8 @@
 
 ---
 
-**- Survey on Single-Image Reflection Removal using Deep Learning Techniques (arXiv 2025)**  
-[PDF] | [arXiv](https://arxiv.org/abs/2502.08836) | [GitHub]
+**- Survey on Single-Image Reflection Removal using Deep Learning Techniques (MIPR 2025)**  
+[PDF] | [arXiv](https://arxiv.org/abs/2502.08836) | [DOI](https://doi.org/10.1109/MIPR67560.2025.00011)
 
 **简介**: 这是一篇关于使用深度学习技术进行单图像反射去除的综合综述论文，通过关注ICCV、ECCV、CVPR、NeurIPS等重要会议来回顾当前文献。论文遵循结构化的论文选择过程，批判性地评估了单阶段和两阶段深度学习反射去除方法，提供了最新工作的全面总结，并概述了任务假设、当前深度学习技术、公开可用数据集和相关评估指标。
 
@@ -336,22 +385,22 @@
 
 ---
 
-**- OpenRR-5k: A Large-Scale Benchmark for Reflection Removal in the Wild (arXiv 2025)**  
-[PDF] | [arXiv](https://arxiv.org/abs/2506.05482) | [GitHub]
+**- OpenRR-5k: A Large-Scale Benchmark for Reflection Removal in the Wild (MIPR 2025)**  
+[PDF] | [arXiv](https://arxiv.org/abs/2506.05482) | [GitHub](https://github.com/caijie0620/OpenRR-5k)
 
 **简介**: 提出了一个新的大规模单图像反射去除基准数据集，包含5,300个高质量、像素对齐的图像对，每对包括反射图像和对应的干净版本。数据集分为两部分：5,000张用于训练，300张用于验证，另外还包含100张没有真值的真实世界测试图像。该数据集涵盖了广泛的真实世界场景，具有各种光照条件、物体类型和反射模式。
 
 ---
 
-**- OpenRR-1k: A Scalable Dataset for Real-World Reflection Removal (arXiv 2025)**  
-[PDF] | [arXiv](https://arxiv.org/abs/2506.08299) | [GitHub]
+**- OpenRR-1k: A Scalable Dataset for Real-World Reflection Removal (ICIP 2025)**  
+[PDF] | [arXiv](https://arxiv.org/abs/2506.08299) | [GitHub](https://github.com/caijie0620/Reflection-Removal-in-the-Wild)
 
 **简介**: 提出了一种从全新视角收集反射数据集的新颖范式，该方法方便、成本效益高且可扩展，同时确保收集的数据对具有高质量、完美对齐，并代表自然和多样化的场景。构建了一个真实世界、多样化、像素对齐的数据集（命名为OpenRR-1k数据集）。
 
 ---
 
-**- F2T2-HiT: A U-Shaped FFT Transformer and Hierarchical Transformer for Reflection Removal (arXiv 2025)**  
-[PDF] | [arXiv](https://arxiv.org/abs/2506.05489) | [GitHub]
+**- F2T2-HiT: A U-Shaped FFT Transformer and Hierarchical Transformer for Reflection Removal (ICIP 2025)**  
+[PDF] | [arXiv](https://arxiv.org/abs/2506.05489)
 
 **简介**: 引入了一种U形快速傅立叶变换变换器和分层变换器（F2T2-HiT）架构，这是一种用于单图像反射去除的创新的基于变换器的设计。该方法独特地将快速傅立叶变换（FFT）变换器块和分层变换器块结合在UNet框架内，以解决真实世界场景中遇到的复杂和多样化反射问题。
 
