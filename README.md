@@ -1,5 +1,5 @@
 <details>
-<summary><strong>📅 按年份统计（已收集106篇，已去重；2023—2026年摘要已逐篇校正）</strong></summary>
+<summary><strong>📅 按年份统计（已收集106篇，已去重；2013—2026年摘要已逐篇校正；arXiv条目已复核）</strong></summary>
 
 
 ## 2026年（14篇）
@@ -322,6 +322,25 @@
 
 </details>
 
+<details>
+<summary><strong>🔎 arXiv 条目复核说明（2026-05-20）</strong></summary>
+
+本次只复核正文中会议/期刊字段仍标为 **arXiv** 的条目，摘要翻译原则不变。结论：截至本次核查，未找到可确认的正式期刊/会议录用版本；因此统计表中的 **arXiv = 8** 暂不调整。
+
+| 条目 | 本次处理 | 当前状态 |
+|------|----------|----------|
+| FUMO: Prior-Modulated Diffusion for Single Image Reflection Removal | 保持 arXiv 2026 | 未查到正式会议/期刊录用信息 |
+| Unified Removal of Raindrops and Reflections: A New Benchmark and A Novel Pipeline | 保持 arXiv 2026 | OpenReview 页面显示为 ICLR 2026 withdrawn submission，未按 ICLR 录用统计 |
+| WindowSeat: Reflection Removal through Efficient Adaptation of Diffusion Transformers | 保持 arXiv 2025 | 官方 GitHub 引用格式仍为 arXiv preprint |
+| Reflections Unlock: Geometry-Aware Reflection Disentanglement in 3D Gaussian Splatting for Photorealistic Scenes Rendering | 保持 arXiv 2025 | 未查到正式会议/期刊录用信息 |
+| Single Image Reflection Separation via Dual Prior Interaction Transformer | 已按 arXiv v3 更新题名与摘要；保持 arXiv 2025 | 未查到正式会议/期刊录用信息 |
+| Exploring Spectral Characteristics for Single Image Reflection Removal | 保持 arXiv 2025 | 未查到官方正式录用信息；第三方页面出现 ICCV 2025 提示，但 arXiv/DBLP/ICCV 官方列表未能确认，暂不改会议 |
+| PromptRR: Diffusion Models as Prompt Generators for Single Image Reflection Removal | 保持 arXiv 2024 | 未查到正式会议/期刊录用信息 |
+| Single Image Reflection Removal with Patch Reflectance Prior | 已按 arXiv v2 更新题名；保持 arXiv 2023 | 未查到正式会议/期刊录用信息 |
+
+</details>
+
+
 ## 2026
 
 
@@ -569,10 +588,10 @@
 
 ---
 
-**- Single Image Reflection Removal via inter-layer Complementarity (arXiv 2025)**  
+**- Single Image Reflection Separation via Dual Prior Interaction Transformer (arXiv 2025)**  
 [PDF] | [arXiv](https://arxiv.org/abs/2505.12641) | [GitHub]
 
-**摘要翻译（严格对应公开 Abstract）**：尽管双流架构在单图像反射去除中取得了显著成功，但它们在物理建模和网络设计中未能充分利用层间互补性，从而限制了图像分离质量。为解决这一根本局限，本文提出两项有针对性的改进以增强双流架构。首先，本文引入一种新的层间互补模型，其中从残差层中提取的低频成分通过双流架构与透射层交互，以增强层间互补性。同时，来自残差层的高频成分为两个流提供反向调制，从而提升透射层的细节质量。其次，本文提出一种高效的层间互补注意力机制，它首先在通道层面对双流进行交叉重组，以获得具有层间互补结构的重组流；随后在重组流上执行注意力计算，以实现更好的层间分离；最后恢复原始流结构用于输出。实验结果表明，本文方法在多个公开数据集上达到最先进的分离质量，同时显著降低计算成本和模型复杂度。
+**摘要翻译（严格对应 arXiv v3 Abstract）**：单图像反射分离旨在从混合图像中分离透射层和反射层。现有方法通常将来自预训练模型的通用先验与文本提示、反射检测等任务特定先验相结合。然而，透射先验作为目标透射层最直接的任务特定先验，尚未被有效建模和充分利用，这限制了复杂场景中的性能。为解决这一问题，本文提出一种基于轻量级透射先验生成和有效先验融合的双先验交互框架。首先，本文设计局部线性校正网络（Local Linear Correction Network, LLCN），该网络基于物理约束 T=SI+B 对预训练模型进行微调，其中 S 和 B 分别表示逐像素和逐通道的缩放与偏置变换。LLCN 能够以极少参数高效生成高质量透射先验。其次，本文构建双先验交互 Transformer（Dual-Prior Interaction Transformer, DPIT），采用双流通道重组注意力机制。通过重组来自通用先验和透射先验的特征以进行注意力计算，DPIT 实现了两种先验的深度融合，并充分利用其互补信息。多个基准数据集上的实验结果表明，所提出方法达到最先进性能。
 
 ---
 
@@ -863,7 +882,7 @@
 
 ---
 
-**- Single Image Reflection Removal with Reflection Intensity Prior Knowledge, (arXiv 2023)** *(Preprint)*  
+**- Single Image Reflection Removal with Patch Reflectance Prior, (arXiv 2023)** *(Preprint；arXiv v2 题名更新)*  
 [PDF] | [arXiv](https://arxiv.org/abs/2312.03798) | [GitHub]
 
 **摘要翻译（已找到公开 Abstract，严格对应）**：真实世界图像中的单图像反射去除（Single Image Reflection Removal, SIRR）是一项具有挑战性的任务，因为光在玻璃表面传播和反射过程中会出现多样化的图像退化。许多现有方法依赖特定的先验假设来解决该问题。本文提出一种通用的反射强度先验，用于捕获反射现象的强度，并展示其有效性。为学习反射强度先验，我们引入反射先验提取网络（Reflection Prior Extraction Network, RPEN）。通过将图像划分为区域块，RPEN 学习图像中非均匀分布的反射先验。我们提出基于先验的反射去除网络（Prior-based Reflection Removal Network, PRRN），该网络使用一种简单的 Transformer U-Net 架构，并适配来自 RPEN 的反射先验。在真实世界基准上的实验结果表明，我们的方法在 SIRR 中达到最先进的准确率，验证了该方法的有效性。
