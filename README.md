@@ -322,32 +322,13 @@
 
 </details>
 
-<details>
-<summary><strong>🔎 arXiv 条目复核说明（2026-05-20）</strong></summary>
-
-本次只复核正文中会议/期刊字段仍标为 **arXiv** 的条目，摘要翻译原则不变。结论：截至本次核查，未找到可确认的正式期刊/会议录用版本；因此统计表中的 **arXiv = 8** 暂不调整。
-
-| 条目 | 本次处理 | 当前状态 |
-|------|----------|----------|
-| FUMO: Prior-Modulated Diffusion for Single Image Reflection Removal | 保持 arXiv 2026 | 未查到正式会议/期刊录用信息 |
-| Unified Removal of Raindrops and Reflections: A New Benchmark and A Novel Pipeline | 保持 arXiv 2026 | OpenReview 页面显示为 ICLR 2026 withdrawn submission，未按 ICLR 录用统计 |
-| WindowSeat: Reflection Removal through Efficient Adaptation of Diffusion Transformers | 保持 arXiv 2025 | 官方 GitHub 引用格式仍为 arXiv preprint |
-| Reflections Unlock: Geometry-Aware Reflection Disentanglement in 3D Gaussian Splatting for Photorealistic Scenes Rendering | 保持 arXiv 2025 | 未查到正式会议/期刊录用信息 |
-| Single Image Reflection Separation via Dual Prior Interaction Transformer | 已按 arXiv v3 更新题名与摘要；保持 arXiv 2025 | 未查到正式会议/期刊录用信息 |
-| Exploring Spectral Characteristics for Single Image Reflection Removal | 保持 arXiv 2025 | 未查到官方正式录用信息；第三方页面出现 ICCV 2025 提示，但 arXiv/DBLP/ICCV 官方列表未能确认，暂不改会议 |
-| PromptRR: Diffusion Models as Prompt Generators for Single Image Reflection Removal | 保持 arXiv 2024 | 未查到正式会议/期刊录用信息 |
-| Single Image Reflection Removal with Patch Reflectance Prior | 已按 arXiv v2 更新题名；保持 arXiv 2023 | 未查到正式会议/期刊录用信息 |
-
-</details>
-
-
 ## 2026
 
 
 **- GenSIRR: Rectifying Latent Space for Generative Single-Image Reflection Removal (CVPR 2026)**  
-[PDF] | [arXiv](https://arxiv.org/abs/2512.06358) | [GitHub](https://gensirr.research.mingjia.li/)
+[文章链接](https://gensirr.research.mingjia.li/) | [arXiv](https://arxiv.org/abs/2512.06358) | [GitHub](https://github.com/lime-j/GenSIRR)
 
-**摘要翻译（严格对应公开 Abstract）**：单图像反射去除（SIRR）是一个高度病态的问题，现有判别式方法难以恢复被反射严重污染的区域，并且常常无法泛化到野外场景。本文提出一种新的框架，通过将预训练扩散 Transformer（DiT）适配为精确的恢复模型，把 SIRR 重新表述为一个引导式生成任务。其关键原则是在结构化潜空间中约束 DiT 的生成灵活性。为此，我们设计了两个核心组件：i）反射等变 VAE，它将反射伪影编码为紧凑的潜在先验；ii）一组可学习提示，它绕过基于文本条件的歧义性，提供直接的、任务特定的引导。这些设计将通用图像编辑 DiT 转换为一种精确且稳健的反射去除工具，能够以高保真度和精细细节重建透射层。大量实验表明，我们的模型在标准基准上达到新的最先进性能，并且尤为重要的是，能够强泛化到具有挑战性的真实世界图像。代码将公开发布。
+**摘要翻译（严格对应 arXiv 当前 Abstract）**：单图像反射去除是一个高度病态的问题，现有方法难以推理受损区域的组成关系，这导致它们在野外场景中的恢复与泛化表现不佳。本文将一种面向图像编辑的潜在扩散模型重新构建，使其能够有效感知并处理高度模糊的层叠图像输入，从而生成高质量结果。我们认为，这种转换的挑战源于一个关键但被忽视的问题，即语义编码器的潜空间缺乏将复合图像解释为其组成层线性叠加的内在结构。我们的方法由三个相互协同的组件构成，包括：一种反射等变 VAE，用于使潜空间与反射形成的线性物理规律对齐；一种可学习的任务特定文本嵌入，用于提供精确引导并绕开模糊语言；以及一种深度引导的早期分支采样策略，用于利用生成过程中的随机性来获得更有潜力的结果。大量实验表明，我们的模型在多个基准上取得了新的最先进性能，并且能够很好地泛化到具有挑战性的真实世界案例。
 
 ---
 
