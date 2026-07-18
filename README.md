@@ -1,4 +1,3 @@
-<img width="1280" height="820" alt="image" src="https://github.com/user-attachments/assets/28aa3cbd-058c-4bdf-8faa-831109500f74" /><details>
 <summary><strong>📅 按年份统计（已收集106篇，已去重；2013—2026年摘要已逐篇校正；arXiv条目已复核）</strong></summary>
 
 
