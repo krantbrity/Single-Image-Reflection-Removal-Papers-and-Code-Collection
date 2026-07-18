@@ -1,359 +1,81 @@
-<summary><strong>📅 按年份统计（已收集106篇，已去重；2013—2026年摘要已逐篇校正；arXiv条目已复核）</strong></summary>
+# Single Image Reflection Removal / Separation Papers and Code Collection
 
-
-## 2026年（14篇）
-
-| 期刊/会议 | 论文数量 |
-
-|----------|---------|
-
-| CVPR | 3 |
-
-| CVPR Workshops | 1 |
-
-| WACV Workshops | 1 |
-
-| AAAI | 2 |
-
-| ICASSP | 1 |
-
-| IEEE TIP | 1 |
-
-| Digital Signal Processing | 1 |
-
-| Information Fusion | 1 |
-
-| Pattern Recognition | 1 |
-
-| arXiv | 2 |
-
-
-
-## 2025年（26篇）
-
-| 期刊/会议 | 论文数量 |
-
-|----------|---------|
-
-| CVPR | 4 |
-
-| CVPR Workshops | 1 |
-
-| AAAI | 1 |
-
-| IJCAI | 1 |
-
-| ICIP | 2 |
-
-| MIPR | 2 |
-
-| ICME | 1 |
-
-| IEEE PAMI | 1 |
-
-| IEEE TIP | 1 |
-
-| IEEE TMM | 1 |
-
-| IEEE TCSVT | 1 |
-
-| IEEE SPL | 1 |
-
-| Applied Sciences | 1 |
-
-| Intelligent Data Analysis | 1 |
-
-| J Supercomputing | 1 |
-
-| Scientific Reports | 1 |
-
-| arXiv | 4 |
-
-| 未明确/待确认 | 1 |
-
-
-
-## 2024年（16篇）
-
-| 期刊/会议 | 论文数量 |
-
-|----------|---------|
-
-| CVPR | 2 |
-
-| ECCV | 1 |
-
-| NeurIPS | 1 |
-
-| ACM MM | 1 |
-
-| ICASSP | 1 |
-
-| IEEE TIP | 1 |
-
-| IEEE TMM | 1 |
-
-| IEEE TNNLS | 1 |
-
-| IEEE TETCI | 1 |
-
-| IEEE SPL | 1 |
-
-| IEEE Access | 1 |
-
-| IEEE AICCSA | 1 |
-
-| Pattern Recognition | 1 |
-
-| The Visual Computer | 1 |
-
-| arXiv | 1 |
-
-
-
-## 2023年（9篇）
-
-| 期刊/会议 | 论文数量 |
-
-|----------|---------|
-
-| CVPR | 1 |
-
-| ICCV | 1 |
-
-| ACM MM | 1 |
-
-| IEEE PAMI | 1 |
-
-| IEEE TIP | 1 |
-
-| IEEE TMM | 1 |
-
-| IEEE TCE | 1 |
-
-| Applied Intelligence | 1 |
-
-| arXiv | 1 |
-
-
-
-## 2022年（7篇）
-
-| 期刊/会议 | 论文数量 |
-
-|----------|---------|
-
-| CVPR Workshops | 1 |
-
-| ACM MM | 1 |
-
-| ACM TOMM | 1 |
-
-| ICIP | 1 |
-
-| ICPR | 1 |
-
-| IEEE SPL | 1 |
-
-| IEEE Access | 1 |
-
-
-
-## 2021年（8篇）
-
-| 期刊/会议 | 论文数量 |
-
-|----------|---------|
-
-| CVPR | 3 |
-
-| ICCV | 2 |
-
-| ICCVW | 1 |
-
-| NeurIPS | 1 |
-
-| IEEE TIP | 1 |
-
-
-
-## 2020年（8篇）
-
-| 期刊/会议 | 论文数量 |
-
-|----------|---------|
-
-| CVPR | 4 |
-
-| ECCV | 1 |
-
-| IEEE PAMI | 1 |
-
-| IEEE TMM | 1 |
-
-| IEEE Transactions on Cybernetics | 1 |
-
-
-
-## 2019年（6篇）
-
-| 期刊/会议 | 论文数量 |
-
-|----------|---------|
-
-| CVPR | 4 |
-
-| ICCV | 1 |
-
-| NeurIPS | 1 |
-
-
-
-## 2018年（4篇）
-
-| 期刊/会议 | 论文数量 |
-
-|----------|---------|
-
-| CVPR | 2 |
-
-| ECCV | 2 |
-
-
-
-## 2017年（4篇）
-
-| 期刊/会议 | 论文数量 |
-
-|----------|---------|
-
-| CVPR | 2 |
-
-| ICCV | 2 |
-
-
-
-## 2016年（1篇）
-
-| 期刊/会议 | 论文数量 |
-
-|----------|---------|
-
-| ICIP | 1 |
-
-
-
-## 2015年（1篇）
-
-| 期刊/会议 | 论文数量 |
-
-|----------|---------|
-
-| CVPR | 1 |
-
-
-
-## 2014年（1篇）
-
-| 期刊/会议 | 论文数量 |
-
-|----------|---------|
-
-| CVPR | 1 |
-
-
-
-## 2013年（1篇）
-
-| 期刊/会议 | 论文数量 |
-
-|----------|---------|
-
-| CVPR | 1 |
-
-
-
-</details>
-
-<details>
-<summary><strong>📊 按期刊会议统计（已收集106篇，已去重）</strong></summary>
-
-| 期刊/会议类别 | 期刊/会议名称 | 论文数量 |
-|--------------|-------------|---------|
-| **顶级CV会议** | CVPR | 28 |
-|  | ICCV | 6 |
-|  | ECCV | 4 |
-| **顶级CV Workshop** | CVPR Workshops | 3 |
-|  | WACV Workshops | 1 |
-|  | ICCVW | 1 |
-| **顶级ML/AI会议** | NeurIPS | 3 |
-|  | AAAI | 3 |
-|  | IJCAI | 1 |
-| **多媒体/信号处理/图像处理会议** | ACM MM | 3 |
-|  | ACM TOMM | 1 |
-|  | ICASSP | 2 |
-|  | ICIP | 4 |
-|  | ICPR | 1 |
-|  | MIPR | 2 |
-|  | ICME | 1 |
-|  | IEEE AICCSA | 1 |
-| **IEEE顶级期刊** | IEEE PAMI | 3 |
-|  | IEEE TIP | 5 |
-| **IEEE其他期刊** | IEEE TMM | 4 |
-|  | IEEE TNNLS | 1 |
-|  | IEEE TETCI | 1 |
-|  | IEEE TCE | 1 |
-|  | IEEE TCSVT | 1 |
-|  | IEEE SPL | 3 |
-|  | IEEE Access | 2 |
-|  | IEEE Transactions on Cybernetics | 1 |
-| **其他期刊** | Pattern Recognition | 2 |
-|  | Information Fusion | 1 |
-|  | Digital Signal Processing | 1 |
-|  | Scientific Reports | 1 |
-|  | J Supercomputing | 1 |
-|  | Applied Sciences | 1 |
-|  | Intelligent Data Analysis | 1 |
-|  | Applied Intelligence | 1 |
-|  | The Visual Computer | 1 |
-| **预印本/待确认** | arXiv | 8 |
-|  | 未明确/待确认 | 1 |
-
-</details>
+> 更新时间：2026-07-18
 
 ## 2026
 
-
 **- GenSIRR: Rectifying Latent Space for Generative Single-Image Reflection Removal (CVPR 2026)**  
-[文章链接](https://gensirr.research.mingjia.li/) | [arXiv](https://arxiv.org/abs/2512.06358) | [GitHub](https://github.com/lime-j/GenSIRR)
+[CVF](https://openaccess.thecvf.com/content/CVPR2026/html/Li_Rectifying_Latent_Space_for_Generative_Single-Image_Reflection_Removal_CVPR_2026_paper.html) | [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Li_Rectifying_Latent_Space_for_Generative_Single-Image_Reflection_Removal_CVPR_2026_paper.pdf) | [Project](https://gensirr.research.mingjia.li/) | [arXiv](https://arxiv.org/abs/2512.06358) | [GitHub](https://github.com/lime-j/GenSIRR)
 
 **摘要翻译（严格对应 arXiv 当前 Abstract）**：单图像反射去除是一个高度病态的问题，现有方法难以推理受损区域的组成关系，这导致它们在野外场景中的恢复与泛化表现不佳。本文将一种面向图像编辑的潜在扩散模型重新构建，使其能够有效感知并处理高度模糊的层叠图像输入，从而生成高质量结果。我们认为，这种转换的挑战源于一个关键但被忽视的问题，即语义编码器的潜空间缺乏将复合图像解释为其组成层线性叠加的内在结构。我们的方法由三个相互协同的组件构成，包括：一种反射等变 VAE，用于使潜空间与反射形成的线性物理规律对齐；一种可学习的任务特定文本嵌入，用于提供精确引导并绕开模糊语言；以及一种深度引导的早期分支采样策略，用于利用生成过程中的随机性来获得更有潜力的结果。大量实验表明，我们的模型在多个基准上取得了新的最先进性能，并且能够很好地泛化到具有挑战性的真实世界案例。
 
 ---
 
-**- NTIRE 2026 Challenge on Single Image Reflection Removal in the Wild: Datasets, Results, and Methods (CVPR Workshops 2026)**  
-[PDF] | [arXiv](https://arxiv.org/abs/2604.10321) | [GitHub](https://github.com/caijie0620/OpenRR-5k)
+**- LightRR: A Lightweight Network for Single Image Reflection Removal (CVPR 2026)**  
+[CVF](https://openaccess.thecvf.com/content/CVPR2026/html/Yin_LightRR_A_Lightweight_Network_for_Single_Image_Reflection_Removal_CVPR_2026_paper.html) | [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Yin_LightRR_A_Lightweight_Network_for_Single_Image_Reflection_Removal_CVPR_2026_paper.pdf) | GitHub：暂未找到官方仓库
 
-**摘要翻译（严格对应公开 Abstract）**：本文回顾 NTIRE 2026 野外单图像反射去除（SIRR）挑战赛。SIRR 是图像复原中的一项基础任务。尽管学术研究已经取得进展，大多数方法仍在合成图像或有限的真实世界图像上进行测试，从而在真实世界应用中形成差距。在本挑战赛中，我们为参赛者提供 OpenRR-5k 数据集，要求他们处理覆盖多种反射场景和反射强度的真实世界图像，目标是生成没有反射的干净图像。该挑战赛吸引了超过 100 个注册队伍，其中 11 支参与最终测试阶段。排名靠前的方法推进了最先进的反射去除性能，并获得了该领域五位专家的一致认可。所提出的 OpenRR-5k 数据集可在 Hugging Face 获取，挑战赛主页位于 GitHub。由于篇幅限制，本文只展示部分内容；完整报告和详细分析见扩展 arXiv 版本。
+**摘要翻译（严格对应 CVF 公开 Abstract）**：单图像反射去除既具有高度病态性，也通常需要较高计算成本。现有基于 CNN 或 Transformer 的方法往往依赖大感受野和繁重计算，限制了其在资源受限设备上的部署。为此，本文提出 LightRR，一种将小波机制与状态空间建模统一起来的轻量级反射去除网络。具体而言，方法设计非对称频率 Mamba 块（AFM），利用离散小波变换将特征分解为低频和高频成分，并通过基于 Mamba 的状态空间动态有针对性地建模不同频率的依赖关系。该设计能够高效捕获长程上下文，同时降低空间分辨率和计算量，并保留关键细节。此外，知识蒸馏增强的编码器使网络在训练阶段继承大型预训练模型的表征能力，从而实现轻量推理。多个真实世界基准上的实验表明，LightRR 在仅使用 RDNet 约 3.01% 参数量和 5.22% FLOPs 的情况下，取得了与最先进方法相当的性能。
 
 ---
 
-**- ReLo-IRR: Reflection-Guided LoRA Framework for Image Reflection Removal (ICASSP 2026)**  
-[ICASSP](https://www.cmsworkshops.com/ICASSP2026/view_paper.php?PaperNum=8093&bare=1) | [Accepted List](https://cmsworkshops.com/ICASSP2026/papers/accepted_papers.php)
+**- Reflection Separation from a Single Image via Joint Latent Diffusion (CVPR 2026)**  
+[CVF](https://openaccess.thecvf.com/content/CVPR2026/html/Huang_Reflection_Separation_from_a_Single_Image_via_Joint_Latent_Diffusion_CVPR_2026_paper.html) | [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Huang_Reflection_Separation_from_a_Single_Image_via_Joint_Latent_Diffusion_CVPR_2026_paper.pdf) | [Project](https://brian90709.github.io/diff-reflection-separation/) | [arXiv](https://arxiv.org/abs/2606.04107) | [GitHub](https://github.com/Brian90709/diff-reflection-separation-code)
 
-**摘要翻译（用户提供英文摘要，未核到公开官方 Abstract）**：单幅图像反射去除（SIRR）旨在从受反射污染的图像中恢复干净的透射层。尽管近年来的方法借助大型扩散模型取得了较好的结果，但它们通常依赖与图像内容无关的适配策略，例如微调或 ControlNet，这类策略会在不同反射强度下施加统一的反射抑制。因此，强反射图像中往往仍会出现反射残留，而弱反射图像则容易发生细节损失。为此，本文提出 ReLo-IRR，一种建立在 Rectified Flow 模型之上的反射引导 LoRA 框架。首先，方法设计轻量级估计器来预测反射强度描述符，为每幅图像提供显式的反射主导程度先验，并实现图像依赖的 LoRA 调制。其次，方法引入时间条件机制，将反射描述符与时间步嵌入融合，使 LoRA 调制能够随着由粗到细的去噪过程一致演化。通过联合建模反射强度和去噪动态，ReLo-IRR 能够在多样化反射条件下实现稳健的反射抑制。大量挑战性基准实验验证了该方法的有效性，表明其具有更优的去反射性能和稳健的泛化能力。
+**摘要翻译（严格对应 CVF 公开 Abstract）**：在眩光或弱反射等极端条件下，单图像反射分离具有很高难度。由于可用信息不足，现有方法往往难以同时恢复透射层和反射层。本文提出一种针对该任务显式微调的扩散模型，利用生成扩散先验实现稳健分离。该方法通过统一扩散模型同时生成透射层和反射层，并引入跨层自注意力机制以改善特征解耦。进一步地，本文提出非联合采样策略，在扩散过程中迭代降低两个图层之间的干扰，并采用带有可学习合成函数的潜变量优化步骤，以改善复杂真实场景中的结果。多个真实世界基准上的大量实验表明，该方法优于现有最先进方法。
 
 ---
 
 **- ReflexSplit: Single Image Reflection Separation via Layer Fusion-Separation (CVPR 2026)**  
-[Project](https://wuw2135.github.io/ReflexSplit-ProjectPage/) | [arXiv](https://arxiv.org/abs/2601.17468) | [GitHub](https://github.com/wuw2135/ReflexSplit)
+[CVF](https://openaccess.thecvf.com/content/CVPR2026/html/Lee_ReflexSplit_Single_Image_Reflection_Separation_via_Layer_Fusion-Separation_CVPR_2026_paper.html) | [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Lee_ReflexSplit_Single_Image_Reflection_Separation_via_Layer_Fusion-Separation_CVPR_2026_paper.pdf) | [Project](https://wuw2135.github.io/ReflexSplit-ProjectPage/) | [arXiv](https://arxiv.org/abs/2601.17468) | [GitHub](https://github.com/wuw2135/ReflexSplit)
 
 **摘要翻译（严格对应公开 Abstract）**：单图像反射分离（SIRS）将混合图像解耦为透射层和反射层。现有方法在非线性混合下存在透射—反射混淆问题，尤其是在深层解码器层中，这是由隐式融合机制和不足的多尺度协调造成的。我们提出 ReflexSplit，这是一个具有三项关键创新的双流框架。（1）跨尺度门控融合（CrGF）在层级深度之间自适应聚合语义先验、纹理细节和解码器上下文，从而稳定梯度流并保持特征一致性。（2）层融合—分离块（LFSB）在用于共享结构提取的融合和用于层特定解耦的差异分离之间交替进行。受 Differential Transformer 启发，我们通过跨流相减将注意力抵消扩展到双流分离。（3）课程训练通过依赖深度的初始化和按轮次预热，逐步增强差异分离。合成和真实世界基准上的大量实验表明，该方法取得了最先进性能，并具有更优的感知质量和稳健泛化能力。代码可在 GitHub 获取。
 
 ---
 
+**- GFRRN: Explore the Gaps in Single Image Reflection Removal (CVPR 2026)**  
+[CVF](https://openaccess.thecvf.com/content/CVPR2026/html/Chen_GFRRN_Explore_the_Gaps_in_Single_Image_Reflection_Removal_CVPR_2026_paper.html) | [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Chen_GFRRN_Explore_the_Gaps_in_Single_Image_Reflection_Removal_CVPR_2026_paper.pdf) | [arXiv](https://arxiv.org/abs/2602.22695) | GitHub：暂未找到官方仓库
+
+**摘要翻译（严格对应公开 Abstract）**：具有特征交互机制的先前双流方法已经在单图像反射去除（SIRR）中取得了显著性能。然而，它们往往仍面临两个困难：（1）预训练模型特征与反射去除模型特征之间的语义理解差距；（2）合成训练数据与真实世界训练数据之间的反射标签不一致。本文首先采用参数高效微调（PEFT）策略，将若干可学习的 Mona 层集成到预训练模型中，以对齐训练方向。随后，我们设计标签生成器，以统一合成数据和真实世界数据的反射标签。此外，我们提出基于高斯的自适应频率学习块（G-AFLB），以自适应学习并融合频率先验；并采用动态 Agent 注意力（DAA）替代基于窗口的注意力，通过动态建模窗口之间以及单个窗口内部的重要性水平。这些组件构成了我们提出的 Gap-Free Reflection Removal Network（GFRRN）。大量实验表明 GFRRN 的有效性，并相较最先进 SIRR 方法取得了更优性能。
+
+---
+
+**- Polarization State Tracing for Reflection Removal and Color-Consistent Reconstruction (CVPR 2026)**  
+[CVF](https://openaccess.thecvf.com/content/CVPR2026/html/Wang_Polarization_State_Tracing_for_Reflection_Removal_and_Color-Consistent_Reconstruction_CVPR_2026_paper.html) | [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Wang_Polarization_State_Tracing_for_Reflection_Removal_and_Color-Consistent_Reconstruction_CVPR_2026_paper.pdf) | GitHub：暂未找到官方仓库
+
+**摘要翻译（严格对应 CVF 公开 Abstract）**：彩色玻璃广泛存在于日常环境中，但其反射与吸收特性会在拍摄图像中引入重影和颜色偏差。现有方法通常忽略吸收问题，因此难以处理彩色玻璃造成的颜色偏差。本文首次利用偏振成像理论对玻璃内部的光传输过程进行建模，提出偏振状态追踪模型（PSTM），沿多条传播路径追踪偏振光，并考虑波长选择性吸收，从而联合实现反射去除与颜色一致性重建。在 PSTM 的指导下，本文设计通道环注意力（CRA）机制，以高效捕获不同偏振角之间的依赖关系并增强偏振通道间的特征交互。恢复的偏振信息还可直接用于偏振形状恢复等下游任务。本文构建了包含多种玻璃材料的真实数据集 GlassPol；实验表明，该方法优于现有方法，PSNR 最高提升约 3 dB。
+
+---
+
+**- NTIRE 2026 Challenge on Single Image Reflection Removal in the Wild: Datasets, Results, and Methods (CVPR Workshops 2026)**  
+[CVF](https://openaccess.thecvf.com/content/CVPR2026W/NTIRE/html/Cai_NTIRE_2026_Challenge_on_Single_Image_Reflection_Removal_in_the_CVPRW_2026_paper.html) | [PDF](https://openaccess.thecvf.com/content/CVPR2026W/NTIRE/papers/Cai_NTIRE_2026_Challenge_on_Single_Image_Reflection_Removal_in_the_CVPRW_2026_paper.pdf) | [arXiv](https://arxiv.org/abs/2604.10321) | [GitHub](https://github.com/caijie0620/OpenRR-5k)
+
+**摘要翻译（严格对应公开 Abstract）**：本文回顾 NTIRE 2026 野外单图像反射去除（SIRR）挑战赛。SIRR 是图像复原中的一项基础任务。尽管学术研究已经取得进展，大多数方法仍在合成图像或有限的真实世界图像上进行测试，从而在真实世界应用中形成差距。在本挑战赛中，我们为参赛者提供 OpenRR-5k 数据集，要求他们处理覆盖多种反射场景和反射强度的真实世界图像，目标是生成没有反射的干净图像。该挑战赛吸引了超过 100 个注册队伍，其中 11 支参与最终测试阶段。排名靠前的方法推进了最先进的反射去除性能，并获得了该领域五位专家的一致认可。所提出的 OpenRR-5k 数据集可在 Hugging Face 获取，挑战赛主页位于 GitHub。由于篇幅限制，本文只展示部分内容；完整报告和详细分析见扩展 arXiv 版本。
+
+---
+
+**- Reflection Removal through Efficient Adaptation of Diffusion Transformers (WindowSeat, CVPR Workshops 2026, NTIRE)**  
+[CVF](https://openaccess.thecvf.com/content/CVPR2026W/NTIRE/html/Zakarin_Reflection_Removal_through_Efficient_Adaptation_of_Diffusion_Transformers_CVPRW_2026_paper.html) | [PDF](https://openaccess.thecvf.com/content/CVPR2026W/NTIRE/papers/Zakarin_Reflection_Removal_through_Efficient_Adaptation_of_Diffusion_Transformers_CVPRW_2026_paper.pdf) | [arXiv](https://arxiv.org/abs/2512.05000) | [GitHub](https://github.com/huawei-bayerlab/windowseat-reflection-removal) | [Demo](https://hf.co/spaces/huawei-bayerlab/windowseat-reflection-removal-web)
+
+**摘要翻译（严格对应公开 Abstract）**：本文提出一种用于单图像反射去除的扩散 Transformer（DiT）框架，利用基础扩散模型在复原任务中的泛化能力。不同于依赖任务特定架构，本文重新利用一个预训练的、基于 DiT 的基础模型，通过以受反射污染的输入为条件，并引导其生成干净透射层。本文系统分析了现有反射去除数据源在多样性、可扩展性和照片真实感方面的情况。为解决合适数据不足的问题，本文在 Blender 中构建了一个基于物理的渲染（PBR）流程，该流程围绕 Principled BSDF 构建，用于合成真实的玻璃材料和反射效果。基于 LoRA 的基础模型高效适配与所提出的合成数据相结合，在域内和零样本基准上实现了最先进性能。这些结果表明，当预训练扩散 Transformer 与基于物理的数据合成和高效适配相结合时，可以为反射去除提供可扩展且高保真的解决方案。项目页面：https://hf.co/spaces/huawei-bayerlab/windowseat-reflection-removal-web。
+
+---
+
+**- ReLo-IRR: Reflection-Guided LoRA Framework for Image Reflection Removal (ICASSP 2026)**  
+[ICASSP](https://www.cmsworkshops.com/ICASSP2026/view_paper.php?PaperNum=8093&bare=1) | [arXiv](https://arxiv.org/abs/2607.02957) | [GitHub](https://github.com/KONGBAI-8080/ReLo-IRR)
+
+**摘要翻译（严格对应公开 Abstract）**：单幅图像反射去除（SIRR）旨在从受反射污染的图像中恢复干净的透射层。尽管近年来的方法借助大型扩散模型取得了较好的结果，但它们通常依赖与图像内容无关的适配策略，例如微调或 ControlNet，这类策略会在不同反射强度下施加统一的反射抑制。因此，强反射图像中往往仍会出现反射残留，而弱反射图像则容易发生细节损失。为此，本文提出 ReLo-IRR，一种建立在 Rectified Flow 模型之上的反射引导 LoRA 框架。首先，方法设计轻量级估计器来预测反射强度描述符，为每幅图像提供显式的反射主导程度先验，并实现图像依赖的 LoRA 调制。其次，方法引入时间条件机制，将反射描述符与时间步嵌入融合，使 LoRA 调制能够随着由粗到细的去噪过程一致演化。通过联合建模反射强度和去噪动态，ReLo-IRR 能够在多样化反射条件下实现稳健的反射抑制。大量挑战性基准实验验证了该方法的有效性，表明其具有更优的去反射性能和稳健的泛化能力。
+
+---
+
+**- MERLINet: Multi-Exposure Reflection Elimination Network for Real-World Scenes (ICASSP 2026)**  
+[IEEE Xplore](https://ieeexplore.ieee.org/document/11464106) | [PDF](https://ieeexplore.ieee.org/iel8/11460365/11460314/11464106.pdf) | GitHub：暂未找到官方仓库
+
+**摘要概述（根据 IEEE 公开摘要）**：本文面向真实场景反射去除提出多曝光反射消除网络 MERLINet。方法从单张输入构造不同曝光条件的图像表示，并通过层次化多尺度特征提取与融合，利用曝光变化对反射和透射成分产生的不同响应来抑制反射。网络结合多尺度 U 形结构与感知特征约束，以增强复杂场景中的背景恢复和细节保持。实验表明，该方法能够改善真实世界图像中的反射残留和强度失真。
+
+---
+
 **- SIRR-LMM: Single-image Reflection Removal via Large Multimodal Model (WACV Workshops 2026)**  
-[CVF](https://openaccess.thecvf.com/content/WACV2026W/GAIP/html/Guo_SIRR-LMM_Single-image_reflection_removal_via_Large_Multimodal_Model_WACVW_2026_paper.html) | [PDF](https://openaccess.thecvf.com/content/WACV2026W/GAIP/papers/Guo_SIRR-LMM_Single-image_reflection_removal_via_Large_Multimodal_Model_WACVW_2026_paper.pdf) | [arXiv](https://arxiv.org/abs/2601.07209)
+[CVF](https://openaccess.thecvf.com/content/WACV2026W/GAIP/html/Guo_SIRR-LMM_Single-image_reflection_removal_via_Large_Multimodal_Model_WACVW_2026_paper.html) | [PDF](https://openaccess.thecvf.com/content/WACV2026W/GAIP/papers/Guo_SIRR-LMM_Single-image_reflection_removal_via_Large_Multimodal_Model_WACVW_2026_paper.pdf) | [arXiv](https://arxiv.org/abs/2601.07209) | GitHub：暂未找到官方仓库
 
 **摘要翻译（严格对应公开 Abstract）**：玻璃表面会产生反射光和透射光之间复杂的相互作用，使单图像反射去除（SIRR）具有挑战性。现有数据集存在合成数据物理真实性有限或真实采集规模不足的问题。我们提出一种合成数据集生成框架，该框架在真实背景图像上对 3D 玻璃模型进行路径追踪，从而生成具有不同玻璃属性、相机设置和后处理效果的物理精确反射场景。为了利用大型多模态模型（LMM）的能力，我们将图像层拼接为一个单一的复合输入，应用联合字幕描述，并使用任务特定 LoRA 对模型进行微调，而不是进行全参数训练。这使我们的方法相比最先进方法取得了更好的反射去除和反射分离性能。
 
@@ -366,41 +88,6 @@
 
 ---
 
-**- GFRRN: Explore the Gaps in Single Image Reflection Removal (CVPR 2026)**  
-[PDF] | [arXiv](https://arxiv.org/abs/2602.22695) | [GitHub]
-
-**摘要翻译（严格对应公开 Abstract）**：具有特征交互机制的先前双流方法已经在单图像反射去除（SIRR）中取得了显著性能。然而，它们往往仍面临两个困难：（1）预训练模型特征与反射去除模型特征之间的语义理解差距；（2）合成训练数据与真实世界训练数据之间的反射标签不一致。本文首先采用参数高效微调（PEFT）策略，将若干可学习的 Mona 层集成到预训练模型中，以对齐训练方向。随后，我们设计标签生成器，以统一合成数据和真实世界数据的反射标签。此外，我们提出基于高斯的自适应频率学习块（G-AFLB），以自适应学习并融合频率先验；并采用动态 Agent 注意力（DAA）替代基于窗口的注意力，通过动态建模窗口之间以及单个窗口内部的重要性水平。这些组件构成了我们提出的 Gap-Free Reflection Removal Network（GFRRN）。大量实验表明 GFRRN 的有效性，并相较最先进 SIRR 方法取得了更优性能。
-
----
-
-**- FUMO: Prior-Modulated Diffusion for Single Image Reflection Removal (arXiv 2026)**  
-[PDF] | [arXiv](https://arxiv.org/abs/2603.19036) | [GitHub]
-
-**摘要翻译（严格对应公开 Abstract）**：单图像反射去除（SIRR）在真实场景中具有挑战性，其中反射强度在空间上变化，且反射模式与透射结构紧密缠结。本文提出一种带有先验调制的扩散模型框架（FUMO），引入显式引导信号，以提升空间可控性和结构保真度。我们直接从混合图像中提取两类先验：一种是估计空间反射严重程度的强度先验，另一种是通过多尺度残差聚合捕获细节敏感响应的高频先验。我们提出一种由粗到细的训练范式。在第一阶段，这些线索被结合起来，对条件残差注入进行门控，使条件信息聚焦于同时具有反射主导性和结构敏感性的区域。在第二阶段，一个细粒度精修网络在图像空间中校正局部不对齐并锐化细节。在标准基准和具有挑战性的野外图像上进行的实验表明，该方法取得了具有竞争力的定量结果，并持续提升了感知质量。代码已在 GitHub 发布。
-
----
-
-**- Complementary Mixture-of-Experts and Complementary Cross-Attention for Single Image Reflection Separation in the Wild (TIP 2026)**  
-[DOI](https://doi.org/10.1109/TIP.2026.3659334)
-
-**摘要翻译（严格对应公开 Abstract）**：单图像反射分离（SIRS）旨在从一张包含透射和反射叠加的图像中重建透射图像和反射图像，该图像通常是透过类似玻璃的反射表面拍摄的。近期基于学习的 SIRS 方法已经显著提升了在具有轻微反射伪影的典型图像上的性能；然而，它们在处理野外捕获的、包含挑战性反射的多样图像时通常仍然困难。本文提出一种基于灵活双流架构的通用 SIRS 框架，能够处理多样反射伪影。具体而言，我们引入混合专家机制，根据空间异质的反射特性，动态地将专门专家分配给图像块。被分配的专家随后协同工作，以自适应方式在透射流和反射流之间提取互补特征。此外，我们利用 Transformer 的多头注意力机制，同时利用高交叉相关和低交叉相关，并以互补方式促进自适应的流间特征交互。在多样真实世界数据集上的实验结果表明，所提出方法在定性和定量上均显著优于现有最先进方法。
-
----
-
-**- PA-NAFNet: An Improved Nonlinear Activation Free Network with Pyramid Attention for Single Image Reflection Removal (Digital Signal Processing 2026)**  
-[ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1051200425004968) | [DOI](https://doi.org/10.1016/j.dsp.2025.105474)
-
-**摘要翻译（严格对应公开 Abstract）**：单图像反射去除（SIRR）是低层视觉中的活跃课题，旨在消除被反射物体或光源对图像质量的影响。然而，由于 SIRR 的病态属性以及缺乏大规模真实世界反射图像数据集，现有方法在真实数据集上性能下降，并存在反射残留问题。为解决这些问题，我们提出一种有效的 SIRR 网络，称为 PA-NAFNet。它以无非线性激活网络（NAFNet）为基线，并结合金字塔注意力模块以捕获长程像素交互。此外，在训练阶段引入颜色抖动技术，以增加训练数据集的多样性，从而缓解反射去除后潜在的颜色失真问题。在多个反射去除基准测试上的实验结果证明了 PA-NAFNet 的有效性。相关代码可通过链接获取。
-
----
-
-**- Explicit Semantic Guidance for Single Image Reflection Removal via Perceptual Influence Modeling (Pattern Recognition 2026)**  
-[ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0031320325015444) | [DOI](https://doi.org/10.1016/j.patcog.2025.112881)
-
-**摘要翻译（严格对应公开 Abstract）**：透过玻璃拍摄造成的反射伪影通常会降低图像可见性，并损害下游视觉任务。由于其病态性质以及反射层和透射层外观相互缠结，单图像反射去除（SIRR）仍然具有挑战性。虽然近期方法探索了语义先验，但大多数方法依赖隐式特征融合，而没有显式建模感知扰动。为解决这一问题，我们引入感知反射影响图（PRIM），这是一种基于亮度的相对度量，用于捕获由反射引起的干扰在空间上的分布和强度。PRIM 作为一种显式监督信号，引导网络关注感知敏感区域。在此基础上，我们设计 PRIM 自适应融合模块（PAFM），利用由 PRIM 派生的线索动态整合语义特征和局部特征。此外，我们提出受物理启发的反射去除单元（RRU），同时利用统计频域先验和物理图像形成模型，实现稳健的特征解耦。在多个真实世界 SIRR 基准上的大量实验表明，我们的方法达到最先进性能，验证了该语义引导和物理启发框架的有效性。
-
----
-
 **- Depth-Synergized Mamba Meets Memory Experts for All-Day Image Reflection Separation (AAAI 2026)**  
 [AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/37386) | [arXiv](https://arxiv.org/abs/2601.00322) | [GitHub](https://github.com/fashyon/DMDNet)
 
@@ -408,42 +95,153 @@
 
 ---
 
-**- Unified Removal of Raindrops and Reflections: A New Benchmark and A Novel Pipeline (arXiv 2026)**  
-[arXiv](https://arxiv.org/abs/2603.16446)
+**- FUMO: Prior-Modulated Diffusion for Single Image Reflection Removal (ECCV 2026)**  
+[PDF](https://arxiv.org/pdf/2603.19036) | [arXiv](https://arxiv.org/abs/2603.19036) | [GitHub](https://github.com/Lucious-Desmon/FUMO)（代码已开放，预训练权重仍待补充）
 
-**摘要翻译（严格对应公开 Abstract）**：在雨天透过玻璃表面或挡风玻璃拍摄图像时，雨滴和反射经常共同出现，并显著降低所捕获图像的可见性。这一实际问题缺乏关注，亟需解决。先前的去雨滴、去反射以及 all-in-one 模型都未能解决这种复合退化。为此，我们首次正式定义统一去除雨滴和反射（UR³）任务，并构建一个真实拍摄数据集，即 RainDrop and ReFlection（RDRF），它提供了一个包含大量、高质量、多样化图像对的新基准。随后，我们提出一种新的基于扩散的框架（即 DiffUR³），并通过若干针对性设计来解决这一具有挑战性的任务。通过利用强大的生成先验，DiffUR³ 成功去除了两种退化。大量实验表明，我们的方法在所提出基准和具有挑战性的野外图像上达到最先进性能。RDRF 数据集和代码将在接收后公开。
+**摘要翻译（严格对应公开 Abstract）**：单图像反射去除（SIRR）在真实场景中具有挑战性，其中反射强度在空间上变化，且反射模式与透射结构紧密缠结。本文提出一种带有先验调制的扩散模型框架（FUMO），引入显式引导信号，以提升空间可控性和结构保真度。我们直接从混合图像中提取两类先验：一种是估计空间反射严重程度的强度先验，另一种是通过多尺度残差聚合捕获细节敏感响应的高频先验。我们提出一种由粗到细的训练范式。在第一阶段，这些线索被结合起来，对条件残差注入进行门控，使条件信息聚焦于同时具有反射主导性和结构敏感性的区域。在第二阶段，一个细粒度精修网络在图像空间中校正局部不对齐并锐化细节。在标准基准和具有挑战性的野外图像上进行的实验表明，该方法取得了具有竞争力的定量结果，并持续提升了感知质量。官方代码仓库已开放，但预训练权重仍待补充。
+
+---
+
+**- Single-Image Reflection Removal via Iterative Prompt Learning of Reflection Level (IEEE TIP 2026)**  
+[IEEE Xplore](https://ieeexplore.ieee.org/document/11538393) | [DOI](https://doi.org/10.1109/TIP.2026.3695674) | [GitHub](https://github.com/NamecantbeNULL/IRLR_SIRR)
+
+**摘要翻译（严格对应公开 Abstract）**：单图像反射去除旨在从受反射污染的图像中恢复潜在背景层。尽管深度学习方法已经取得进展，现有方法通常没有充分利用负训练样本以及描述反射严重程度的提示，从而限制了去反射性能和泛化能力。本文定义与不同反射干扰程度对应的反射等级，并学习反射等级提示来监督去反射过程。在此基础上，本文提出迭代反射等级降低（IRLR）框架，由恢复网络训练模块（RNTM）和反射等级学习模块（RLLM）组成。RNTM 在 RLLM 学习的提示引导下预测背景层，RLLM 再利用 RNTM 的输出更新提示，两者迭代训练以逐步降低估计背景层中的反射等级。为初始化提示，本文构建专用反射等级数据集进行预训练，并设计反射等级感知策略实现自适应监督。实验显示，该方法相较最先进方法平均提升约 0.74 dB PSNR 和 0.0122 SSIM。
+
+---
+
+**- Complementary Mixture-of-Experts and Complementary Cross-Attention for Single Image Reflection Separation in the Wild (TIP 2026)**  
+[DOI](https://doi.org/10.1109/TIP.2026.3659334) | GitHub：暂未找到官方仓库
+
+**摘要翻译（严格对应公开 Abstract）**：单图像反射分离（SIRS）旨在从一张包含透射和反射叠加的图像中重建透射图像和反射图像，该图像通常是透过类似玻璃的反射表面拍摄的。近期基于学习的 SIRS 方法已经显著提升了在具有轻微反射伪影的典型图像上的性能；然而，它们在处理野外捕获的、包含挑战性反射的多样图像时通常仍然困难。本文提出一种基于灵活双流架构的通用 SIRS 框架，能够处理多样反射伪影。具体而言，我们引入混合专家机制，根据空间异质的反射特性，动态地将专门专家分配给图像块。被分配的专家随后协同工作，以自适应方式在透射流和反射流之间提取互补特征。此外，我们利用 Transformer 的多头注意力机制，同时利用高交叉相关和低交叉相关，并以互补方式促进自适应的流间特征交互。在多样真实世界数据集上的实验结果表明，所提出方法在定性和定量上均显著优于现有最先进方法。
+
+---
+
+**- DS3former: Dual-Stream Semantic Separation Transformer for Single Image Reflection Separation (IEEE TMM 2026, Accepted/In Press)**  
+[DOI](https://doi.org/10.1109/TMM.2026.3654343) | [Publication Page](https://pure.ecnu.edu.cn/en/publications/ds3former-dual-stream-semantic-separation-transformer-for-single-/) | GitHub：暂未找到官方仓库
+
+**摘要翻译（根据公开 Abstract）**：由于反射表面和光照条件多样，单图像反射分离是一个具有挑战性的不适定问题。本文提出 DS3former，一种采用语义分离策略的双流 Transformer 网络，用于有效区分透射层和反射层。作者观察到，混合图像的预训练深层语义特征中，不同通道对透射层或反射层具有不同亲和性。基于这一观察，本文提出语义分离注意力机制，从不同通道中自适应提取图层特定特征，并执行流间特征传递和聚合以增强分离。此外，网络利用深层解码特征和外部预训练特征指导浅层编码过程。实验表明，DS3former 在多个基准上获得了较好的定量指标和视觉质量。
+
+---
+
+**- Single Image Reflection Separation via Collaborative Reverse Attention and Geometric Guidance (IEEE TMM 2026, Early Access)**  
+[DOI](https://doi.org/10.1109/TMM.2026.3696166) | GitHub：暂未找到官方仓库
+
+**摘要概述（根据公开 Abstract）**：本文研究从单张混合图像中恢复透射层和反射层。作者观察到，在一个图层的恢复过程中被抑制的特征往往包含有助于恢复另一图层的信息，因此提出协同反向注意力机制，在双流之间重新利用这些互补信息。此外，从混合图像估计的深度通常主要反映透射层的几何结构，本文据此引入几何引导以辅助图层分离，并将协同反向注意力与几何指导嵌入双流 Transformer 架构。
+
+---
+
+**- Human-like Single Image Reflection Removal via Deep Unfolding with Large Kernels (IEEE TCSVT 2026, Accepted/In Press)**  
+[DOI](https://doi.org/10.1109/TCSVT.2026.3704623) | [Publication Page](https://pure.ecnu.edu.cn/en/publications/human-like-single-image-reflection-removal-via-deep-unfolding-wit/) | GitHub：暂未找到官方仓库
+
+**摘要翻译（根据公开 Abstract）**：现有基于数学模型或深度学习的单图像反射去除方法通常没有充分考虑人类视觉系统对全局信息的感知。受人类由整体到局部的分层视觉处理机制启发，本文提出结合大核卷积与深度展开的 LKCDU-Net。其初始化模块利用大核卷积捕获全局结构和长程依赖，随后将基于优化的反射去除过程展开为网络阶段，对局部细节进行逐步细化。该方法兼顾可解释性、全局感知与局部恢复，并以较少参数在多个真实世界基准上取得具有竞争力的性能。
+
+---
+
+**- PA-NAFNet: An Improved Nonlinear Activation Free Network with Pyramid Attention for Single Image Reflection Removal (Digital Signal Processing 2026)**  
+[ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1051200425004968) | [DOI](https://doi.org/10.1016/j.dsp.2025.105474) | GitHub：暂未确认可验证的官方完整仓库
+
+**摘要翻译（严格对应公开 Abstract）**：单图像反射去除（SIRR）是低层视觉中的活跃课题，旨在消除被反射物体或光源对图像质量的影响。然而，由于 SIRR 的病态属性以及缺乏大规模真实世界反射图像数据集，现有方法在真实数据集上性能下降，并存在反射残留问题。为解决这些问题，我们提出一种有效的 SIRR 网络，称为 PA-NAFNet。它以无非线性激活网络（NAFNet）为基线，并结合金字塔注意力模块以捕获长程像素交互。此外，在训练阶段引入颜色抖动技术，以增加训练数据集的多样性，从而缓解反射去除后潜在的颜色失真问题。在多个反射去除基准测试上的实验结果证明了 PA-NAFNet 的有效性。论文页面称相关代码可通过链接获取，但目前尚未确认可验证的官方完整仓库。
+
+---
+
+**- Explicit Semantic Guidance for Single Image Reflection Removal via Perceptual Influence Modeling (Pattern Recognition 2026)**  
+[ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0031320325015444) | [DOI](https://doi.org/10.1016/j.patcog.2025.112881) | GitHub：暂未找到官方仓库
+
+**摘要翻译（严格对应公开 Abstract）**：透过玻璃拍摄造成的反射伪影通常会降低图像可见性，并损害下游视觉任务。由于其病态性质以及反射层和透射层外观相互缠结，单图像反射去除（SIRR）仍然具有挑战性。虽然近期方法探索了语义先验，但大多数方法依赖隐式特征融合，而没有显式建模感知扰动。为解决这一问题，我们引入感知反射影响图（PRIM），这是一种基于亮度的相对度量，用于捕获由反射引起的干扰在空间上的分布和强度。PRIM 作为一种显式监督信号，引导网络关注感知敏感区域。在此基础上，我们设计 PRIM 自适应融合模块（PAFM），利用由 PRIM 派生的线索动态整合语义特征和局部特征。此外，我们提出受物理启发的反射去除单元（RRU），同时利用统计频域先验和物理图像形成模型，实现稳健的特征解耦。在多个真实世界 SIRR 基准上的大量实验表明，我们的方法达到最先进性能，验证了该语义引导和物理启发框架的有效性。
+
+---
+
+**- Single Image Reflection Removal via Reflection Location Awareness (Journal of Shanghai Jiao Tong University (Science), 2026)**  
+[Springer](https://link.springer.com/article/10.1007/s12204-026-2926-9) | [DOI](https://doi.org/10.1007/s12204-026-2926-9) | GitHub：暂未找到官方仓库
+
+**摘要翻译（严格对应出版社公开 Abstract）**：透过玻璃表面拍摄图像时，采集结果中不可避免地会包含反射。反射不仅降低图像视觉质量，还会影响后续计算机视觉任务。虽然现有反射去除算法能够消除部分干扰，但结果中仍常存在残余反射和伪影。利用输入图像中的反射物体不会出现在对应无反射真值图像中的特性，本文提出反射位置感知（RLA）方法。该方法首先检测输入图像中的反射区域并生成反射位置的显式表示，随后将该表示作为空间先验，与输入图像共同输入后续网络模块，以恢复背景透射层的纹理细节。多个基准数据集上的定性和定量实验验证了该方法的有效性。
+
+---
+
+**- Reflection Removal Using Recurrent Polarization-to-Polarization Network (Machine Vision and Applications 2026)**  
+[Springer](https://link.springer.com/article/10.1007/s00138-026-01837-6) | [arXiv](https://arxiv.org/abs/2402.18178) | [Project](https://www.ok.sc.e.titech.ac.jp/res/RP2PN/index.html) | [GitHub](https://github.com/wjbian/RP2PN)（目前仅有 README 和补充材料，尚未发布实现代码）
+
+**摘要翻译（严格对应公开 Abstract）**：本文研究利用偏振图像进行反射去除。现有偏振方法通常以偏振图像为输入，却直接预测非偏振的反射和透射强度图像。与之不同，本文提出偏振到偏振的方法，使用两个串联网络预测具有偏振信息的反射层和透射层，从而利用两层之间相互关联的偏振信息促进分离。进一步地，本文采用循环框架，使预测的反射图像和透射图像彼此迭代细化。公开数据集上的实验表明，该方法优于其他先进方法。
+
+---
+
+**- Polarization Information Restoration for Visual Reflection Removal via Cross Dual-stream Network (Knowledge-Based Systems 2026)**  
+[ScienceDirect](https://www.sciencedirect.com/science/article/pii/S095070512600537X) | [DOI](https://doi.org/10.1016/j.knosys.2026.115811) | GitHub：暂未找到官方仓库
+
+**摘要概述（根据出版社公开信息）**：本文提出一种偏振引导的交叉双流网络，用于同时完成视觉反射去除和准确的偏振信息恢复。方法显式利用多角度偏振观测之间的关联，在透射与反射分支间进行跨流特征交互，并约束恢复结果保持合理的偏振属性。该研究不仅关注无反射强度图像的恢复，也将偏振信息本身作为需要重建的目标，以服务后续偏振视觉任务。
 
 ---
 
 **- RRFormer: A New Transformer-Based Method for Ultra High-Definition Reflection Removal (Information Fusion 2026)**  
-[Information Fusion](https://doi.org/10.1016/j.inffus.2026.104292) | [arXiv](https://arxiv.org/abs/2308.00265) | [GitHub](https://github.com/Liar-zzy/Benchmarking-Ultra-High-Definition-Single-Image-Reflection-Removal) | [中文]
+[Information Fusion](https://doi.org/10.1016/j.inffus.2026.104292) | [arXiv](https://arxiv.org/abs/2308.00265) | [GitHub](https://github.com/Liar-zzy/Benchmarking-Ultra-High-Definition-Single-Image-Reflection-Removal)（仓库已开放，部分资源仍待补充） | [中文]
 
 **摘要翻译（严格对应公开 Abstract）**：基于深度学习的方法已经在单图像反射去除（SIRR）中取得显著成功。然而，这些方法大多关注高清/标准清晰度图像，而忽略了超高清（UHD）图像等更高分辨率图像。随着现代设备拍摄的 UHD 图像日益普及，我们旨在解决 UHD SIRR 问题。具体而言，我们首先合成了两个分别为 4K 和 8K 分辨率的大规模 UHD 数据集。据我们所知，它们是首个用于 SIRR 的大规模 UHD 数据集。随后，我们在所提出数据集上对 12 个最先进的 SIRR 方法进行了全面评估。此外，我们提出一种名为 RRFormer 的基于 Transformer 的反射去除架构，由三个模块组成：预处理嵌入模块、自注意力特征提取模块和多尺度空间特征提取模块。这些模块分别提取 hypercolumn 特征、全局和局部注意力特征，以及多尺度空间特征。为确保有效训练，我们使用由像素损失、特征损失和对抗损失组成的组合损失函数。实验结果表明，RRFormer 在现有非 UHD 基准和我们提出的 UHD 数据集上均达到最先进性能。
 
 ---
 
+---
 
+**- PRISM: Latent Composition Consistency for Single-Image Reflection Removal (arXiv 2026)**  
+[PDF](https://arxiv.org/pdf/2606.31513) | [arXiv](https://arxiv.org/abs/2606.31513) | GitHub：暂未找到官方仓库
+
+**摘要翻译（严格对应 arXiv 当前 Abstract）**：单图像反射去除旨在从受反射污染的混合图像中恢复透射层，是一个高度不适定问题。现有方法通常在像素空间中操作，而非线性的 sRGB 成像过程会使两个图层相互缠结并限制泛化。本文观察到，预训练 VAE 的潜空间中不同图层之间的相干性显著低于像素空间，因此更适合进行分解。基于这一发现，本文提出 PRISM，将 SIRR 重新解释为潜空间中的近似线性分离问题。PRISM 在预训练 FLUX 骨干上学习流匹配速度场，并在一次前向过程中同时恢复透射层和反射层。为实现稳健解耦，本文提出潜空间组成一致性（LCC）策略，通过在样本间交换反射潜变量构造合成混合，并利用循环损失约束一致分解；同时提出图层对比分离（LCS）损失，通过块级对比学习促进语义分离，而不需要显式反射真值。六个基准上的实验表明，PRISM 具有较强性能和野外泛化能力。
+
+---
+
+**- Principled Reflection Separation via Nonlinear Superposition and Feature Interaction (DIRS, arXiv 2026)**  
+[PDF](https://arxiv.org/pdf/2606.02831) | [arXiv](https://arxiv.org/abs/2606.02831) | [Project](https://mingcv.github.io/DIRS-Page/) | [GitHub](https://github.com/mingcv/DIRS)
+
+**摘要翻译（严格对应 arXiv 当前 Abstract）**：单图像反射分离的根本困难在于，透射层与反射层在复杂成像过程中相互缠结。现有方法大多依赖简化假设或独立建模，限制了其处理真实场景的能力。本文从统一视角重新审视该问题，并指出在 sRGB 域中广泛使用的线性合成模型无法刻画真实图像信号处理流程引入的非线性耦合。为此，本文提出可学习的非线性叠加模型，以更准确地描述图层交互并提高分解保真度。在此基础上，本文构建通用双流交互框架，通过特征交换显式建模透射层和反射层之间的双向依赖。该框架统一了基于激活、门控和注意力的交互机制，并兼容 CNN 与 Transformer 骨干。多个真实世界基准上的实验表明，该方法具有较好的性能和泛化能力。官方代码与模型已经公开。
+
+---
+
+**- Unified Removal of Raindrops and Reflections: A New Benchmark and A Novel Pipeline (arXiv 2026)**  
+[PDF](https://arxiv.org/pdf/2603.16446) | [arXiv](https://arxiv.org/abs/2603.16446) | GitHub：论文称接收后公开，目前暂未找到官方仓库
+
+**摘要翻译（严格对应公开 Abstract）**：在雨天透过玻璃表面或挡风玻璃拍摄图像时，雨滴和反射经常共同出现，并显著降低所捕获图像的可见性。这一实际问题缺乏关注，亟需解决。先前的去雨滴、去反射以及 all-in-one 模型都未能解决这种复合退化。为此，我们首次正式定义统一去除雨滴和反射（UR³）任务，并构建一个真实拍摄数据集，即 RainDrop and ReFlection（RDRF），它提供了一个包含大量、高质量、多样化图像对的新基准。随后，我们提出一种新的基于扩散的框架（即 DiffUR³），并通过若干针对性设计来解决这一具有挑战性的任务。通过利用强大的生成先验，DiffUR³ 成功去除了两种退化。大量实验表明，我们的方法在所提出基准和具有挑战性的野外图像上达到最先进性能。RDRF 数据集和代码将在接收后公开。
+
+---
 
 
 ## 2025
 
+**- Single Image Reflection Removal Guided by Controllable Diffusion Repair (IEEE Signal Processing Letters 2025)**  
+[DOI](https://doi.org/10.1109/LSP.2025.3624679) | GitHub：暂未找到官方仓库
 
-**- DIRS: Single Image Reflection Separation via Deep Feature Interaction (2025)**  
-[PDF] | [arXiv] | [GitHub](https://github.com/mingcv/DIRS?tab=readme-ov-file#-dirs-single-image-reflection-separation-via-deep-feature-interaction) | [中文]
+**摘要翻译（根据公开 Abstract）**：由于目标场景和反射层之间存在非线性耦合，单图像反射去除一直具有较高难度。现有分离式方法在处理强反射时可能由于无法充分捕获图像语义而难以恢复正确目标内容。本文提出由可控扩散修复引导的单图像反射去除模型。首先，使用可控扩散模型对反射区域进行预修复，使其与场景语义相匹配；随后，将预修复结果作为先验信息，引导反射去除网络进行分离。此外，本文设计通道门控卷积模块，通过动态调整通道权重增强有效特征提取与学习。多个真实世界基准上的实验表明，该方法优于现有方法。
 
-**摘要翻译（未找到公开英文 Abstract）**：未找到可核对的公开英文 Abstract，不作翻译。
+---
+
+**- Single Image Reflection Separation via Visual State Space Model and Feature Interactions (PRCV 2025)**  
+[Springer](https://link.springer.com/chapter/10.1007/978-981-95-5682-3_25) | [DOI](https://doi.org/10.1007/978-981-95-5682-3_25) | GitHub：暂未找到官方仓库
+
+**摘要翻译（严格对应出版社公开 Abstract）**：本文提出一种基于视觉状态空间模型（VSSM）和特征交互机制的单图像反射分离方法。该方法采用两阶段级联网络，由浅层分离网络（SSNet）和深层分离网络（DSNet）组成。SSNet 从混合图像中提取多尺度特征并获得初始透射与反射特征；随后，DSNet 对这些特征进行更细粒度、更完整的分离，最终生成透射图像和反射图像。两个网络均采用排斥与互补特征交互模块（ECFIM）实现不同特征成分之间的交互；DSNet 还使用 VSSM 捕获并融合多尺度、多通道的全局空间信息。多个真实世界基准上的实验表明，该方法能够生成较高质量的透射与反射图像。
+
+---
+
+**- Single Image Reflection Separation by Using Reflection and Refraction Estimations (IEEE SMC 2025)**  
+[IEEE Xplore](https://ieeexplore.ieee.org/document/11343404) | [PDF](https://ieeexplore.ieee.org/iel8/11342430/11342431/11343404.pdf) | GitHub：暂未找到官方仓库
+
+**摘要概述（根据 IEEE 公开摘要片段）**：本文利用反射估计和折射估计辅助单图像反射分离。方法显式建模反射伪影及玻璃折射造成的强度或空间变化，并利用估计结果指导透射层恢复。实验结果表明，该方法能够减弱反射伪影并校正强度失真，从而改善输出图像质量。
+
+---
+
+**- A Dual-Stream Diffusion Model with Physically-Based Rendering for Single Image Reflection Removal (APSIPA ASC 2025)**  
+[IEEE Xplore](https://ieeexplore.ieee.org/document/11249192/) | [PDF](https://ieeexplore.ieee.org/iel8/11248853/11248968/11249192.pdf) | GitHub：暂未找到官方仓库
+
+**摘要概述（根据 IEEE 公开 Abstract）**：本文提出一种基于扩散模型的单图像反射去除方法，以降低对手工假设的依赖。模型采用双流网络架构，同时预测残差和反射层，从而增强扩散模型对复杂数据分布的建模能力。为缓解真实图像与合成训练数据之间的差距，本文进一步使用基于物理的渲染方法生成训练数据。实验表明，双流扩散建模与物理渲染数据能够改善反射去除效果。
 
 ---
 
 **- A Lightweight Deep Exclusion Unfolding Network for Single Image Reflection Removal (PAMI 2025)**  
-[PDF] | [arXiv](https://arxiv.org/abs/2503.01938) | [GitHub](https://github.com/jjhuangcs/DExNet) | [中文](https://github.com/krantbrity/Single-Image-Reflection-Removal-Papers-and-Code-Collection/blob/main/Markdown/A%20Lightweight%20Deep%20Exclusion%20Unfolding%20Network%20for%20Single%20Image%20Reflection%20Removal.md)
+[PDF](https://arxiv.org/pdf/2503.01938) | [arXiv](https://arxiv.org/abs/2503.01938) | [GitHub](https://github.com/jjhuangcs/DExNet) | [中文](https://github.com/krantbrity/Single-Image-Reflection-Removal-Papers-and-Code-Collection/blob/main/Markdown/A%20Lightweight%20Deep%20Exclusion%20Unfolding%20Network%20for%20Single%20Image%20Reflection%20Removal.md)
 
 **摘要翻译（严格对应公开 Abstract）**：单图像反射去除（SIRR）是一个典型的盲源分离问题，指的是将一幅受反射污染的图像分离为透射图像和反射图像的问题。其核心挑战在于尽量减少不同源之间的共性。现有深度学习方法要么忽视特征交互的重要性，要么依赖启发式设计的网络结构。本文提出一种新的深度排斥展开网络（DExNet），它是一种用于 SIRR 的轻量、可解释且有效的网络结构。DExNet 主要通过展开并参数化一个简单的迭代稀疏与辅助特征更新（i-SAFU）算法来构建，该算法专门用于求解一种新的、引入通用排斥先验的基于模型的 SIRR 优化公式。该通用排斥先验使展开后的 SAFU 模块能够内在地识别并惩罚透射特征与反射特征之间的共性，从而实现更准确的分离。DExNet 的原则性设计不仅增强了其可解释性，也显著提升了其性能。在四个基准数据集上的综合实验表明，DExNet 在仅使用领先方法约 8% 参数量的情况下，实现了最先进的视觉和定量结果。
 
 ---
 
 **- Reversible Decoupling Network for Single Image Reflection Removal (CVPR 2025)**  
-[PDF] | [arXiv](https://arxiv.org/abs/2410.08063) | [GitHub](https://github.com/lime-j/RDNet) | [中文](https://github.com/krantbrity/Single-Image-Reflection-Removal-Papers-and-Code-Collection/blob/main/Markdown/REVERSIBLE%20DECOUPLING%20NETWORK%20FOR%20SINGLE%20IMAGE%20REFLECTION%20REMOVAL.md)
+[CVF](https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_Reversible_Decoupling_Network_for_Single_Image_Reflection_Removal_CVPR_2025_paper.html) | [PDF](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhao_Reversible_Decoupling_Network_for_Single_Image_Reflection_Removal_CVPR_2025_paper.pdf) | [arXiv](https://arxiv.org/abs/2410.08063) | [GitHub](https://github.com/lime-j/RDNet) | [中文](https://github.com/krantbrity/Single-Image-Reflection-Removal-Papers-and-Code-Collection/blob/main/Markdown/REVERSIBLE%20DECOUPLING%20NETWORK%20FOR%20SINGLE%20IMAGE%20REFLECTION%20REMOVAL.md)
 
 <details>
 <summary>完整RDNet结果</summary>
@@ -487,26 +285,26 @@
 
 </details>
 
-**摘要翻译（严格对应公开 Abstract）**：近年来，基于深度学习的单图像反射去除方法展现出有前景的进展，主要有两个原因：1）将识别预训练特征作为输入；2）双流交互网络的设计。然而，根据信息瓶颈原理，高层语义线索在逐层传播过程中往往会被压缩或丢弃。此外，双流网络中的交互在不同层之间遵循固定模式，限制了整体性能。为解决这些局限，本文提出一种名为可逆解耦网络（RDNet）的新架构，它采用可逆编码器来保护有价值的信息，同时在前向传播过程中灵活解耦与透射和反射相关的特征。进一步地，本文定制了一个透射率感知的提示生成器，用于动态校准特征，从而进一步提升性能。大量实验表明，RDNet 在五个广泛使用的基准数据集上优于现有最先进方法。代码将公开发布。
+**摘要翻译（严格对应公开 Abstract）**：近年来，基于深度学习的单图像反射去除方法展现出有前景的进展，主要有两个原因：1）将识别预训练特征作为输入；2）双流交互网络的设计。然而，根据信息瓶颈原理，高层语义线索在逐层传播过程中往往会被压缩或丢弃。此外，双流网络中的交互在不同层之间遵循固定模式，限制了整体性能。为解决这些局限，本文提出一种名为可逆解耦网络（RDNet）的新架构，它采用可逆编码器来保护有价值的信息，同时在前向传播过程中灵活解耦与透射和反射相关的特征。进一步地，本文定制了一个透射率感知的提示生成器，用于动态校准特征，从而进一步提升性能。大量实验表明，RDNet 在五个广泛使用的基准数据集上优于现有最先进方法。代码已在 GitHub 发布。
 
 ---
 
 **- Removing Reflections from RAW Photos (CVPR 2025 Oral)**  
-[PDF](https://openaccess.thecvf.com/content/CVPR2025/papers/Kee_Removing_Reflections_from_RAW_Photos_CVPR_2025_paper.pdf) | [arXiv](https://arxiv.org/abs/2404.14414) | [GitHub](https://erickee.com/reflections/cvpr2025.html)
+[CVF](https://openaccess.thecvf.com/content/CVPR2025/html/Kee_Removing_Reflections_from_RAW_Photos_CVPR_2025_paper.html) | [PDF](https://openaccess.thecvf.com/content/CVPR2025/papers/Kee_Removing_Reflections_from_RAW_Photos_CVPR_2025_paper.pdf) | [arXiv](https://arxiv.org/abs/2404.14414) | [Project](https://erickee.com/reflections/cvpr2025.html)
 
 **摘要翻译（严格对应公开 Abstract）**：本文描述了一个用于消费级摄影中去除真实世界图像反射的系统。该系统在用于线性照片的 RAW 图像上运行，并接受一张可选的、朝相反方向拍摄的上下文照片（例如移动设备上的“自拍”摄像头）。这张可选照片用于消除“什么应当被视为反射”的歧义。该系统完全使用真实 RAW 照片的合成混合图像进行训练，而这些混合图像是通过具有光度和几何准确性的反射模拟方法组合得到的。该系统包含一个基础模型，它以拍摄照片和可选上下文照片作为输入，并在 256p 分辨率下运行；随后是一个上采样模型，将 256p 图像转换为全分辨率图像。该系统在 MacBook 或 iPhone 14 Pro 上能够在 4.5–6.5 秒内生成 1K 预览图像。本文展示了在野外拍摄并代表典型消费照片的 RAW 照片上的最先进结果，并表明使用 RAW 模拟数据训练所带来的性能提升超过了已有工作之间的架构差异。
 
 ---
 
 **- Flash-Split: 2D Reflection Removal with Flash Cues and Latent Diffusion Separation (CVPR 2025)**  
-[PDF](https://openaccess.thecvf.com/content/CVPR2025/papers/Wang_Flash-Split_2D_Reflection_Removal_with_Flash_Cues_and_Latent_Diffusion_CVPR_2025_paper.pdf) | [arXiv](https://arxiv.org/abs/2501.00637) | [GitHub]
+[CVF](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_Flash-Split_2D_Reflection_Removal_with_Flash_Cues_and_Latent_Diffusion_Separation_CVPR_2025_paper.html) | [PDF](https://openaccess.thecvf.com/content/CVPR2025/papers/Wang_Flash-Split_2D_Reflection_Removal_with_Flash_Cues_and_Latent_Diffusion_Separation_CVPR_2025_paper.pdf) | [arXiv](https://arxiv.org/abs/2501.00637) | [Project](https://flash-split.github.io/) | GitHub：暂未找到官方仓库
 
 **摘要翻译（严格对应公开 Abstract）**：透明表面（如玻璃）会产生复杂反射，遮挡图像并影响下游计算机视觉应用。本文提出 Flash-Split，一种使用单对（可能未对齐的）闪光/无闪光图像来分离透射光和反射光的稳健框架。核心思想是在低维潜空间中迭代地执行由闪光信息引导的反射分离。具体而言，Flash-Split 包含两个阶段。第一阶段通过一个双分支扩散模型分离反射潜变量和透射潜变量，该模型以编码后的闪光/无闪光潜变量对为条件。这一阶段有效缓解了闪光/无闪光图像错位问题。第二阶段通过一个以分离前原始图像为条件的跨潜变量解码过程，为分离后的潜变量恢复高分辨率且忠实的细节。本文在具有挑战性的真实世界场景上验证 Flash-Split，并证明其显著优于现有方法。项目网页为 https://flash-split.github.io/。
 
 ---
 
 **- PolarFree: Polarization-based Reflection-Free Imaging (CVPR 2025)**  
-[PDF] | [arXiv](https://arxiv.org/abs/2503.18055) | [GitHub] | [中文]
+[CVF](https://openaccess.thecvf.com/content/CVPR2025/html/Yao_PolarFree_Polarization-based_Reflection-Free_Imaging_CVPR_2025_paper.html) | [PDF](https://openaccess.thecvf.com/content/CVPR2025/papers/Yao_PolarFree_Polarization-based_Reflection-Free_Imaging_CVPR_2025_paper.pdf) | [arXiv](https://arxiv.org/abs/2503.18055) | [GitHub](https://github.com/mdyao/PolarFree) | [中文]
 
 **摘要翻译（严格对应公开 Abstract）**：由于复杂的光照相互作用，反射去除具有挑战性；反射会遮挡重要细节并阻碍场景理解。偏振天然提供了一种强有力的线索，可用于区分反射光和透射光，从而实现更准确的反射去除。然而，现有方法通常依赖小规模或合成数据集，无法捕获真实世界场景的多样性和复杂性。为此，本文构建了一个用于基于偏振的 RGB 图像反射去除的大规模数据集 PolaRGB，使我们能够训练出能够在广泛真实世界场景中有效泛化的模型。PolaRGB 数据集包含 6,500 组良好对齐的混合—透射图像对，规模是现有偏振数据集的 8 倍，并且是首个同时包含 RGB 图像和偏振图像、覆盖多样室内外环境与不同光照条件的数据集。此外，为了充分利用偏振线索在反射去除中的潜力，本文提出 PolarFree，它利用扩散过程生成无反射线索，以实现准确的反射去除。大量实验表明，PolarFree 在具有挑战性的反射场景中显著提升图像清晰度，为偏振成像和反射去除建立了新的基准。代码和数据集可在 https://github.com/mdyao/PolarFree 获取。
 
@@ -520,7 +318,7 @@
 ---
 
 **- NTIRE 2025 Challenge on Single Image Reflection Removal in the Wild: Datasets, Methods and Results (CVPR Workshops 2025)**  
-[PDF] | [arXiv] | [GitHub] | [中文]
+[CVF](https://openaccess.thecvf.com/content/CVPR2025W/NTIRE/html/Yang_NTIRE_2025_Challenge_on_Single_Image_Reflection_Removal_in_the_CVPRW_2025_paper.html) | [PDF](https://openaccess.thecvf.com/content/CVPR2025W/NTIRE/papers/Yang_NTIRE_2025_Challenge_on_Single_Image_Reflection_Removal_in_the_CVPRW_2025_paper.pdf) | [GitHub](https://github.com/caijie0620/Reflection-Removal-in-the-Wild) | [Dataset](https://huggingface.co/datasets/qiuzhangTiTi/NTIRE2025-SIRR) | [中文]
 
 **摘要翻译（严格对应公开 Abstract）**：本文回顾 NTIRE 2025 野外单图像反射去除（SIRR）挑战赛。SIRR 是图像复原中的一项基础任务。尽管学术研究已经取得进展，大多数方法仍在合成图像或有限的真实世界图像上进行测试，从而在真实世界应用中形成差距。在本挑战赛中，参赛者需要处理覆盖一系列反射场景和反射强度的真实世界图像，目标是生成没有反射的干净图像。该挑战赛吸引了超过 280 个注册队伍，其中 12 支参加最终测试阶段。排名靠前的方法推进了最先进的反射去除性能，并得到了该领域五位专家的一致认可。所提出的 OpenRR 数据集可在 Hugging Face 获取，挑战赛主页位于 GitHub。
 
@@ -534,112 +332,105 @@
 ---
 
 **- Rethinking Depth Guided Reflection Removal (TMM 2025)**  
-[PDF](https://ieeexplore.ieee.org/document/10891560) | [arXiv] | [GitHub] [中文](https://github.com/krantbrity/Single-Image-Reflection-Removal-Papers-and-Code-Collection/blob/main/Markdown/Rethinking%20Depth%20Guided%20Reflection%20Removal.md)
+[IEEE Xplore](https://ieeexplore.ieee.org/document/10891560) | arXiv：暂未找到公开版本 | GitHub：暂未找到官方仓库 | [中文](https://github.com/krantbrity/Single-Image-Reflection-Removal-Papers-and-Code-Collection/blob/main/Markdown/Rethinking%20Depth%20Guided%20Reflection%20Removal.md)
 
 **摘要翻译（严格对应公开 Abstract）**：透过玻璃拍摄时，常常会观察到反射，这会对捕获图像或视频的质量产生负面影响。本文总结并重新思考深度引导的反射去除方法，并受到人类双目视觉系统的启发，研究如何利用深度来实现有效的双目视频反射去除。本文提出一种端到端的基于学习的反射去除方法，该方法学习透射深度，并设计一个统一结构，以级联方式实现深度引导、跨视图和跨帧特征增强。在统一结构中，本文定制了不同的门控控制器，以强调特征交互的方向。本文构建了一个包含合成和真实双目混合视频的数据集，用于网络训练和测试。所提出数据集上的合成和真实数据实验结果表明，本文方法在双目视频反射去除中取得了优越性能。
 
 ---
 
 **- High-resolution image reflection removal by Laplacian-based component-aware transformer (Scientific Reports 2025)**  
-[PDF](https://www.nature.com/articles/s41598-025-94464-6) | [arXiv] | [GitHub]
+[Nature](https://www.nature.com/articles/s41598-025-94464-6) | arXiv：暂未找到公开版本 | GitHub：暂未找到官方仓库
 
 **摘要翻译（严格对应公开 Abstract）**：近年来，数据驱动的深度学习图像反射去除方法取得了令人印象深刻的进展，提升了照片拍摄质量和场景理解能力。由于计算复杂度和内存使用的大量消耗，这些方法在处理高分辨率图像时性能会显著下降。此外，大多数现有反射去除方法只能通过将输入图像下采样到很低分辨率来去除反射模式，从而导致大量信息丢失。本文提出一种用于高分辨率图像反射去除的新型 Transformer 框架，称为基于拉普拉斯金字塔的组件感知 Transformer（LapCAT）。LapCAT 利用拉普拉斯金字塔网络去除高频反射模式，并在干净低频背景组件的引导下重建高分辨率背景图像。在通过逐像素对比学习得到的反射掩码引导下，LapCAT 设计了组件可分离 Transformer 块（CSTB），它通过反射感知多头自注意力机制从背景成分中去除反射模式。在多个反射去除基准数据集上的大量实验表明，LapCAT 优于现有方法，尤其是在从高分辨率图像中去除反射时表现出优异性能和高效率。
 
 ---
 
-**- WindowSeat: Reflection Removal through Efficient Adaptation of Diffusion Transformers (arXiv 2025)**  
-[PDF] | [arXiv](https://arxiv.org/abs/2512.05000) | [GitHub](https://github.com/huawei-bayerlab/windowseat-reflection-removal)
-
-**摘要翻译（严格对应公开 Abstract）**：本文提出一种用于单图像反射去除的扩散 Transformer（DiT）框架，利用基础扩散模型在复原任务中的泛化能力。不同于依赖任务特定架构，本文重新利用一个预训练的、基于 DiT 的基础模型，通过以受反射污染的输入为条件，并引导其生成干净透射层。本文系统分析了现有反射去除数据源在多样性、可扩展性和照片真实感方面的情况。为解决合适数据不足的问题，本文在 Blender 中构建了一个基于物理的渲染（PBR）流程，该流程围绕 Principled BSDF 构建，用于合成真实的玻璃材料和反射效果。基于 LoRA 的基础模型高效适配与所提出的合成数据相结合，在域内和零样本基准上实现了最先进性能。这些结果表明，当预训练扩散 Transformer 与基于物理的数据合成和高效适配相结合时，可以为反射去除提供可扩展且高保真的解决方案。项目页面：https://hf.co/spaces/huawei-bayerlab/windowseat-reflection-removal-web。
-
----
-
 **- Reflections Unlock: Geometry-Aware Reflection Disentanglement in 3D Gaussian Splatting for Photorealistic Scenes Rendering (arXiv 2025)**  
-[PDF] | [arXiv](https://arxiv.org/abs/2507.06103) | [GitHub] | [中文]
+[PDF](https://arxiv.org/pdf/2507.06103) | [arXiv](https://arxiv.org/abs/2507.06103) | [Project](https://ref-unlock.github.io/) | GitHub：暂未找到可验证的独立官方仓库 | [中文]
 
 **摘要翻译（严格对应公开 Abstract）**：准确渲染具有反射表面的场景仍然是新视图合成中的一项重大挑战，因为现有方法（如神经辐射场 NeRF 和 3D 高斯泼溅 3DGS）常常将反射误解为物理几何，从而导致重建退化。以往方法依赖不完整且不可泛化的几何约束，导致高斯点的位置与实际场景几何之间不对齐。在处理包含复杂几何的真实世界场景时，高斯的累积会进一步加剧表面伪影并导致模糊重建。为解决这些局限，本文提出 Ref-Unlock，一种基于 3D 高斯泼溅的几何感知反射建模新框架，它显式解耦透射和反射成分，以更好地捕获复杂反射并增强真实世界场景中的几何一致性。本文方法采用双分支表示，并利用高阶球谐函数捕获高频反射细节，同时引入一个反射去除模块，提供伪无反射监督以指导干净分解。此外，本文结合伪深度图和几何感知双边平滑约束，以增强 3D 几何一致性和分解稳定性。大量实验表明，Ref-Unlock 显著优于经典的基于高斯泼溅的反射方法，并取得与基于 NeRF 的模型具有竞争力的结果，同时支持由灵活视觉基础模型（VFM）驱动的反射编辑。因此，本文方法为反射场景的真实感渲染提供了一种高效且可泛化的解决方案。代码可在 https://ref-unlock.github.io/ 获取。
 
 ---
 
 **- Survey on Single-Image Reflection Removal using Deep Learning Techniques (MIPR 2025)**  
-[PDF] | [arXiv](https://arxiv.org/abs/2502.08836) | [DOI](https://doi.org/10.1109/MIPR67560.2025.00011)
+[PDF](https://arxiv.org/pdf/2502.08836) | [arXiv](https://arxiv.org/abs/2502.08836) | [DOI](https://doi.org/10.1109/MIPR67560.2025.00011)
 
 **摘要翻译（严格对应公开 Abstract）**：在本综述中，本文通过聚焦 ICCV、ECCV、CVPR、NeurIPS 等关键会议和期刊，对当前文献进行全面回顾，因为这些会议和期刊一直是该领域进展的核心。本文的综述遵循结构化的论文选择流程，并对用于反射去除的单阶段和两阶段深度学习方法进行批判性评估。本文还检查常用基准、数据集、评价指标和复现性，以突出当前评测实践中的不足。通过综合这些发现，本文指出真实世界泛化、数据稀缺以及公平评测仍然是单图像反射去除未来研究的重要挑战。
 
 ---
 
 **- Single Image Reflection Separation via Dual Prior Interaction Transformer (arXiv 2025)**  
-[PDF] | [arXiv](https://arxiv.org/abs/2505.12641) | [GitHub]
+[PDF](https://arxiv.org/pdf/2505.12641) | [arXiv](https://arxiv.org/abs/2505.12641) | GitHub：暂未找到官方仓库
 
 **摘要翻译（严格对应 arXiv v3 Abstract）**：单图像反射分离旨在从混合图像中分离透射层和反射层。现有方法通常将来自预训练模型的通用先验与文本提示、反射检测等任务特定先验相结合。然而，透射先验作为目标透射层最直接的任务特定先验，尚未被有效建模和充分利用，这限制了复杂场景中的性能。为解决这一问题，本文提出一种基于轻量级透射先验生成和有效先验融合的双先验交互框架。首先，本文设计局部线性校正网络（Local Linear Correction Network, LLCN），该网络基于物理约束 T=SI+B 对预训练模型进行微调，其中 S 和 B 分别表示逐像素和逐通道的缩放与偏置变换。LLCN 能够以极少参数高效生成高质量透射先验。其次，本文构建双先验交互 Transformer（Dual-Prior Interaction Transformer, DPIT），采用双流通道重组注意力机制。通过重组来自通用先验和透射先验的特征以进行注意力计算，DPIT 实现了两种先验的深度融合，并充分利用其互补信息。多个基准数据集上的实验结果表明，所提出方法达到最先进性能。
 
 ---
 
 **- OpenRR-5k: A Large-Scale Benchmark for Reflection Removal in the Wild (MIPR 2025)**  
-[PDF] | [arXiv](https://arxiv.org/abs/2506.05482) | [GitHub](https://github.com/caijie0620/OpenRR-5k)
+[PDF](https://arxiv.org/pdf/2506.05482) | [arXiv](https://arxiv.org/abs/2506.05482) | [GitHub](https://github.com/caijie0620/OpenRR-5k)
 
 **摘要翻译（严格对应公开 Abstract）**：去除反射是计算机视觉中的一项关键任务，在摄影和图像增强中具有重要应用。然而，现有方法受到缺乏大规模、高质量和多样化数据集的限制。本文提出一种用于单图像反射去除（SIRR）的新基准。我们构建了一个大规模数据集，包含 5,300 对高质量、像素对齐的图像对，每对由一幅反射图像及其对应的干净版本组成。具体而言，该数据集分为两部分：5,000 幅图像用于训练，300 幅图像用于验证。此外，我们还加入了 100 幅没有真值（GT）的真实世界测试图像，以进一步评估反射去除方法的实际性能。所有图像对都在像素层面精确对齐，以保证准确监督。该数据集涵盖了广泛的真实世界场景，包含不同光照条件、物体类型和反射模式，并被划分为训练集、验证集和测试集，以便进行全面评估。为验证该数据集的有效性，我们训练了一个基于 U-Net 的模型，并使用 PSNR、SSIM、LPIPS、DISTS 和 NIQE 五个广泛使用的指标进行评估。我们将在 https://github.com/caijie0620/OpenRR-5k 发布数据集和代码，以促进该领域未来研究。
 
 ---
 
 **- OpenRR-1k: A Scalable Dataset for Real-World Reflection Removal (ICIP 2025)**  
-[PDF] | [arXiv](https://arxiv.org/abs/2506.08299) | [GitHub](https://github.com/caijie0620/Reflection-Removal-in-the-Wild)
+[PDF](https://arxiv.org/pdf/2506.08299) | [arXiv](https://arxiv.org/abs/2506.08299) | [GitHub](https://github.com/caijie0620/OpenRR-1k)
 
 **摘要翻译（严格对应公开 Abstract）**：反射去除技术在摄影和计算机视觉应用中起着关键作用。然而，现有技术受到缺乏高质量野外数据集的阻碍。本文从一个新的视角提出一种新的反射数据集采集范式。我们的方法方便、低成本且可扩展，同时确保采集到的数据对具有高质量、完全对齐，并代表自然且多样的场景。按照这一范式，我们采集了一个真实世界、多样且像素对齐的数据集（命名为 OpenRR-1k 数据集），其中包含 1,000 对在野外采集的高质量透射—反射图像对。通过分析若干反射去除方法，并在我们的数据集上进行基准评测实验，本文证明了该数据集在提升挑战性真实世界环境中的鲁棒性方面的有效性。数据集可在 https://github.com/caijie0620/OpenRR-1k 获取。
 
 ---
 
 **- F2T2-HiT: A U-Shaped FFT Transformer and Hierarchical Transformer for Reflection Removal (ICIP 2025)**  
-[PDF] | [arXiv](https://arxiv.org/abs/2506.05489)
+[PDF](https://arxiv.org/pdf/2506.05489) | [arXiv](https://arxiv.org/abs/2506.05489) | GitHub：暂未找到官方仓库
 
 **摘要翻译（严格对应公开 Abstract）**：单图像反射去除（SIRR）技术通过从背景中消除不需要的反射，在图像处理中发挥着关键作用。这些反射通常由透过玻璃表面拍摄照片引起，会显著降低图像质量。由于真实世界场景中的反射复杂且多样，SIRR 仍然是一个具有挑战性的问题。这些反射在图像中的强度、形状、光源、大小和覆盖区域上差异显著，给大多数现有方法有效处理所有情况带来挑战。为应对这些挑战，本文提出一种 U 形快速傅里叶变换 Transformer 和层次化 Transformer（F2T2-HiT）架构，这是一种用于 SIRR 的创新 Transformer 设计。本文方法在 UNet 框架中独特地结合了快速傅里叶变换（FFT）Transformer 块和层次化 Transformer 块。FFT Transformer 块利用全局频域信息，有效捕获并分离反射模式；层次化 Transformer 块利用多尺度特征提取来处理不同大小和复杂程度的反射。在三个公开测试数据集上的大量实验表明，本文方法取得了最先进性能，验证了其有效性。
 
 ---
 
 **- Single-image Reflection Removal via Self-supervised Diffusion Models (Journal of Supercomputing 2025)**  
-[Springer](https://link.springer.com/article/10.1007/s11227-024-06837-9) | [arXiv](https://arxiv.org/abs/2412.20466) | [GitHub]
+[Springer](https://link.springer.com/article/10.1007/s11227-024-06837-9) | [PDF](https://arxiv.org/pdf/2412.20466) | [arXiv](https://arxiv.org/abs/2412.20466) | GitHub：暂未找到官方仓库
 
 **摘要翻译（严格对应公开 Abstract）**：反射常常降低透过透明表面拍摄图像的视觉质量，而反射去除方法又受到真实世界配对样本不足的影响。本文提出一种混合方法，结合循环一致性和去噪扩散概率模型（DDPM），在不需要配对训练数据的情况下有效地从单幅图像中去除反射。该方法引入反射去除网络（RRN），利用 DDPM 对分解过程进行建模并恢复透射图像；同时引入反射合成网络（RSN），通过基于非线性注意力的机制，使用分离出的成分重新合成输入图像。实验结果证明了所提出方法在 SIR²、基于闪光的反射去除（FRR）数据集以及新引入的博物馆反射去除（MRR）数据集上的有效性，相比最先进方法表现更优。
 
 ---
 
 **- Single Image-Based Reflection Removal via Dual-Stream Multi-Column Reversible Encoding (Applied Sciences 2025)**  
-[PDF](https://www.mdpi.com/2076-3417/15/20/11229) | [arXiv] | [GitHub]
+[MDPI](https://www.mdpi.com/2076-3417/15/20/11229) | arXiv：暂未找到公开版本 | GitHub：暂未找到官方仓库
 
 **摘要翻译（严格对应公开 Abstract）**：从单幅图像中去除反射是一个不适定问题，这是由于从单个复合观测中分离透射成分和反射成分存在固有歧义。本文通过引入可逆特征编码策略并结合简化的双流解码结构来应对这一挑战。具体而言，可逆 NAFNet 编码器使我们能够在整个编码过程中保留全部特征信息，同时避免内存开销；这对于分离重叠结构至关重要。与复杂的门控机制不同，所提出的双流解码器通过共享编码器特征和跳跃连接，在透射流和反射流之间实现隐式双向信息流。尽管没有注意力模块且计算量减少，本文模型仍然保持较强性能。在标准反射去除基准上的大量实验表明，本文方法取得了具有竞争力的结果。
 
 ---
 
 **- A Review on Learning Based Image Reflection Removal Algorithms (Intelligent Data Analysis 2025)**  
-[PDF](https://journals.sagepub.com/doi/10.3233/IDA-230904) | [arXiv] | [GitHub]
+[SAGE](https://journals.sagepub.com/doi/10.3233/IDA-230904) | arXiv：暂未找到公开版本 | GitHub：暂未找到官方仓库
 
 **摘要翻译（严格对应公开 Abstract）**：透过半反射表面（如玻璃窗和透明外罩）拍摄图像，通常会导致视觉质量下降，并可能对计算机视觉算法的性能产生不利影响。因此，图像反射去除已经受到计算机视觉研究者的广泛关注。随着深度学习方法在超分辨率、图像修复和去噪等各种计算机视觉任务中的应用不断增长，卷积神经网络（CNN）已经成为图像反射去除中越来越受欢迎的选择。本文旨在对为图像反射去除而设计的基于学习的算法进行全面综述。首先，本文概述该领域的关键术语和基本背景概念。接着，本文考察各种数据集和数据合成方法，以帮助研究者根据其具体需求和目标选择最合适的选项。随后，本文结合定性和定量结果回顾现有方法，突出它们在该领域中的贡献和意义。最后，本文讨论图像反射去除技术中的挑战和未来范围。
 
 ---
 
 **- A Wavelet-Guided Deep Unfolding Network for Single Image Reflection Removal (IEEE TIP 2025)**  
-[PDF](https://ieeexplore.ieee.org/document/11051128/) | [arXiv] | [GitHub]
+[IEEE Xplore](https://ieeexplore.ieee.org/document/11051128/) | arXiv：暂未找到公开版本 | GitHub：暂未找到官方仓库
 
 **摘要翻译（严格对应公开 Abstract）**：从图像中去除不需要的反射是低层计算机视觉中的一个基础但具有挑战性的问题。近年来，基于深度学习的单图像反射去除（SIRR）方法取得了显著进展。然而，从透射内容中分离反射仍然困难，尤其是在两者具有高度视觉相似性的复杂场景中。通过仔细分析，本文发现反射主要存在于图像的高频成分中。这些反射倾向于扭曲高频范围内的细微细节，而低频信息相对受到较少影响。这一观察促使本文通过利用离散小波变换（DWT）来探索一种频率感知的 SIRR 方法。小波分解使我们能够在频域中区分并隔离反射伪影，同时保留透射信息。基于这一见解，本文提出一种新的小波引导深度展开网络（WDUNet），利用小波分解和深度展开技术的优势来提升 SIRR 的可解释性和泛化能力。具体而言，本文使用 DWT 和卷积字典构建了一个基于优化的反射去除模型。所提出模型通过近端梯度算法进行优化，并随后展开为神经网络架构，其中所有参数都在训练过程中端到端学习。通过将小波域分析与深度展开结合，WDUNet 同时增强了 SIRR 方法的可解释性和泛化能力。此外，本文设计并将低频参数估计模块（LPEM）和高频参数估计模块（HPEM）集成到 WDUNet 中，使网络能够自动学习并优化模型的超参数。在四个基准数据集上的大量实验表明，WDUNet 在客观评价指标和主观视觉质量上都持续优于现有最先进方法。
 
 ---
 
 **- Several Points Are All It Takes: Saluting User-Assisted Single Image Reflection Removal (IEEE Signal Processing Letters 2025)**  
-[PDF] | [arXiv] | [GitHub]
+PDF/预印本：暂未找到公开直链 | GitHub：暂未找到官方仓库
 
 **摘要翻译（严格对应公开 Abstract）**：反射去除对于摄影、目标检测和增强现实等应用至关重要。与多图像方法相比，单图像反射去除（SIRR）具有更大的灵活性和适用性，因此非常适合实时场景。然而，强反射会遮挡透射层的大部分区域，限制现有方法的性能。本文提出一种新的用户辅助 SIRR 方法，其中用户通过选择被遮挡物体的类别和位置来进行标注。这为引导准确的透射层恢复提供了关键语义信息。此外，本文设计了一种混合 CNN-Transformer 网络，利用局部特征提取和全局上下文建模来应对强反射挑战。强反射数据集上的实验表明，本文方法有效提升了透射层恢复效果，并在多个指标上优于现有先进方法。
 
 ---
 
 **- Real-World Image Reflection Removal: An Ultra-High-Definition Dataset and an Efficient Baseline (IEEE TCSVT 2025)**  
-[PDF](https://ieeexplore.ieee.org/document/10804834) | [arXiv] | [GitHub]
+[IEEE Xplore](https://ieeexplore.ieee.org/document/10804834) | arXiv：暂未找到公开版本 | GitHub：暂未找到官方仓库
 
 **摘要翻译（严格对应公开 Abstract）**：反射去除是图像重建中的一个关键问题，尤其对于高清图像而言更是如此。去除不需要的反射可以极大提升各种视觉系统的性能，例如医学成像、自动驾驶和安全监控。然而，现有反射去除数据集分辨率不高，训练数据严重依赖合成数据，这阻碍了反射去除方法的性能，并限制了面向高清图像的有效技术发展。因此，本文引入一个新的数据集，即真实世界 4K 反射去除（Real-world Reflection Removal in 4K，RR4K）。这个新数据集容量大、分辨率高达 6000×4000 像素，代表了该领域的重要进展，并确保了一个真实且高质量的基准。此外，基于该数据集，本文提出一种针对高清处理优化的高效单图像反射去除方法。该方法采用 U-Net 架构，并通过大核蒸馏和尺度感知特征进行增强，使其能够在降低计算需求的同时有效处理复杂反射场景。在 RR4K 数据集和现有低分辨率数据集上的综合测试表明，本文方法具有更优的效率和有效性。本文认为，所构建的 RR4K 数据集能够更好地评估和设计用于真实世界高清图像中去除不需要反射的算法。数据集和代码可在 GitHub 获取。
 
 ---
 
 **- Exploring Spectral Characteristics for Single Image Reflection Removal (arXiv 2025)**  
-[arXiv](https://arxiv.org/abs/2509.12627)
+[PDF](https://arxiv.org/pdf/2509.12627) | [arXiv](https://arxiv.org/abs/2509.12627) | GitHub：暂未找到官方仓库
 
 **摘要翻译（严格对应公开 Abstract）**：消除由入射光与反射介质相互作用所造成的反射，在图像复原领域中仍然是一个不适定问题。主要挑战来自捕获图像中反射成分和透射成分的重叠，这使得准确区分并恢复干净背景的任务变得复杂。现有方法通常仅在图像域中处理反射去除，忽略了反射光的光谱属性变化，这限制了它们有效辨别反射的能力。本文从光谱学习的新视角出发，提出 Spectral Codebook 来重建反射图像的光学光谱。通过感知光谱中不同光源之间的波长差异，可以有效地区分反射。为了利用重建的光谱，本文设计了两个光谱先验细化模块，分别在空间维度上重新分配像素，并沿波长维度自适应增强光谱差异。此外，本文提出 Spectrum-Aware Transformer，在光谱域和像素域中联合恢复透射内容。在三个不同反射基准上的实验结果表明，与最先进模型相比，本文方法具有优越性和泛化能力。
 
@@ -651,7 +442,6 @@
 **摘要片段翻译（公开页面仅检索到片段，暂未找到完整公开 Abstract）**：具体而言，本文将图像反射去除过程形式化为一个序列决策过程，并逐像素地去除单图像反射。
 
 ---
-
 
 
 
