@@ -1,8 +1,29 @@
 # Single Image Reflection Removal / Separation Papers and Code Collection
 
-> 更新时间：2026-07-18
+> 更新时间：2026-09-20
 
 ## 2026
+
+**- Single Image Reflection Removal with Patch Reflectance Prior (Information Sciences 2026, Online First)**  
+[ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0020025526010455) | [DOI](https://doi.org/10.1016/j.ins.2026.124114) | [arXiv](https://arxiv.org/abs/2312.03798) | GitHub：暂未确认官方仓库
+
+**摘要翻译（根据 Information Sciences 公开 Abstract）**：单图像反射去除面临玻璃表面透射与反射过程中多种图像退化带来的挑战。现有方法常依赖特定的反射先验假设。该研究引入反射率（reflectance）先验，利用透射图像与反射图像之间的关系辅助恢复，并首先利用图像级和像素级真值反射率验证这一先验的有效性。由于推理时无法获取真值反射率，方法进一步训练网络预测图像块级反射率。在固定反射率预测网络后，利用预测的局部先验调制反射去除骨干网络特征。多个真实世界基准上的实验表明，该方法能够取得具有竞争力的反射去除性能。该论文曾以早期预印本形式公开，2026 年 9 月 10 日上线正式期刊版本。
+
+---
+
+**- RefMover: Diffusion-Based Single Image Reflection Removal With Language and Region Guidance (IEEE TPAMI 2026, Early Access)**  
+[DOI](https://doi.org/10.1109/TPAMI.2026.3731103) | [PubMed](https://pubmed.ncbi.nlm.nih.gov/42704805/) | GitHub：暂未确认官方仓库
+
+**摘要翻译（根据公开 Abstract）**：单图像反射去除是一项高度不适定的任务。虽然已有研究尝试利用 RAW 数据更准确地描述成像过程，但实际场景中广泛使用的处理后 8 位图像仍需要能够应对非线性退化的恢复方法。现有方法可能因缺乏高层语义引导而难以处理此类图像；语言引导的扩散模型虽然具有潜力，但反射污染输入会带来语义与空间区域难以对齐、恢复结果不够忠实等问题。为此，RefMover 提出多指令扩散框架，结合语言与区域引导，缩小语义与空间之间的对应差距。方法还设计了更精简的条件生成流程，以减轻条件冲突并保留图像细节，同时构建大规模 ComRR 数据集用于训练和评测。实验验证了该方法在反射去除任务中的有效性及其在交互式与云端辅助应用中的潜力。
+
+---
+
+**- Frequency-Domain Enhancement and Multi-Scale Residual Modeling for Single-Image Reflection Separation (Electronics 2026)**  
+[Journal](https://www.mdpi.com/2079-9292/15/17/4019) | [PDF](https://www.mdpi.com/2079-9292/15/17/4019/pdf) | [DOI](https://doi.org/10.3390/electronics15174019) | GitHub：暂未确认官方仓库
+
+**摘要翻译（根据期刊公开 Abstract）**：单图像反射分离旨在从透过玻璃拍摄的混合图像中恢复透射层和反射层。现有双流交互方法主要依赖空间域的线性特征建模和单尺度残差预测，在处理复杂反射混合时存在局限。该研究提出一种基于预训练双流基线的结构增强方法。受同态滤波启发，同态频域增强模块（HFEM）结合对数变换和 Haar 小波分解提取互补频域特征，并通过零初始化投影将其注入两条流的局部先验分支；多尺度残差建模模块（MSRM）聚合不同层级的解码器特征，替代原有的单尺度残差模块。训练时冻结预训练基线，仅优化新模块。最终新增 1.528M 可训练参数，约占完整 328.49M 参数模型的 0.47%。在包含 494 张图像的五个公开基准上，加权平均 PSNR/SSIM 从 26.52 dB/0.916 提升至 26.74 dB/0.917。消融结果表明，HFEM 是性能增益的主要来源，MSRM 提供补充收益。
+
+---
 
 **- GenSIRR: Rectifying Latent Space for Generative Single-Image Reflection Removal (CVPR 2026)**  
 [CVF](https://openaccess.thecvf.com/content/CVPR2026/html/Li_Rectifying_Latent_Space_for_Generative_Single-Image_Reflection_Removal_CVPR_2026_paper.html) | [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Li_Rectifying_Latent_Space_for_Generative_Single-Image_Reflection_Removal_CVPR_2026_paper.pdf) | [Project](https://gensirr.research.mingjia.li/) | [arXiv](https://arxiv.org/abs/2512.06358) | [GitHub](https://github.com/lime-j/GenSIRR)
@@ -181,8 +202,8 @@
 
 ---
 
-**- PRISM: Latent Composition Consistency for Single-Image Reflection Removal (arXiv 2026)**  
-[PDF](https://arxiv.org/pdf/2606.31513) | [arXiv](https://arxiv.org/abs/2606.31513) | GitHub：暂未找到官方仓库
+**- PRISM: Latent Composition Consistency for Single-Image Reflection Removal (ECCV 2026)**  
+[PDF](https://arxiv.org/pdf/2606.31513) | [arXiv](https://arxiv.org/abs/2606.31513) | [Project](https://junsung6140.github.io/prism/) | [GitHub](https://github.com/junsung6140/PRISM-SIRR)（官方代码仓库已公开）
 
 **摘要翻译（严格对应 arXiv 当前 Abstract）**：单图像反射去除旨在从受反射污染的混合图像中恢复透射层，是一个高度不适定问题。现有方法通常在像素空间中操作，而非线性的 sRGB 成像过程会使两个图层相互缠结并限制泛化。本文观察到，预训练 VAE 的潜空间中不同图层之间的相干性显著低于像素空间，因此更适合进行分解。基于这一发现，本文提出 PRISM，将 SIRR 重新解释为潜空间中的近似线性分离问题。PRISM 在预训练 FLUX 骨干上学习流匹配速度场，并在一次前向过程中同时恢复透射层和反射层。为实现稳健解耦，本文提出潜空间组成一致性（LCC）策略，通过在样本间交换反射潜变量构造合成混合，并利用循环损失约束一致分解；同时提出图层对比分离（LCS）损失，通过块级对比学习促进语义分离，而不需要显式反射真值。六个基准上的实验表明，PRISM 具有较强性能和野外泛化能力。
 
@@ -195,12 +216,29 @@
 
 ---
 
-**- Unified Removal of Raindrops and Reflections: A New Benchmark and A Novel Pipeline (arXiv 2026)**  
-[PDF](https://arxiv.org/pdf/2603.16446) | [arXiv](https://arxiv.org/abs/2603.16446) | GitHub：论文称接收后公开，目前暂未找到官方仓库
+**- Unified Removal of Raindrops and Reflections: A New Benchmark and A Novel Pipeline (ECCV 2026)**  
+[PDF](https://arxiv.org/pdf/2603.16446) | [arXiv](https://arxiv.org/abs/2603.16446) | [Project / GitHub](https://github.com/XingyuLiu00/DiffUR3)（官方项目仓库已公开；训练、推理代码与预训练模型仍待发布） | [Dataset](https://github.com/hezw2016/RDRF-dataset)
 
-**摘要翻译（严格对应公开 Abstract）**：在雨天透过玻璃表面或挡风玻璃拍摄图像时，雨滴和反射经常共同出现，并显著降低所捕获图像的可见性。这一实际问题缺乏关注，亟需解决。先前的去雨滴、去反射以及 all-in-one 模型都未能解决这种复合退化。为此，我们首次正式定义统一去除雨滴和反射（UR³）任务，并构建一个真实拍摄数据集，即 RainDrop and ReFlection（RDRF），它提供了一个包含大量、高质量、多样化图像对的新基准。随后，我们提出一种新的基于扩散的框架（即 DiffUR³），并通过若干针对性设计来解决这一具有挑战性的任务。通过利用强大的生成先验，DiffUR³ 成功去除了两种退化。大量实验表明，我们的方法在所提出基准和具有挑战性的野外图像上达到最先进性能。RDRF 数据集和代码将在接收后公开。
+**摘要翻译（严格对应公开 Abstract）**：在雨天透过玻璃表面或挡风玻璃拍摄图像时，雨滴和反射经常共同出现，并显著降低所捕获图像的可见性。这一实际问题缺乏关注，亟需解决。先前的去雨滴、去反射以及 all-in-one 模型都未能解决这种复合退化。为此，我们首次正式定义统一去除雨滴和反射（UR³）任务，并构建一个真实拍摄数据集，即 RainDrop and ReFlection（RDRF），它提供了一个包含大量、高质量、多样化图像对的新基准。随后，我们提出一种新的基于扩散的框架（即 DiffUR³），并通过若干针对性设计来解决这一具有挑战性的任务。通过利用强大的生成先验，DiffUR³ 成功去除了两种退化。大量实验表明，我们的方法在所提出基准和具有挑战性的野外图像上达到最先进性能。RDRF 数据集的项目页面已公开，训练、推理代码与预训练模型仍待发布。
 
 ---
+
+---
+
+## 2026 年相关扩展任务（非标准单幅 RGB 图像反射去除）
+
+**- From Synthesis to Removal: Physics-Grounded Reflection Simulation and Diffusion-Based Video Dereflection (arXiv 2026, 视频反射去除)**  
+[PDF](https://arxiv.org/pdf/2608.11562) | [arXiv](https://arxiv.org/abs/2608.11562) | [Project](https://codingwzp.github.io/VideoDereflection_S2R/) | GitHub：项目页面标注代码待发布
+
+**摘要翻译（根据 arXiv 公开 Abstract）**：透过玻璃拍摄的视频中常包含反射，影响视觉质量和后续视觉任务。与单图像反射去除相比，视频反射去除面临成对训练数据不足、跨帧恢复一致性难以维持及缺少专用评测基准等问题。该研究提出 S2R 框架，统一基于物理的反射视频合成、扩散式视频去反射与基准评测。S2R-Synthesis 通过结构空间中的物理增强和视频扩散渲染器生成成对视频，并模拟由玻璃粗糙度、厚度和反射率变化带来的退化；S2R-Removal 通过反射感知潜空间适配与单步像素几何精修，利用预训练视频扩散先验恢复透射内容；S2R-Bench 提供全参考评价与真实世界主观感知评价。该论文研究对象为视频，而非标准单图像输入。
+
+---
+
+**- Diffusion-Based Dual-View Reflection Removal (ECCV 2026, 双视角反射去除)**  
+[Springer Proceedings](https://link.springer.com/book/10.1007/978-3-032-37464-6) | [Publication List](https://ci.idm.pku.edu.cn/publication) | GitHub：暂未确认官方仓库
+
+**内容概述（根据公开会议论文目录及作者论文列表）**：该论文由 Tianyi Xu、Zifeng Wang、Boyang Lv、Shuchen Weng 和 Boxin Shi 完成，发表于 ECCV 2026，研究基于扩散模型的双视角反射去除。由于公开检索资料尚不足以核对具体模块及完整摘要，此处暂不扩展为方法细节翻译。其输入为双视角观测，不属于标准单图像反射去除。
+
 
 
 ## 2025
