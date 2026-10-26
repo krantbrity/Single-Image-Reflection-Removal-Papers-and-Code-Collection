@@ -1,8 +1,20 @@
-# Single Image Reflection Removal / Separation Papers and Code Collection
+# 2026 年单图像反射去除 / 分离论文与代码合集
 
-> 更新时间：2026-09-20
+> **更新时间：2026-10-26**  
+> **收录年份：仅 2026 年正式发表、录用或公开的研究**。2025 年及更早发表的论文条目已移除；某些 2026 年正式发表论文附带的更早 arXiv 链接仍保留。  
+> **范围：** 单幅 RGB 图像反射去除（SIRR）及单幅图像透射/反射分离（SIRS）为主体。预印本、Workshop、偏振/事件/视频/双视角、联合雨滴与反射去除单列，避免误认为标准单幅 RGB SIRR 主会论文。  
+> **使用说明：** 保留原文献库的论文入口、代码链接与中文摘要；GitHub 仓库和权重状态是文献整理结果，不代表本地实际运行验证。
 
-## 2026
+## 导航
+
+- [2026 年 SIRR / SIRS 正式论文与会议报告](#2026-年-sirr--sirs-正式论文与会议报告)
+- [2026 年 SIRR / SIRS 预印本](#2026-年-sirr--sirs-预印本)
+- [2026 年相关扩展任务](#2026-年相关扩展任务)
+- [与 Sin 网络的对照](#与-sin-网络的对照)
+
+## 2026 年 SIRR / SIRS 正式论文与会议报告
+
+> 以下包含顶会主会、Workshop 和不同级别期刊的 2026 年成果，**不表示全部属于顶会顶刊**；具体发表类型写在每条标题中。
 
 **- Single Image Reflection Removal with Patch Reflectance Prior (Information Sciences 2026, Online First)**  
 [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0020025526010455) | [DOI](https://doi.org/10.1016/j.ins.2026.124114) | [arXiv](https://arxiv.org/abs/2312.03798) | GitHub：暂未确认官方仓库
@@ -33,7 +45,7 @@
 ---
 
 **- LightRR: A Lightweight Network for Single Image Reflection Removal (CVPR 2026)**  
-[CVF](https://openaccess.thecvf.com/content/CVPR2026/html/Yin_LightRR_A_Lightweight_Network_for_Single_Image_Reflection_Removal_CVPR_2026_paper.html) | [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Yin_LightRR_A_Lightweight_Network_for_Single_Image_Reflection_Removal_CVPR_2026_paper.pdf) | GitHub：暂未找到官方仓库
+[CVF](https://openaccess.thecvf.com/content/CVPR2026/html/Yin_LightRR_A_Lightweight_Network_for_Single_Image_Reflection_Removal_CVPR_2026_paper.html) | [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Yin_LightRR_A_Lightweight_Network_for_Single_Image_Reflection_Removal_CVPR_2026_paper.pdf) | [GitHub（公开实现）](https://github.com/CrushDemo01/LightRR-CVPR26)（仓库自述为官方实现，含训练/评测脚本和 checkpoint；与作者身份的独立对应关系仍待核实）
 
 **摘要翻译（严格对应 CVF 公开 Abstract）**：单图像反射去除既具有高度病态性，也通常需要较高计算成本。现有基于 CNN 或 Transformer 的方法往往依赖大感受野和繁重计算，限制了其在资源受限设备上的部署。为此，本文提出 LightRR，一种将小波机制与状态空间建模统一起来的轻量级反射去除网络。具体而言，方法设计非对称频率 Mamba 块（AFM），利用离散小波变换将特征分解为低频和高频成分，并通过基于 Mamba 的状态空间动态有针对性地建模不同频率的依赖关系。该设计能够高效捕获长程上下文，同时降低空间分辨率和计算量，并保留关键细节。此外，知识蒸馏增强的编码器使网络在训练阶段继承大型预训练模型的表征能力，从而实现轻量推理。多个真实世界基准上的实验表明，LightRR 在仅使用 RDNet 约 3.01% 参数量和 5.22% FLOPs 的情况下，取得了与最先进方法相当的性能。
 
@@ -54,16 +66,9 @@
 ---
 
 **- GFRRN: Explore the Gaps in Single Image Reflection Removal (CVPR 2026)**  
-[CVF](https://openaccess.thecvf.com/content/CVPR2026/html/Chen_GFRRN_Explore_the_Gaps_in_Single_Image_Reflection_Removal_CVPR_2026_paper.html) | [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Chen_GFRRN_Explore_the_Gaps_in_Single_Image_Reflection_Removal_CVPR_2026_paper.pdf) | [arXiv](https://arxiv.org/abs/2602.22695) | GitHub：暂未找到官方仓库
+[CVF](https://openaccess.thecvf.com/content/CVPR2026/html/Chen_GFRRN_Explore_the_Gaps_in_Single_Image_Reflection_Removal_CVPR_2026_paper.html) | [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Chen_GFRRN_Explore_the_Gaps_in_Single_Image_Reflection_Removal_CVPR_2026_paper.pdf) | [arXiv](https://arxiv.org/abs/2602.22695) | [GitHub（训练/评测代码）](https://github.com/tabe-i/GFRRN)（README 提供 GFRRN/GFRRN_s 训练、评测命令及权重下载说明；未独立运行验证）
 
 **摘要翻译（严格对应公开 Abstract）**：具有特征交互机制的先前双流方法已经在单图像反射去除（SIRR）中取得了显著性能。然而，它们往往仍面临两个困难：（1）预训练模型特征与反射去除模型特征之间的语义理解差距；（2）合成训练数据与真实世界训练数据之间的反射标签不一致。本文首先采用参数高效微调（PEFT）策略，将若干可学习的 Mona 层集成到预训练模型中，以对齐训练方向。随后，我们设计标签生成器，以统一合成数据和真实世界数据的反射标签。此外，我们提出基于高斯的自适应频率学习块（G-AFLB），以自适应学习并融合频率先验；并采用动态 Agent 注意力（DAA）替代基于窗口的注意力，通过动态建模窗口之间以及单个窗口内部的重要性水平。这些组件构成了我们提出的 Gap-Free Reflection Removal Network（GFRRN）。大量实验表明 GFRRN 的有效性，并相较最先进 SIRR 方法取得了更优性能。
-
----
-
-**- Polarization State Tracing for Reflection Removal and Color-Consistent Reconstruction (CVPR 2026)**  
-[CVF](https://openaccess.thecvf.com/content/CVPR2026/html/Wang_Polarization_State_Tracing_for_Reflection_Removal_and_Color-Consistent_Reconstruction_CVPR_2026_paper.html) | [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Wang_Polarization_State_Tracing_for_Reflection_Removal_and_Color-Consistent_Reconstruction_CVPR_2026_paper.pdf) | GitHub：暂未找到官方仓库
-
-**摘要翻译（严格对应 CVF 公开 Abstract）**：彩色玻璃广泛存在于日常环境中，但其反射与吸收特性会在拍摄图像中引入重影和颜色偏差。现有方法通常忽略吸收问题，因此难以处理彩色玻璃造成的颜色偏差。本文首次利用偏振成像理论对玻璃内部的光传输过程进行建模，提出偏振状态追踪模型（PSTM），沿多条传播路径追踪偏振光，并考虑波长选择性吸收，从而联合实现反射去除与颜色一致性重建。在 PSTM 的指导下，本文设计通道环注意力（CRA）机制，以高效捕获不同偏振角之间的依赖关系并增强偏振通道间的特征交互。恢复的偏振信息还可直接用于偏振形状恢复等下游任务。本文构建了包含多种玻璃材料的真实数据集 GlassPol；实验表明，该方法优于现有方法，PSNR 最高提升约 3 dB。
 
 ---
 
@@ -117,9 +122,9 @@
 ---
 
 **- FUMO: Prior-Modulated Diffusion for Single Image Reflection Removal (ECCV 2026)**  
-[PDF](https://arxiv.org/pdf/2603.19036) | [arXiv](https://arxiv.org/abs/2603.19036) | [GitHub](https://github.com/Lucious-Desmon/FUMO)（代码已开放，预训练权重仍待补充）
+[PDF](https://arxiv.org/pdf/2603.19036) | [arXiv](https://arxiv.org/abs/2603.19036) | [GitHub（代码）](https://github.com/Lucious-Desmon/FUMO) | [Hugging Face（模型权重）](https://huggingface.co/LulululuDe/FUMO)（仓库记录权重于 2026-08-25 发布）
 
-**摘要翻译（严格对应公开 Abstract）**：单图像反射去除（SIRR）在真实场景中具有挑战性，其中反射强度在空间上变化，且反射模式与透射结构紧密缠结。本文提出一种带有先验调制的扩散模型框架（FUMO），引入显式引导信号，以提升空间可控性和结构保真度。我们直接从混合图像中提取两类先验：一种是估计空间反射严重程度的强度先验，另一种是通过多尺度残差聚合捕获细节敏感响应的高频先验。我们提出一种由粗到细的训练范式。在第一阶段，这些线索被结合起来，对条件残差注入进行门控，使条件信息聚焦于同时具有反射主导性和结构敏感性的区域。在第二阶段，一个细粒度精修网络在图像空间中校正局部不对齐并锐化细节。在标准基准和具有挑战性的野外图像上进行的实验表明，该方法取得了具有竞争力的定量结果，并持续提升了感知质量。官方代码仓库已开放，但预训练权重仍待补充。
+**摘要翻译（严格对应公开 Abstract）**：单图像反射去除（SIRR）在真实场景中具有挑战性，其中反射强度在空间上变化，且反射模式与透射结构紧密缠结。本文提出一种带有先验调制的扩散模型框架（FUMO），引入显式引导信号，以提升空间可控性和结构保真度。我们直接从混合图像中提取两类先验：一种是估计空间反射严重程度的强度先验，另一种是通过多尺度残差聚合捕获细节敏感响应的高频先验。我们提出一种由粗到细的训练范式。在第一阶段，这些线索被结合起来，对条件残差注入进行门控，使条件信息聚焦于同时具有反射主导性和结构敏感性的区域。在第二阶段，一个细粒度精修网络在图像空间中校正局部不对齐并锐化细节。在标准基准和具有挑战性的野外图像上进行的实验表明，该方法取得了具有竞争力的定量结果，并持续提升了感知质量。官方代码仓库已开放；README 已提供预训练权重的下载方式。
 
 ---
 
@@ -179,6 +184,70 @@
 
 ---
 
+**- RRFormer: A New Transformer-Based Method for Ultra High-Definition Reflection Removal (Information Fusion 2026)**  
+[Information Fusion](https://doi.org/10.1016/j.inffus.2026.104292) | [arXiv](https://arxiv.org/abs/2308.00265) | [GitHub](https://github.com/Liar-zzy/Benchmarking-Ultra-High-Definition-Single-Image-Reflection-Removal)（仓库已开放，部分资源仍待补充）
+
+**摘要翻译（严格对应公开 Abstract）**：基于深度学习的方法已经在单图像反射去除（SIRR）中取得显著成功。然而，这些方法大多关注高清/标准清晰度图像，而忽略了超高清（UHD）图像等更高分辨率图像。随着现代设备拍摄的 UHD 图像日益普及，我们旨在解决 UHD SIRR 问题。具体而言，我们首先合成了两个分别为 4K 和 8K 分辨率的大规模 UHD 数据集。据我们所知，它们是首个用于 SIRR 的大规模 UHD 数据集。随后，我们在所提出数据集上对 12 个最先进的 SIRR 方法进行了全面评估。此外，我们提出一种名为 RRFormer 的基于 Transformer 的反射去除架构，由三个模块组成：预处理嵌入模块、自注意力特征提取模块和多尺度空间特征提取模块。这些模块分别提取 hypercolumn 特征、全局和局部注意力特征，以及多尺度空间特征。为确保有效训练，我们使用由像素损失、特征损失和对抗损失组成的组合损失函数。实验结果表明，RRFormer 在现有非 UHD 基准和我们提出的 UHD 数据集上均达到最先进性能。
+
+---
+
+**- PRISM: Latent Composition Consistency for Single-Image Reflection Removal (ECCV 2026)**  
+[PDF](https://arxiv.org/pdf/2606.31513) | [arXiv](https://arxiv.org/abs/2606.31513) | [Project](https://junsung6140.github.io/prism/) | [GitHub](https://github.com/junsung6140/PRISM-SIRR)（官方代码仓库已公开）
+
+**摘要翻译（严格对应 arXiv 当前 Abstract）**：单图像反射去除旨在从受反射污染的混合图像中恢复透射层，是一个高度不适定问题。现有方法通常在像素空间中操作，而非线性的 sRGB 成像过程会使两个图层相互缠结并限制泛化。本文观察到，预训练 VAE 的潜空间中不同图层之间的相干性显著低于像素空间，因此更适合进行分解。基于这一发现，本文提出 PRISM，将 SIRR 重新解释为潜空间中的近似线性分离问题。PRISM 在预训练 FLUX 骨干上学习流匹配速度场，并在一次前向过程中同时恢复透射层和反射层。为实现稳健解耦，本文提出潜空间组成一致性（LCC）策略，通过在样本间交换反射潜变量构造合成混合，并利用循环损失约束一致分解；同时提出图层对比分离（LCS）损失，通过块级对比学习促进语义分离，而不需要显式反射真值。六个基准上的实验表明，PRISM 具有较强性能和野外泛化能力。
+
+---
+
+## 2026 年 SIRR / SIRS 预印本
+
+**- LowAux-RDNet: Low-Pass Residual Supervision with Scene-Balanced Real-World Training for Single-Image Reflection Removal (arXiv 2026, 预印本)**  
+[arXiv](https://arxiv.org/abs/2607.22707) | [PDF](https://arxiv.org/pdf/2607.22707) | GitHub：暂未确认可靠的官方代码仓库
+
+**摘要概述（根据 arXiv Abstract）**：该研究以 RDNet 为基础，提出仅在训练时使用的低通反射残差辅助监督（LowAux）。在原始残差监督基础上，对预测残差和目标残差施加对称低通滤波，以提供更稳定的低频约束，同时加入场景均衡的真实图像对，改善跨数据集表现。作者还统一模型预处理、输出量化和指标计算，在 CEILNet、Real20、Postcard、Objects、Wild 五个测试集上报告宏平均评测结果。**注意**：其五数据集等权宏平均与部分 SIRR 工作按图像数加权的 Overall 指标不同，不可直接横向比较。
+
+**与 Sin 的关联**：可作为 bias_sub 输出的多尺度/低频辅助约束参考，但 LowAux 所监督的 reflection residual 与当前 Bias 的定义并不天然一致，需要先明确残差对象和监督方式。
+
+---
+
+**- Principled Reflection Separation via Nonlinear Superposition and Feature Interaction (DIRS, arXiv 2026)**  
+[PDF](https://arxiv.org/pdf/2606.02831) | [arXiv](https://arxiv.org/abs/2606.02831) | [Project](https://mingcv.github.io/DIRS-Page/) | [GitHub](https://github.com/mingcv/DIRS)
+
+**摘要翻译（严格对应 arXiv 当前 Abstract）**：单图像反射分离的根本困难在于，透射层与反射层在复杂成像过程中相互缠结。现有方法大多依赖简化假设或独立建模，限制了其处理真实场景的能力。本文从统一视角重新审视该问题，并指出在 sRGB 域中广泛使用的线性合成模型无法刻画真实图像信号处理流程引入的非线性耦合。为此，本文提出可学习的非线性叠加模型，以更准确地描述图层交互并提高分解保真度。在此基础上，本文构建通用双流交互框架，通过特征交换显式建模透射层和反射层之间的双向依赖。该框架统一了基于激活、门控和注意力的交互机制，并兼容 CNN 与 Transformer 骨干。多个真实世界基准上的实验表明，该方法具有较好的性能和泛化能力。官方代码与模型已经公开。
+
+---
+
+## 2026 年相关扩展任务
+
+> 以下论文涉及额外观测、视频、双视角或复合退化，不按标准单幅 RGB SIRR 主表统计。
+
+**- EvReflection: Event-Driven Micro-Dynamics for Reflection Removal (ICML 2026, 事件相机辅助)**  
+[PMLR（正式论文）](https://proceedings.mlr.press/v306/wang26cx.html) | [arXiv](https://arxiv.org/abs/2608.06184) | [GitHub](https://github.com/JiaxiaoWang/EvReflection)
+
+**摘要概述（根据 ICML/PMLR 正式 Abstract）**：EvReflection 不以单幅 RGB 图像为唯一输入，而是利用事件相机记录的细微动态来区分反射层和透射层。方法包含用于解耦不同图层运动的 Micro-Dynamics Decoupler 与利用视差线索去除伪影的 Parallax-Attention Rectifier，并配套提出事件—图像反射去除基准 EVR²。作者报告了合成和真实数据上的提升。**本工作属于额外事件信号辅助的反射去除，不应与标准单 RGB 输入 SIRR 做相同输入条件的直接比较。**
+
+---
+
+**- From Synthesis to Removal: Physics-Grounded Reflection Simulation and Diffusion-Based Video Dereflection (arXiv 2026, 视频反射去除)**  
+[PDF](https://arxiv.org/pdf/2608.11562) | [arXiv](https://arxiv.org/abs/2608.11562) | [Project](https://codingwzp.github.io/VideoDereflection_S2R/) | GitHub：项目页面标注代码待发布
+
+**摘要翻译（根据 arXiv 公开 Abstract）**：透过玻璃拍摄的视频中常包含反射，影响视觉质量和后续视觉任务。与单图像反射去除相比，视频反射去除面临成对训练数据不足、跨帧恢复一致性难以维持及缺少专用评测基准等问题。该研究提出 S2R 框架，统一基于物理的反射视频合成、扩散式视频去反射与基准评测。S2R-Synthesis 通过结构空间中的物理增强和视频扩散渲染器生成成对视频，并模拟由玻璃粗糙度、厚度和反射率变化带来的退化；S2R-Removal 通过反射感知潜空间适配与单步像素几何精修，利用预训练视频扩散先验恢复透射内容；S2R-Bench 提供全参考评价与真实世界主观感知评价。该论文研究对象为视频，而非标准单图像输入。
+
+---
+
+**- Diffusion-Based Dual-View Reflection Removal (ECCV 2026, 双视角反射去除)**  
+[Springer Proceedings](https://link.springer.com/book/10.1007/978-3-032-37464-6) | [Publication List](https://ci.idm.pku.edu.cn/publication) | GitHub：暂未确认官方仓库
+
+**内容概述（根据公开会议论文目录及作者论文列表）**：该论文由 Tianyi Xu、Zifeng Wang、Boyang Lv、Shuchen Weng 和 Boxin Shi 完成，发表于 ECCV 2026，研究基于扩散模型的双视角反射去除。由于公开检索资料尚不足以核对具体模块及完整摘要，此处暂不扩展为方法细节翻译。其输入为双视角观测，不属于标准单图像反射去除。
+
+---
+
+**- Polarization State Tracing for Reflection Removal and Color-Consistent Reconstruction (CVPR 2026)**  
+[CVF](https://openaccess.thecvf.com/content/CVPR2026/html/Wang_Polarization_State_Tracing_for_Reflection_Removal_and_Color-Consistent_Reconstruction_CVPR_2026_paper.html) | [PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Wang_Polarization_State_Tracing_for_Reflection_Removal_and_Color-Consistent_Reconstruction_CVPR_2026_paper.pdf) | GitHub：暂未找到官方仓库
+
+**摘要翻译（严格对应 CVF 公开 Abstract）**：彩色玻璃广泛存在于日常环境中，但其反射与吸收特性会在拍摄图像中引入重影和颜色偏差。现有方法通常忽略吸收问题，因此难以处理彩色玻璃造成的颜色偏差。本文首次利用偏振成像理论对玻璃内部的光传输过程进行建模，提出偏振状态追踪模型（PSTM），沿多条传播路径追踪偏振光，并考虑波长选择性吸收，从而联合实现反射去除与颜色一致性重建。在 PSTM 的指导下，本文设计通道环注意力（CRA）机制，以高效捕获不同偏振角之间的依赖关系并增强偏振通道间的特征交互。恢复的偏振信息还可直接用于偏振形状恢复等下游任务。本文构建了包含多种玻璃材料的真实数据集 GlassPol；实验表明，该方法优于现有方法，PSNR 最高提升约 3 dB。
+
+---
+
 **- Reflection Removal Using Recurrent Polarization-to-Polarization Network (Machine Vision and Applications 2026)**  
 [Springer](https://link.springer.com/article/10.1007/s00138-026-01837-6) | [arXiv](https://arxiv.org/abs/2402.18178) | [Project](https://www.ok.sc.e.titech.ac.jp/res/RP2PN/index.html) | [GitHub](https://github.com/wjbian/RP2PN)（目前仅有 README 和补充材料，尚未发布实现代码）
 
@@ -193,52 +262,10 @@
 
 ---
 
-**- RRFormer: A New Transformer-Based Method for Ultra High-Definition Reflection Removal (Information Fusion 2026)**  
-[Information Fusion](https://doi.org/10.1016/j.inffus.2026.104292) | [arXiv](https://arxiv.org/abs/2308.00265) | [GitHub](https://github.com/Liar-zzy/Benchmarking-Ultra-High-Definition-Single-Image-Reflection-Removal)（仓库已开放，部分资源仍待补充） | [中文]
-
-**摘要翻译（严格对应公开 Abstract）**：基于深度学习的方法已经在单图像反射去除（SIRR）中取得显著成功。然而，这些方法大多关注高清/标准清晰度图像，而忽略了超高清（UHD）图像等更高分辨率图像。随着现代设备拍摄的 UHD 图像日益普及，我们旨在解决 UHD SIRR 问题。具体而言，我们首先合成了两个分别为 4K 和 8K 分辨率的大规模 UHD 数据集。据我们所知，它们是首个用于 SIRR 的大规模 UHD 数据集。随后，我们在所提出数据集上对 12 个最先进的 SIRR 方法进行了全面评估。此外，我们提出一种名为 RRFormer 的基于 Transformer 的反射去除架构，由三个模块组成：预处理嵌入模块、自注意力特征提取模块和多尺度空间特征提取模块。这些模块分别提取 hypercolumn 特征、全局和局部注意力特征，以及多尺度空间特征。为确保有效训练，我们使用由像素损失、特征损失和对抗损失组成的组合损失函数。实验结果表明，RRFormer 在现有非 UHD 基准和我们提出的 UHD 数据集上均达到最先进性能。
-
----
-
----
-
-**- PRISM: Latent Composition Consistency for Single-Image Reflection Removal (ECCV 2026)**  
-[PDF](https://arxiv.org/pdf/2606.31513) | [arXiv](https://arxiv.org/abs/2606.31513) | [Project](https://junsung6140.github.io/prism/) | [GitHub](https://github.com/junsung6140/PRISM-SIRR)（官方代码仓库已公开）
-
-**摘要翻译（严格对应 arXiv 当前 Abstract）**：单图像反射去除旨在从受反射污染的混合图像中恢复透射层，是一个高度不适定问题。现有方法通常在像素空间中操作，而非线性的 sRGB 成像过程会使两个图层相互缠结并限制泛化。本文观察到，预训练 VAE 的潜空间中不同图层之间的相干性显著低于像素空间，因此更适合进行分解。基于这一发现，本文提出 PRISM，将 SIRR 重新解释为潜空间中的近似线性分离问题。PRISM 在预训练 FLUX 骨干上学习流匹配速度场，并在一次前向过程中同时恢复透射层和反射层。为实现稳健解耦，本文提出潜空间组成一致性（LCC）策略，通过在样本间交换反射潜变量构造合成混合，并利用循环损失约束一致分解；同时提出图层对比分离（LCS）损失，通过块级对比学习促进语义分离，而不需要显式反射真值。六个基准上的实验表明，PRISM 具有较强性能和野外泛化能力。
-
----
-
-**- Principled Reflection Separation via Nonlinear Superposition and Feature Interaction (DIRS, arXiv 2026)**  
-[PDF](https://arxiv.org/pdf/2606.02831) | [arXiv](https://arxiv.org/abs/2606.02831) | [Project](https://mingcv.github.io/DIRS-Page/) | [GitHub](https://github.com/mingcv/DIRS)
-
-**摘要翻译（严格对应 arXiv 当前 Abstract）**：单图像反射分离的根本困难在于，透射层与反射层在复杂成像过程中相互缠结。现有方法大多依赖简化假设或独立建模，限制了其处理真实场景的能力。本文从统一视角重新审视该问题，并指出在 sRGB 域中广泛使用的线性合成模型无法刻画真实图像信号处理流程引入的非线性耦合。为此，本文提出可学习的非线性叠加模型，以更准确地描述图层交互并提高分解保真度。在此基础上，本文构建通用双流交互框架，通过特征交换显式建模透射层和反射层之间的双向依赖。该框架统一了基于激活、门控和注意力的交互机制，并兼容 CNN 与 Transformer 骨干。多个真实世界基准上的实验表明，该方法具有较好的性能和泛化能力。官方代码与模型已经公开。
-
----
-
 **- Unified Removal of Raindrops and Reflections: A New Benchmark and A Novel Pipeline (ECCV 2026)**  
 [PDF](https://arxiv.org/pdf/2603.16446) | [arXiv](https://arxiv.org/abs/2603.16446) | [Project / GitHub](https://github.com/XingyuLiu00/DiffUR3)（官方项目仓库已公开；训练、推理代码与预训练模型仍待发布） | [Dataset](https://github.com/hezw2016/RDRF-dataset)
 
 **摘要翻译（严格对应公开 Abstract）**：在雨天透过玻璃表面或挡风玻璃拍摄图像时，雨滴和反射经常共同出现，并显著降低所捕获图像的可见性。这一实际问题缺乏关注，亟需解决。先前的去雨滴、去反射以及 all-in-one 模型都未能解决这种复合退化。为此，我们首次正式定义统一去除雨滴和反射（UR³）任务，并构建一个真实拍摄数据集，即 RainDrop and ReFlection（RDRF），它提供了一个包含大量、高质量、多样化图像对的新基准。随后，我们提出一种新的基于扩散的框架（即 DiffUR³），并通过若干针对性设计来解决这一具有挑战性的任务。通过利用强大的生成先验，DiffUR³ 成功去除了两种退化。大量实验表明，我们的方法在所提出基准和具有挑战性的野外图像上达到最先进性能。RDRF 数据集的项目页面已公开，训练、推理代码与预训练模型仍待发布。
-
----
-
----
-
-## 2026 年相关扩展任务（非标准单幅 RGB 图像反射去除）
-
-**- From Synthesis to Removal: Physics-Grounded Reflection Simulation and Diffusion-Based Video Dereflection (arXiv 2026, 视频反射去除)**  
-[PDF](https://arxiv.org/pdf/2608.11562) | [arXiv](https://arxiv.org/abs/2608.11562) | [Project](https://codingwzp.github.io/VideoDereflection_S2R/) | GitHub：项目页面标注代码待发布
-
-**摘要翻译（根据 arXiv 公开 Abstract）**：透过玻璃拍摄的视频中常包含反射，影响视觉质量和后续视觉任务。与单图像反射去除相比，视频反射去除面临成对训练数据不足、跨帧恢复一致性难以维持及缺少专用评测基准等问题。该研究提出 S2R 框架，统一基于物理的反射视频合成、扩散式视频去反射与基准评测。S2R-Synthesis 通过结构空间中的物理增强和视频扩散渲染器生成成对视频，并模拟由玻璃粗糙度、厚度和反射率变化带来的退化；S2R-Removal 通过反射感知潜空间适配与单步像素几何精修，利用预训练视频扩散先验恢复透射内容；S2R-Bench 提供全参考评价与真实世界主观感知评价。该论文研究对象为视频，而非标准单图像输入。
-
----
-
-**- Diffusion-Based Dual-View Reflection Removal (ECCV 2026, 双视角反射去除)**  
-[Springer Proceedings](https://link.springer.com/book/10.1007/978-3-032-37464-6) | [Publication List](https://ci.idm.pku.edu.cn/publication) | GitHub：暂未确认官方仓库
-
-**内容概述（根据公开会议论文目录及作者论文列表）**：该论文由 Tianyi Xu、Zifeng Wang、Boyang Lv、Shuchen Weng 和 Boxin Shi 完成，发表于 ECCV 2026，研究基于扩散模型的双视角反射去除。由于公开检索资料尚不足以核对具体模块及完整摘要，此处暂不扩展为方法细节翻译。其输入为双视角观测，不属于标准单图像反射去除。
-
 
 
 ## 2025
